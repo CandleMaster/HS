@@ -6,8 +6,10 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+ `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,6 +17,11 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    // {resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/brands/`,
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
