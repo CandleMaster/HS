@@ -1,0 +1,5 @@
+export { default as BrandDetails } from './BrandDetails'
+export { default as BrandHeading } from './BrandHeading'
+export { default as Credentials } from './Credentials'
+export { default as NowMe } from './NowMe'
+export { default as InfoBlocks } from './InfoBlock'

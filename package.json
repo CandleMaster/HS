@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/inter": "^4.5.0",
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.13.0",
     "gatsby-cli": "^3.13.0",
@@ -18,6 +19,7 @@
     "gatsby-plugin-styled-components": "^4.13.0",
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-sharp": "^3.13.0",
+    "gatsby-transformer-yaml": "^3.14.0",
     "keyframes": "^2.3.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",

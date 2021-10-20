@@ -10,6 +10,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
  `gatsby-plugin-styled-components`,
+ `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: `Yaml`, // a fixed string
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,11 +24,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    // {resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/src/brands/`,
-    //   },
-    // },
+    {resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -36,6 +44,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Inter\:300,400,400i,700`,
+  
+        ],
+        display: 'swap'
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

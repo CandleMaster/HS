@@ -16,13 +16,14 @@ function Blog() {
 const MapWrapper = styled.div`
         width:100%;
         display:flex;
-        `
+        flex-wrap:wrap ;
+        ` 
 const LeftPanel=styled.div`
-    width:50%;
+    flex: 1 1 23rem;
     padding:0 03% 0 10%;
     `
 const RightPanel= styled.div`
-    width:50%;
+    flex: 1 1 23rem;
     background-color:#F4F3F0;
     border-radius:10% 0 0 10%;
     `
@@ -34,7 +35,7 @@ const BlogGrid = styled.div`
 `
 return (
     // <ContainerWrapper>
-        <Container style={{display:"flex"}}>
+        <Container >
             <MapWrapper>
                 <LeftPanel><Map /></LeftPanel>
                 <RightPanel />

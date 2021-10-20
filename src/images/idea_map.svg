@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="884.873" height="906.559" viewBox="0 0 884.873 906.559">
+  <defs>
+    <style>
+      .cls-1, .cls-12, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #77838d;
+        stroke-width: 7px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #77838d;
+      }
+
+      .cls-4 {
+        fill: #658198;
+      }
+
+      .cls-5 {
+        stroke: #fdb77f;
+        stroke-width: 2.2px;
+      }
+
+      .cls-6 {
+        stroke: #707070;
+      }
+
+      .cls-10, .cls-7, .cls-9 {
+        fill: #fff;
+        stroke: #fff;
+        font-family: Inter;
+        letter-spacing: 0.05em;
+      }
+
+      .cls-7, .cls-9 {
+        stroke-width: 0.2px;
+        font-size: 14.5px;
+      }
+
+      .cls-7, .cls-8 {
+        opacity: 0.35;
+      }
+
+      .cls-10 {
+        stroke-width: 0.5px;
+        font-size: 17px;
+        opacity: 0.5;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.758" y1="0.123" x2="0.123" y2="0.615" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc87c"/>
+      <stop offset="1" stop-color="#fca583"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_519" data-name="Group 519" transform="translate(8576.368 -22610.398)">
+    <g id="Ellipse_1954" data-name="Ellipse 1954" class="cls-1" transform="translate(-8378.871 22790.34)">
+      <ellipse class="cls-11" cx="251.046" cy="251.524" rx="251.046" ry="251.524"/>
+      <ellipse class="cls-12" cx="251.046" cy="251.524" rx="247.546" ry="248.024"/>
+    </g>
+    <ellipse id="Ellipse_1955" data-name="Ellipse 1955" class="cls-2" cx="72.945" cy="72.69" rx="72.945" ry="72.69" transform="translate(-8202.014 22967.059)"/>
+    <g id="Ellipse_1956" data-name="Ellipse 1956" class="cls-1" transform="translate(-8205.377 22966.598)">
+      <ellipse class="cls-11" cx="75.553" cy="75.653" rx="75.553" ry="75.653"/>
+      <ellipse class="cls-12" cx="75.553" cy="75.653" rx="72.053" ry="72.153"/>
+    </g>
+    <ellipse id="Ellipse_1958" data-name="Ellipse 1958" class="cls-3" cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-8076.914 22995.422)"/>
+    <ellipse id="Ellipse_1968" data-name="Ellipse 1968" class="cls-3" cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-8138.338 22961.35)"/>
+    <ellipse id="Ellipse_1959" data-name="Ellipse 1959" class="cls-3" cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-8201.014 23071.012)"/>
+    <ellipse id="Ellipse_1967" data-name="Ellipse 1967" class="cls-3" cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-8138.326 23108.008)"/>
+    <path id="Path_1309" data-name="Path 1309" class="cls-4" d="M38.353,33.381a3.179,3.179,0,0,1-.071-2.032c1.476-3.9,5.13-16.434-4.6-24.565C21.952-3.012,0,.684,0,.684S.975,23.989,8.308,31.638C15.24,38.866,24.2,41.655,36.06,34.017,36.652,33.636,37.651,33.9,38.353,33.381Z" transform="translate(-8144.323 23022.781) rotate(14)"/>
+    <path id="Path_1310" data-name="Path 1310" class="cls-5" d="M27.533,40.256s-.393-.632-.662-.976a6.454,6.454,0,0,0-2.792-2.149c-1.68-.478-4.266-.562-6.39-3.2C15.6,31.34,10.823,23.769,9.312,19.389c.036.109-.036-.09-.008-.025a4.381,4.381,0,0,0,.6-.2c-.036-.013-.807.1-.48.023a.237.237,0,0,1,.1-.023c.319.009,2.691-.44,3.832.244,1.743,1.045,2.832,3.51,4.332,3.951s3.774.007,3.883-.42a32.7,32.7,0,0,0-2.3-5.714,65.316,65.316,0,0,0-6.743-9.03c-1.065-.924-5.073-2.05-6.97-2.659A7.182,7.182,0,0,1,.746,1.568C.712,1.509.138.3,0,0" transform="matrix(0.998, 0.07, -0.07, 0.998, -8142.876, 23023.012)"/>
+    <path id="Path_1311" data-name="Path 1311" class="cls-6" d="M0,0" transform="translate(-8126.515 22853.895)"/>
+    <text id="Public_benefit" data-name="Public benefit" class="cls-7" transform="translate(-8198.998 22776.99) rotate(-106)"><tspan x="0" y="0">Public benefit</tspan></text>
+    <text id="Impact_brands" data-name="Impact brands" class="cls-7" transform="translate(-7982.084 22808.926) rotate(-59)"><tspan x="0" y="0">Impact brands</tspan></text>
+    <text id="Conscious_consumer" data-name="Conscious consumer" class="cls-7" transform="translate(-8123.825 22766.598) rotate(-90)"><tspan x="0" y="0">Conscious consumer</tspan></text>
+    <text id="Sustainability" class="cls-7" transform="matrix(0.259, -0.966, 0.966, 0.259, -8048.878, 22778.059)"><tspan x="0" y="0">Sustainability</tspan></text>
+    <text id="Global_issues" data-name="Global issues" class="cls-7" transform="translate(-8267.186 22805.887) rotate(-121)"><tspan x="0" y="0">Global issues</tspan></text>
+    <text id="Token_economy_" data-name="Token economy " class="cls-7" transform="translate(-7924.812 22855.936) rotate(-43)"><tspan x="0" y="0">Token economy </tspan></text>
+    <text id="Metaverse" class="cls-7" transform="matrix(0.866, -0.5, 0.5, 0.866, -7880.986, 22917.277)"><tspan x="0" y="0">Metaverse</tspan></text>
+    <text id="Resilient_household" data-name="Resilient household" class="cls-7" transform="translate(-7856.011 22986.344) rotate(-15)"><tspan x="0" y="0">Resilient household</tspan></text>
+    <text id="Education" class="cls-7" transform="matrix(0.999, 0.035, -0.035, 0.999, -7849.922, 23062.934)"><tspan x="0" y="0">Education</tspan></text>
+    <text id="Financial_independence" data-name="Financial independence" class="cls-7" transform="translate(-7865.362 23138.758) rotate(18)"><tspan x="0" y="0">Financial independence</tspan></text>
+    <text id="Self-care_health" data-name="Self-care &amp; health" class="cls-7" transform="translate(-7902.499 23206.822) rotate(34)"><tspan x="0" y="0">Self-care &amp; health</tspan></text>
+    <g id="Group_452" data-name="Group 452" class="cls-8" transform="translate(-2260.54 1330.369)">
+      <text id="Collaborative_economy" data-name="Collaborative economy" class="cls-9" transform="matrix(0.643, 0.766, -0.766, 0.643, -5699.181, 21931.242)"><tspan x="0" y="0">Collaborative economy</tspan></text>
+      <text id="Collective_ownership" data-name="Collective ownership" class="cls-9" transform="matrix(0.407, 0.914, -0.914, 0.407, -5767.693, 21972)"><tspan x="0" y="0">Collective ownership</tspan></text>
+      <text id="Prosumer" class="cls-9" transform="translate(-5845.332 21991.777) rotate(84)"><tspan x="0" y="0">Prosumer</tspan></text>
+      <text id="IoE_Internet_of_Everything_" data-name="IoE (Internet of Everything)" class="cls-9" transform="translate(-5961.154 22185.52) rotate(-78)"><tspan x="0" y="0">IoE (Internet of Everything)</tspan></text>
+      <text id="Inclusive_innovation" data-name="Inclusive innovation" class="cls-9" transform="translate(-6062.137 22092.506) rotate(-62)"><tspan x="0" y="0">Inclusive innovation</tspan></text>
+    </g>
+    <g id="Group_453" data-name="Group 453" class="cls-8" transform="translate(-2260.54 1330.369)">
+      <text id="Data_IP_asset_ownership_" data-name="Data, IP &amp; asset ownership " class="cls-9" transform="translate(-6185.638 22065.459) rotate(-48)"><tspan x="0" y="0">Data, IP &amp; asset ownership </tspan></text>
+      <text id="Create-to-earn_economy" data-name="Create-to-earn economy" class="cls-9" transform="matrix(0.857, -0.515, 0.515, 0.857, -6256.055, 21959.59)"><tspan x="0" y="0">Create-to-earn economy</tspan></text>
+      <text id="Decentralized_systems" data-name="Decentralized systems" class="cls-9" transform="translate(-6293.922 21847.947) rotate(-16)"><tspan x="0" y="0">Decentralized systems</tspan></text>
+      <text id="Peer-to-peer_economy" data-name="Peer-to-peer economy" class="cls-9" transform="matrix(1, -0.017, 0.017, 1, -6315.38, 21726.346)"><tspan x="0" y="0">Peer-to-peer economy</tspan></text>
+    </g>
+    <g id="Group_454" data-name="Group 454" class="cls-8" transform="translate(-2260.54 1330.369)">
+      <text id="Balanced_perspective" data-name="Balanced perspective" class="cls-9" transform="matrix(0.97, 0.242, -0.242, 0.97, -6294.435, 21611.211)"><tspan x="0" y="0">Balanced perspective</tspan></text>
+      <text id="Systems_thinking" data-name="Systems thinking" class="cls-9" transform="translate(-6222.376 21519.023) rotate(29)"><tspan x="0" y="0">Systems thinking</tspan></text>
+      <text id="Interest_Stakeholder_IS_" data-name="Interest Stakeholder (IS)" class="cls-9" transform="translate(-6202.353 21398.668) rotate(44)"><tspan x="0" y="0">Interest Stakeholder (IS)</tspan></text>
+    </g>
+    <ellipse id="Ellipse_1962" data-name="Ellipse 1962" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-8071.591 22792.34)"/>
+    <ellipse id="Ellipse_1963" data-name="Ellipse 1963" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-8139.015 22784.15)"/>
+    <ellipse id="Ellipse_1964" data-name="Ellipse 1964" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-8206.344 22794.34)"/>
+    <ellipse id="Ellipse_1966" data-name="Ellipse 1966" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-8268.061 22819.891)"/>
+    <g id="Group_447" data-name="Group 447" transform="translate(-1240.54 1330.369)">
+      <ellipse id="Ellipse_1943" data-name="Ellipse 1943" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6677.494 21585.773)"/>
+      <ellipse id="Ellipse_1947" data-name="Ellipse 1947" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6717.201 21531.344)"/>
+    </g>
+    <g id="Group_450" data-name="Group 450" transform="translate(-1240.54 1330.369)">
+      <ellipse id="Ellipse_1923" data-name="Ellipse 1923" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -6682.16, 21840.295)"/>
+      <ellipse id="Ellipse_1936" data-name="Ellipse 1936" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -6638.618, 21711.84)"/>
+      <ellipse id="Ellipse_1924" data-name="Ellipse 1924" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -6650.79, 21779.252)"/>
+      <ellipse id="Ellipse_1937" data-name="Ellipse 1937" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -6645.792, 21644.428)"/>
+    </g>
+    <text id="Interdependence_collaboration" data-name="Interdependence 
+&amp; collaboration" class="cls-10" transform="translate(-8215.139 23139.504)"><tspan x="12.905" y="16">Interdependence </tspan><tspan x="21.442" y="38">&amp; collaboration</tspan></text>
+    <g id="Group_451" data-name="Group 451" transform="translate(-1240.54 1330.369)">
+      <ellipse id="Ellipse_1925" data-name="Ellipse 1925" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6743.932 21894.715)"/>
+      <ellipse id="Ellipse_1926" data-name="Ellipse 1926" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6804.977 21931.883)"/>
+      <ellipse id="Ellipse_1938" data-name="Ellipse 1938" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6945.855 21945.068)"/>
+      <ellipse id="Ellipse_1927" data-name="Ellipse 1927" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6874.722 21949.355)"/>
+      <ellipse id="Ellipse_1939" data-name="Ellipse 1939" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -7002.026, 21917.475)"/>
+    </g>
+    <g id="Group_448" data-name="Group 448" transform="translate(-1240.54 1330.369)">
+      <ellipse id="Ellipse_1944" data-name="Ellipse 1944" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-7144.303 21709.381)"/>
+      <ellipse id="Ellipse_1940" data-name="Ellipse 1940" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -7053.639, 21880.307)"/>
+      <ellipse id="Ellipse_1941" data-name="Ellipse 1941" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -7094.246, 21832.041)"/>
+      <ellipse id="Ellipse_1942" data-name="Ellipse 1942" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -7123.671, 21772.305)"/>
+    </g>
+    <g id="Group_449" data-name="Group 449" transform="translate(-1240.54 1330.369)">
+      <ellipse id="Ellipse_1948" data-name="Ellipse 1948" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-7077.852 21531.488)"/>
+      <ellipse id="Ellipse_1945" data-name="Ellipse 1945" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-7116.86 21579.918)"/>
+      <ellipse id="Ellipse_1946" data-name="Ellipse 1946" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-7139.07 21641.793)"/>
+    </g>
+    <text id="Sensemaking" class="cls-10" transform="translate(-8325.061 22984.105)"><tspan x="0" y="0">Sensemaking</tspan></text>
+    <text id="Money_value" data-name="Money &amp; value" class="cls-10" transform="translate(-8049.02 22968.105)"><tspan x="0" y="16">Money &amp; value</tspan></text>
+    <text id="Independence_self-sufficiency" data-name="Independence &amp; self-sufficiency" class="cls-10" transform="translate(-8044.819 23078.236)"><tspan x="0" y="16">Independence &amp; </tspan><tspan x="0" y="38">self-sufficiency</tspan></text>
+    <text id="Decentralisation_Blockchain" data-name="Decentralisation
+&amp; Blockchain" class="cls-10" transform="translate(-8212.102 23097.674)"><tspan x="-143.148" y="0">Decentralisation</tspan><tspan x="-111.688" y="22">&amp; Blockchain</tspan></text>
+    <ellipse id="Ellipse_1965" data-name="Ellipse 1965" class="cls-3" cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-8009.741 22819.912)"/>
+    <text id="Agatonomy" class="cls-10" transform="translate(-8177.515 22940.83)"><tspan x="0" y="0">Agatonomy</tspan></text>
+    <ellipse id="Ellipse_2050" data-name="Ellipse 2050" class="cls-3" cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-8203.024 22995.744)"/>
+    <ellipse id="Ellipse_2052" data-name="Ellipse 2052" class="cls-3" cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-8077.924 23071.334)"/>
+  </g>
+</svg>

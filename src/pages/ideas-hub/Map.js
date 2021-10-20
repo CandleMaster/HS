@@ -1,118 +1,101 @@
 import React from 'react'
 import * as mapStyles from './map.module.scss'
 
-
-
-function Map(props) {
-
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" href="./map.module.scss" width="602" height="678" viewBox="0 0 602.711 678.219">
+export default function Map() {
+  return (
+    <div>
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="884.871" height="1091.127" viewBox="0 0 884.871 1091.127">
   <defs>
+    <style>
+      
+    </style>
     <linearGradient id="linear-gradient" x1="0.758" y1="0.123" x2="0.123" y2="0.615" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#ffc87c"/>
       <stop offset="1" stop-color="#fca583"/>
     </linearGradient>
   </defs>
-  <g id="Group_343" transform="translate(4914.587 -18955.801)">
-    <ellipse id="Ellipse_1194" cx="47.822" cy="47.822" rx="47.822" ry="47.822" transform="translate(-4705.762 19344.361)" fill="url(#linear-gradient)"/>
-    <g id="Ellipse_1195" transform="translate(-4763.272 19290.873)" fill="none" stroke="#fff" stroke-width="7">
-      <ellipse cx="104.075" cy="104.212" rx="104.075" ry="104.212" stroke="none"/>
-      <ellipse cx="104.075" cy="104.212" rx="100.575" ry="100.712" fill="none"/>
+  <g id="Group_437" dataName="Group 437" transform="translate(6279.656 -16110.232)">
+    <g id="Ellipse_1890" dataName="Ellipse 1890" className={mapStyles.cls1} transform="translate(-6082.16 16474.742)">
+      <ellipse className={mapStyles.cls12} cx="251.046" cy="251.524" rx="251.046" ry="251.524"/>
+      <ellipse className={mapStyles.cls13} cx="251.046" cy="251.524" rx="247.546" ry="248.024"/>
     </g>
-    <g id="Inner_Circle" transform="translate(-4899.317 19150.348)" fill="none" stroke="#fff" stroke-width="7">
-      <ellipse cx="241.376" cy="241.836" rx="241.376" ry="241.836" stroke="none"/>
-      <ellipse  cx="241.376" cy="241.836" rx="237.876" ry="238.336"/>
+    <text id="Interdependence_collaboration" dataName="Interdependence 
+& collaboration" className={mapStyles.cls2} transform="translate(-5918.428 16823.906)"><tspan x="12.905" y="16">Interdependence </tspan><tspan x="21.442" y="38">& collaboration</tspan></text>
+    <text id="Decentralisation_Blockchain" dataName="Decentralisation
+& Blockchain" className={mapStyles.cls2} transform="translate(-5915.39 16782.076)"><tspan x="-143.148" y="0">Decentralisation</tspan><tspan x="-111.688" y="22">& Blockchain</tspan></text>
+    <text id="Sensemaking" className={mapStyles.cls2} transform="translate(-6028.351 16668.508)"><tspan x="0" y="0">Sensemaking</tspan></text>
+    <ellipse id="Ellipse_1891" dataName="Ellipse 1891" className={mapStyles.cls3} cx="72.945" cy="72.69" rx="72.945" ry="72.69" transform="translate(-5904.304 16651.461)"/>
+    <g id="Ellipse_1892" dataName="Ellipse 1892" className={mapStyles.cls4} transform="translate(-5908.667 16651)">
+      <ellipse className={mapStyles.cls12} cx="75.553" cy="75.653" rx="75.553" ry="75.653"/>
+      <ellipse className={mapStyles.cls13} cx="75.553" cy="75.653" rx="72.053" ry="72.153"/>
     </g>
-    <g id="Ellipse_1199" transform="translate(-4737.125 19307.107)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" {...props}/>
+    <ellipse id="Ellipse_1893" dataName="Ellipse 1893" className={mapStyles.cls5} cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-5904.304 16679.824)"/>
+    <ellipse id="Ellipse_1894" dataName="Ellipse 1894" className={mapStyles.cls5} cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-5779.203 16679.824)"/>
+    <ellipse id="Ellipse_1895" dataName="Ellipse 1895" className={mapStyles.cls5} cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-5904.304 16755.414)"/>
+    <ellipse id="Ellipse_1896" dataName="Ellipse 1896" className={mapStyles.cls5} cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-5840.615 16792.41)"/>
+    <ellipse id="Ellipse_1897" dataName="Ellipse 1897" className={mapStyles.cls5} cx="9.257" cy="9.257" rx="9.257" ry="9.257" transform="translate(-5779.203 16755.414)"/>
+    <path id="Path_1294" dataName="Path 1294" className={mapStyles.cls5} d="M38.353,33.381a3.179,3.179,0,0,1-.071-2.032c1.476-3.9,5.13-16.434-4.6-24.565C21.952-3.012,0,.684,0,.684S.975,23.989,8.308,31.638C15.24,38.866,24.2,41.655,36.06,34.017,36.652,33.636,37.651,33.9,38.353,33.381Z" transform="translate(-5847.612 16707.184) rotate(14)"/>
+    <path id="Path_1295" dataName="Path 1295" className={mapStyles.cls6} d="M27.533,40.256s-.393-.632-.662-.976a6.454,6.454,0,0,0-2.792-2.149c-1.68-.478-4.266-.562-6.39-3.2C15.6,31.34,10.823,23.769,9.312,19.389c.036.109-.036-.09-.008-.025a4.381,4.381,0,0,0,.6-.2c-.036-.013-.807.1-.48.023a.237.237,0,0,1,.1-.023c.319.009,2.691-.44,3.832.244,1.743,1.045,2.832,3.51,4.332,3.951s3.774.007,3.883-.42a32.7,32.7,0,0,0-2.3-5.714,65.316,65.316,0,0,0-6.743-9.03c-1.065-.924-5.073-2.05-6.97-2.659A7.182,7.182,0,0,1,.746,1.568C.712,1.509.138.3,0,0" transform="matrix(0.998, 0.07, -0.07, 0.998, -5846.166, 16707.414)"/>
+    <g id="Ellipse_1898" dataName="Ellipse 1898" className={mapStyles.cls7} transform="translate(-5844.96 16640.227)">
+      <ellipse className={mapStyles.cls12} cx="13.847" cy="13.847" rx="13.847" ry="13.847"/>
+      <ellipse className={mapStyles.cls13} cx="13.847" cy="13.847" rx="11.847" ry="11.847"/>
     </g>
-    <g id="Ellipse_1330" transform="translate(-4768.125 19366.211)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <g id="Ellipse_1331" transform="translate(-4569.553 19366.211)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <g id="Ellipse_1332" transform="translate(-4581.858 19433.203)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <g id="Ellipse_1333" transform="translate(-4630.728 19479.203)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <g id="Ellipse_1334" transform="translate(-4705.762 19479.203)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <g id="Ellipse_1335" transform="translate(-4757.734 19433.203)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <g id="Ellipse_1205" transform="translate(-4665.52 19144.574)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="7.579" cy="7.579" rx="7.579" ry="7.579" stroke="none"/>
-      <ellipse cx="7.579" cy="7.579" rx="7.079" ry="7.079" fill="none" className={mapStyles.circle}/>
-    </g>
-    <g id="Group_291" transform="translate(-4682.261 19371.359)">
-      <path id="Path_642" d="M38.6,33.6a3.2,3.2,0,0,1-.071-2.045c1.485-3.925,5.164-16.541-4.633-24.724C22.095-3.032,0,.688,0,.688S.981,24.145,8.362,31.844c6.977,7.275,16,10.082,27.933,2.394C36.89,33.855,37.9,34.116,38.6,33.6Z" transform="translate(9.391 0) rotate(14)" fill="#658198"/>
-      <path id="Path_643" d="M26.951,39.04A7.361,7.361,0,0,0,23.8,36.426c-1.69-.481-4.294-.565-6.431-3.218-2.1-2.61-6.91-10.23-8.431-14.639.037.109-.037-.09-.008-.026a4.41,4.41,0,0,0,.6-.2c-.036-.013-.812.1-.483.023a.238.238,0,0,1,.1-.023c.321.009,2.708-.443,3.857.245,1.755,1.051,2.851,3.533,4.36,3.977s3.8.007,3.908-.423a32.908,32.908,0,0,0-2.312-5.751A65.741,65.741,0,0,0,12.176,7.3C11.1,6.37,7.07,5.237,5.161,4.623S1.561,3.338,0,0" transform="matrix(0.998, 0.07, -0.07, 0.998, 11.217, 1.207)" fill="none" stroke="#fff" stroke-width="2"/>
-    </g>
-    <text id="Independence_self-sufficiency" transform="translate(-4521.903 19353.869)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="16">Independence &amp; </tspan><tspan x="0" y="38">self-sufficiency</tspan></text>
-    <text id="Interdependence_collaboration" transform="translate(-4533.563 19440.734)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="16">Interdependence &amp; </tspan><tspan x="0" y="38">collaboration</tspan></text>
-    <text id="Prosumer" transform="translate(-4625.092 19538.363)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Prosumer</tspan></text>
-    <text id="Decentralisation" transform="translate(-4802.322 19538.363)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Decentralisation</tspan></text>
-    <text id="Ownership_sharing_economy" transform="translate(-4914.087 19437.238)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="16">Ownership &amp; </tspan><tspan x="0" y="38">sharing economy</tspan></text>
-    <text id="Balance" transform="translate(-4860.622 19372.211)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Balance</tspan></text>
-    <text id="Systems" transform="translate(-4823.12 19315.66)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Systems</tspan></text>
-    <text id="Impact_brands" transform="translate(-4472.192 19208.105) rotate(-45)" fill="white" stroke="white" stroke-width="0.2" font-size="12" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Impact brands</tspan></text>
-    <text id="Public_benefit" transform="translate(-4407.348 19323.676) rotate(-16)" fill="white" stroke="white" stroke-width="0.2" font-size="13" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Public benefit</tspan></text>
-    <text id="Conscious_consumer" transform="matrix(0.848, -0.53, 0.53, 0.848, -4432.468, 19265.135)" fill="white" stroke="white" stroke-width="0.2" font-size="13" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Conscious consumer</tspan></text>
-    <text id="Sustainability" transform="matrix(0.914, -0.407, 0.407, 0.914, -4417.549, 19292.715)" fill="white" stroke="white" stroke-width="0.2" font-size="13" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Sustainability</tspan></text>
-    <text id="Global_issues" transform="matrix(0.799, -0.602, 0.602, 0.799, -4447.648, 19239.445)" fill="white" stroke="white" stroke-width="0.2" font-size="13" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Global issues</tspan></text>
-    <text id="Tragedy_of_The_Commons" transform="translate(-4653.736 19130) rotate(-90)" fill="white" stroke="white" stroke-width="0.2" font-size="13" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Tragedy of The Commons</tspan></text>
-    <text id="The_Common_good_Public_benefit" transform="translate(-4749.853 19216.867)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="5.53" y="16">The Common good/</tspan><tspan x="31.191" y="38">Public benefit</tspan></text>
-    <g id="Ellipse_1208" transform="translate(-4496.753 19213.951)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="7.579" cy="7.579" rx="7.579" ry="7.579" stroke="none"/>
-      <ellipse cx="7.579" cy="7.579" rx="7.079" ry="7.079" fill="none"/>
-    </g>
-    <g id="Ellipse_1209" transform="translate(-4671.762 19282.123)" fill="#fff" stroke="#658198" stroke-width="4">
-      <ellipse cx="12.565" cy="12.565" rx="12.565" ry="12.565" stroke="none"/>
-      <ellipse cx="12.565" cy="12.565" rx="10.565" ry="10.565" fill="none"/>
-    </g>
-    <g id="Ellipse_1210" transform="translate(-4474.524 19239.523)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="7.328" cy="7.328" rx="7.328" ry="7.328" stroke="none"/>
-      <ellipse cx="7.328" cy="7.328" rx="6.828" ry="6.828" fill="none"/>
-    </g>
-    <path id="Path_1006" d="M-4657.622,19282.123s58.64-72.527,163.187-56.145" fill="none" stroke="#658198" stroke-width="1"/>
-    <path id="Path_1007" d="M-4662.975,19272.6s55.186-43.086,130.606-30.822" transform="matrix(0.875, -0.485, 0.485, 0.875, -9859.509, 199.65)" fill="none" stroke="#fff" stroke-width="1.5"/>
-    <path id="Path_1009" d="M-4664.845,19268.744s71.212-24.012,138.007.863" transform="matrix(0.875, -0.485, 0.485, 0.875, -9856.185, 202.924)" fill="none" stroke="#fff" stroke-width="1.5"/>
-    <path id="Path_1010" d="M-4665.778,19265.443s88.254-.885,140.47,28.758" transform="matrix(0.875, -0.485, 0.485, 0.875, -9853.59, 205.918)" fill="none" stroke="#fff" stroke-width="1.5"/>
-    <path id="Path_1011" d="M-4662.345,19260.863s84.67,14.666,139.361,56.977" transform="matrix(0.875, -0.485, 0.485, 0.875, -9853.615, 211.211)" fill="none" stroke="#fff" stroke-width="1.5"/>
-    <path id="Path_1012" d="M-4659.2,19234.822s83.285,37.65,135.028,85.037" transform="matrix(0.875, -0.485, 0.485, 0.875, -9844.184, 235.309)" fill="none" stroke="#fff" stroke-width="1.5"/>
-    <path id="Path_1008" d="M-4657.622,19267.4s4.534-41.3,60.922-105.529" transform="matrix(0.875, -0.485, 0.485, 0.875, -9928.509, 172.452)" fill="none" stroke="#658198" stroke-width="1"/>
-    <g id="Ellipse_1329" transform="translate(-4605.616 19307.252)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" fill="none"/>
-    </g>
-    <text id="Agatonomy" transform="translate(-4556.299 19315.66)" fill="white" stroke="white" stroke-width="0.5" font-size="17" font-family="Inter" letter-spacing="0.05em"><tspan x="0" y="0">Agatonomy</tspan></text>
-    <g id="Ellipse_1206" transform="translate(-4444.988 19290.199)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="7.328" cy="7.328" rx="7.328" ry="7.328" stroke="none"/>
-      <ellipse cx="7.328" cy="7.328" rx="6.828" ry="6.828" fill="none"/>
-    </g>
-    <g id="Ellipse_1202" transform="translate(-4435.992 19317.141)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="7.619" cy="7.619" rx="7.619" ry="7.619" stroke="none"/>
-      <ellipse cx="7.619" cy="7.619" rx="7.119" ry="7.119" fill="none"/>
-    </g>
-    <g id="Ellipse_1207" transform="translate(-4459.021 19263.506)" fill="#fff" stroke="#707070" stroke-width="1">
-      <ellipse cx="7.619" cy="7.619" rx="7.619" ry="7.619" stroke="none"/>
-      <ellipse cx="7.619" cy="7.619" rx="7.119" ry="7.119" fill="none"/>
-    </g>
+    <path id="Path_1296" dataName="Path 1296" className={mapStyles.cls8} d="M0,0" transform="translate(-5829.805 16538.297)"/>
+    <text id="Agatonomy" className={mapStyles.cls2} transform="translate(-5878.805 16625.232)"><tspan x="0" y="0">Agatonomy</tspan></text>
+    <text id="Ideas_Hub_map" dataName="Ideas Hub map" className={mapStyles.cls9} transform="translate(-6274.805 16124.232)"><tspan x="0" y="0">Ideas Hub map</tspan></text>
+    <text id="Money_value" dataName="Money 
+& value" className={mapStyles.cls2} transform="translate(-5748.31 16668.508)"><tspan x="0" y="0">Money </tspan><tspan x="0" y="22">& value</tspan></text>
+    <ellipse id="Ellipse_1899" dataName="Ellipse 1899" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5774.881 16476.742)"/>
+    <ellipse id="Ellipse_1900" dataName="Ellipse 1900" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5842.304 16468.553)"/>
+    <ellipse id="Ellipse_1901" dataName="Ellipse 1901" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5909.633 16478.742)"/>
+    <ellipse id="Ellipse_1902" dataName="Ellipse 1902" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5713.03 16504.314)"/>
+    <ellipse id="Ellipse_1903" dataName="Ellipse 1903" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5971.351 16504.293)"/>
+    <text id="Independence_self-sufficiency" dataName="Independence & self-sufficiency" className={mapStyles.cls2} transform="translate(-5748.108 16762.639)"><tspan x="0" y="16">Independence & </tspan><tspan x="0" y="38">self-sufficiency</tspan></text>
+    <text id="Public_benefit" dataName="Public benefit" className={mapStyles.cls11} transform="translate(-5902.288 16461.393) rotate(-106)"><tspan x="0" y="0">Public benefit</tspan></text>
+    <text id="Impact_brands" dataName="Impact brands" className={mapStyles.cls11} transform="translate(-5685.374 16493.328) rotate(-59)"><tspan x="0" y="0">Impact brands</tspan></text>
+    <text id="Conscious_consumer" dataName="Conscious consumer" className={mapStyles.cls11} transform="translate(-5827.114 16451) rotate(-90)"><tspan x="0" y="0">Conscious consumer</tspan></text>
+    <text id="Sustainability" className={mapStyles.cls11} transform="matrix(0.259, -0.966, 0.966, 0.259, -5752.167, 16462.461)"><tspan x="0" y="0">Sustainability</tspan></text>
+    <text id="Global_issues" dataName="Global issues" className={mapStyles.cls11} transform="translate(-5970.475 16490.289) rotate(-121)"><tspan x="0" y="0">Global issues</tspan></text>
+    <ellipse id="Ellipse_1904" dataName="Ellipse 1904" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5621.323 16600.545)"/>
+    <ellipse id="Ellipse_1905" dataName="Ellipse 1905" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5661.03 16546.115)"/>
+    <text id="Token_economy_" dataName="Token economy " className={mapStyles.cls11} transform="translate(-5628.102 16540.338) rotate(-43)"><tspan x="0" y="0">Token economy </tspan></text>
+    <text id="Metaverse" className={mapStyles.cls11} transform="matrix(0.866, -0.5, 0.5, 0.866, -5584.275, 16601.68)"><tspan x="0" y="0">Metaverse</tspan></text>
+    <ellipse id="Ellipse_1906" dataName="Ellipse 1906" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -5625.989, 16855.066)"/>
+    <ellipse id="Ellipse_1907" dataName="Ellipse 1907" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -5582.447, 16726.611)"/>
+    <ellipse id="Ellipse_1908" dataName="Ellipse 1908" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -5594.619, 16794.023)"/>
+    <ellipse id="Ellipse_1909" dataName="Ellipse 1909" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -5589.621, 16659.199)"/>
+    <text id="Resilient_household" dataName="Resilient household" className={mapStyles.cls11} transform="translate(-5559.3 16670.746) rotate(-15)"><tspan x="0" y="0">Resilient household</tspan></text>
+    <text id="Education" className={mapStyles.cls11} transform="matrix(0.999, 0.035, -0.035, 0.999, -5553.212, 16747.336)"><tspan x="0" y="0">Education</tspan></text>
+    <text id="Financial_independence" dataName="Financial independence" className={mapStyles.cls11} transform="translate(-5568.651 16823.16) rotate(18)"><tspan x="0" y="0">Financial independence</tspan></text>
+    <text id="Self-care_health" dataName="Self-care & health" className={mapStyles.cls11} transform="translate(-5605.788 16891.225) rotate(34)"><tspan x="0" y="0">Self-care & health</tspan></text>
+    <ellipse id="Ellipse_1910" dataName="Ellipse 1910" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5687.76 16909.486)"/>
+    <ellipse id="Ellipse_1911" dataName="Ellipse 1911" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5748.806 16946.654)"/>
+    <ellipse id="Ellipse_1912" dataName="Ellipse 1912" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5889.685 16959.84)"/>
+    <ellipse id="Ellipse_1913" dataName="Ellipse 1913" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-5818.55 16964.127)"/>
+    <ellipse id="Ellipse_1914" dataName="Ellipse 1914" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -5945.855, 16932.246)"/>
+    <text id="Collaborative_economy" dataName="Collaborative economy" className={mapStyles.cls11} transform="matrix(0.643, 0.766, -0.766, 0.643, -5663.009, 16946.014)"><tspan x="0" y="0">Collaborative economy</tspan></text>
+    <text id="Collective_ownership" dataName="Collective ownership" className={mapStyles.cls11} transform="matrix(0.407, 0.914, -0.914, 0.407, -5731.522, 16986.771)"><tspan x="0" y="0">Collective ownership</tspan></text>
+    <text id="Prosumer" className={mapStyles.cls11} transform="translate(-5809.161 17006.549) rotate(84)"><tspan x="0" y="0">Prosumer</tspan></text>
+    <text id="IoE_Internet_of_Everything_" dataName="IoE (Internet of Everything)" className={mapStyles.cls11} transform="translate(-5924.983 17200.291) rotate(-78)"><tspan x="0" y="0">IoE (Internet of Everything)</tspan></text>
+    <text id="Inclusive_innovation" dataName="Inclusive innovation" className={mapStyles.cls11} transform="translate(-6025.965 17107.277) rotate(-62)"><tspan x="0" y="0">Inclusive innovation</tspan></text>
+    <ellipse id="Ellipse_1915" dataName="Ellipse 1915" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6088.132 16724.152)"/>
+    <ellipse id="Ellipse_1916" dataName="Ellipse 1916" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -5997.468, 16895.078)"/>
+    <ellipse id="Ellipse_1917" dataName="Ellipse 1917" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -6038.075, 16846.813)"/>
+    <ellipse id="Ellipse_1918" dataName="Ellipse 1918" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="matrix(0.695, 0.719, -0.719, 0.695, -6067.5, 16787.076)"/>
+    <text id="Data_IP_asset_ownership_" dataName="Data, IP & asset ownership " className={mapStyles.cls11} transform="translate(-6149.467 17080.23) rotate(-48)"><tspan x="0" y="0">Data, IP & asset ownership </tspan></text>
+    <text id="Create-to-earn_economy" dataName="Create-to-earn economy" className={mapStyles.cls11} transform="matrix(0.857, -0.515, 0.515, 0.857, -6219.883, 16974.361)"><tspan x="0" y="0">Create-to-earn economy</tspan></text>
+    <text id="Decentralized_systems" dataName="Decentralized systems" className={mapStyles.cls11} transform="translate(-6257.751 16862.719) rotate(-16)"><tspan x="0" y="0">Decentralized systems</tspan></text>
+    <text id="Peer-to-peer_economy" dataName="Peer-to-peer economy" className={mapStyles.cls11} transform="matrix(1, -0.017, 0.017, 1, -6279.208, 16741.117)"><tspan x="0" y="0">Peer-to-peer economy</tspan></text>
+    <ellipse id="Ellipse_1919" dataName="Ellipse 1919" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6021.68 16546.26)"/>
+    <ellipse id="Ellipse_1920" dataName="Ellipse 1920" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6060.689 16594.689)"/>
+    <ellipse id="Ellipse_1921" dataName="Ellipse 1921" className={mapStyles.cls10} cx="10.19" cy="10.19" rx="10.19" ry="10.19" transform="translate(-6082.899 16656.564)"/>
+    <text id="Balanced_perspective" dataName="Balanced perspective" className={mapStyles.cls11} transform="matrix(0.97, 0.242, -0.242, 0.97, -6258.264, 16625.982)"><tspan x="0" y="0">Balanced perspective</tspan></text>
+    <text id="Systems_thinking" dataName="Systems thinking" className={mapStyles.cls11} transform="translate(-6186.205 16533.795) rotate(29)"><tspan x="0" y="0">Systems thinking</tspan></text>
+    <text id="Interest_Stakeholder_IS_" dataName="Interest Stakeholder (IS)" className={mapStyles.cls11} transform="translate(-6166.181 16413.439) rotate(44)"><tspan x="0" y="0">Interest Stakeholder (IS)</tspan></text>
   </g>
 </svg>
 
-    )
-}
 
-export default Map
+    </div>
+  )
+}
