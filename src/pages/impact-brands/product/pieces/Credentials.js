@@ -14,7 +14,6 @@ h2{
     margin: 0rem;
 }
 & > div {
-    border:red 1px solid;
     display: block;
     padding: 0;
     > *{

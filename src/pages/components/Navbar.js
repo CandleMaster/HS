@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 function Navbar() {
     const Nav = styled.nav`
         width: 100% ;
-        height: 5rem;
+        height: 6rem;
         background: rgb(255,200,124);
         background: linear-gradient(90deg, rgba(255,200,124,1) 0%, rgba(252,165,131,1) 100%);
         position: fixed;
@@ -14,16 +14,16 @@ function Navbar() {
         display: flex;
         align-items:stretch;
         vertical-align: center;
-        z-index:999;
         transition:background 2s ease-in-out;
-        &:hover{
-            .NavLink{
-                opacity:100%;
-            }
+        z-index:999;
+        :hover {
+            opacity:100%;
+        }
+        :hover .NavLink{
+            opacity: 1;
         }
         a{
             height:auto;
-            flex-grow:1;
             padding: 1rem;
             display: grid;
             place-items: center;
@@ -31,28 +31,33 @@ function Navbar() {
     `
 
     const NavLink=styled(Link).attrs({className:"NavLink"})`
-        flex-grow:2;
         color: white;
         text-decoration: none;
-        transition: opacity .3s ease-in-out;
+        line-height: 1.5rem;
+        transition: opacity .3s ease-in-out, text-decoration .5s ease-in-out;
         opacity:0;
+        /* transition:; */
+        /* :hover{
+            text-decoration:underline;
+            color:white;
+        } */
     `
     const Hamburger = styled.div`
-        height: .7rem;
-        width:2rem;
+        height: 1rem;
+        width:2.2rem;
         border:white solid;
-        border-width:2px 0 2px 0;
+        border-width:4px 0 4px 0;
     `
     return (
         <Nav>
-            <Link to="https://cssgradient.io/">
+            <Link to="/">
                 <StaticImage
                     src="../../images/logo/HS_logo_white.png"
                     objectFit="contain"
                     quality={95}
                     formats={["auto", "webp", "avif"]}
                     alt="A Gatsby astronaut"
-                    style={{ width:'1.6rem'}}
+                    style={{ width:'1.8rem'}}
                 />
             </Link>
             <NavLink to='/impact-brands'>impact brands</NavLink>

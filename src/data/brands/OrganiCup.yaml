@@ -5,19 +5,19 @@ main:
   name: OrganiCup
   highlight: reusable menstral cup that is made of 100% soft medical grade silicone. Designed to replace a sustainable healthy alternative to women that also doesn't harm the natural
   mission: to provide a sustainable and scalable solution to end period poverty
-  filePath: ../files/brand-review-page.pdf
+  filePath: ../../files/brand-review-page.pdf
   awards: 
-    - ../images/logo/HS_logo_white.png
-    - ../images/logo/HS_logo_blue.png
-    - ../images/logo/HS_logo_colored.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
   labels:
-    - ../images/logo/HS_logo_white.png
-    - ../images/logo/HS_logo_white.png
-    - ../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
   productImages:
-    - ../images/products/organicup1.png
-    - ../images/products/organicup2.png
-    - ../images/products/organicup3.png
+    - ../../images/products/organicup1.png
+    - ../../images/products/organicup2.png
+    - ../../images/products/organicup3.png
     
     
 details: 

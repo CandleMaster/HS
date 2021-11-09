@@ -5,7 +5,6 @@ export default function BrandDetails({ about,benefit,brandName }) {
     const BrandDetail =styled.div`
         height: auto;
         display: flex;
-        border: red 1px solid;
         flex-direction: column;
     `
     return (

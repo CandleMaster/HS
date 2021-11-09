@@ -39,39 +39,23 @@ export const Responsive=styled.div`
 `
 export const ProductImg = styled.div`
     grid-area: prodImage;  
-    display: flex;
-    flex-direction: column;
-    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 0 2rem 2rem 2rem ;
+    
+    height: 25rem;
     background-color: white;
     border-radius: 0 0 25px 25px;
-div{
-    display:flex;
-    align-items: center;
-    ul{
-        display: grid;
-        place-items: center;
-        position:relative;
-        margin:0;
-        padding:0;
-        li{
-            display: block;
-            position: absolute;
-            list-style:none;
-            padding: .5rem;
-            max-width: 20rem;
-        }
-    }
-}
+
+
 `
 export const Triple = styled.div`
     display: grid;
     place-items: center;
     margin:2rem 0;
-    border:red 1px solid;
     height:auto;
 h2{
     text-align: center;
-    border:orange 1px solid;
     height: auto;
 }
 `

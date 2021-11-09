@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { theme } from "../theme"
 import Definitions from "./Definitions"
-import { Navbar, CommonHead } from "../components"
+import { Layout, CommonHead } from "../components"
 import { StaticImage, getImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import { Container } from '../Global.styles'
@@ -30,8 +30,8 @@ function index({ data }) {
   const childHopscotch = getImage(data.imageSharp.childImageSharp)
 
   return (
-    <div>
-      <Navbar />
+
+      <Layout >
       <CommonHead 
           imageSrc={childHopscotch}
           titleUp="Our vision:" 
@@ -51,7 +51,8 @@ function index({ data }) {
       <Container>
         <Expand></Expand>
       </Container>
-    </div>
+      </Layout>
+
   )
 }
 

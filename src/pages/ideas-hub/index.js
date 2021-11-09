@@ -1,49 +1,36 @@
 import styled from 'styled-components'
 import React, { useState } from 'react'
-import Map from './Map'
+
+import { Layout } from '../components'
+import { theme } from '../theme'
+import MapSection from './MapSection'
+import BlogSection from './BlogSection'
 // import ContainerWrapper from './ContainerWrapper'
 
 
-function Blog() {
+export default function Blog() {
     const Container = styled.div`
-        background-color:#363E4F;
+        background-color:${theme.colors.midnight};
         width:100%;
-        height:100%;
-        display: flex;
-        flex-wrap: wrap;
+        height: auto;
+        border: 1px white solid;
+        h1{
+            height: auto;
+            /* font-size: 1rem; */
+            text-align: center;
+            width: 70%;
+            margin: 10rem auto 4rem;
+        }
         `  
-
-const MapWrapper = styled.div`
-        width:100%;
-        display:flex;
-        flex-wrap:wrap ;
-        ` 
-const LeftPanel=styled.div`
-    flex: 1 1 23rem;
-    padding:0 03% 0 10%;
-    `
-const RightPanel= styled.div`
-    flex: 1 1 23rem;
-    background-color:#F4F3F0;
-    border-radius:10% 0 0 10%;
-    `
-const BlogGrid = styled.div`
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr repeat(6, minmax(auto,30rem)) 1fr;
-    background-color:#363E4F;
-`
+        
 return (
-    // <ContainerWrapper>
+    <Layout >
         <Container >
-            <MapWrapper>
-                <LeftPanel><Map /></LeftPanel>
-                <RightPanel />
-            </MapWrapper>
-            <BlogGrid />
+            <h1>Explore ideas that are shaping a new economy.</h1>
+            <MapSection/>
+            <BlogSection />
         </Container>
-    // </ContainerWrapper>
+    </Layout>
     )
 }
 
-export default Blog

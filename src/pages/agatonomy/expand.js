@@ -24,10 +24,10 @@ export default function Expand() {
     
     }
     return (
-        <div>
+        <>
             <h3></h3>
             <ExpandText truth={false}></ExpandText>
-        </div>
+        </>
     )
 }
 

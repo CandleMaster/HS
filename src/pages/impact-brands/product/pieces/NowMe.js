@@ -12,7 +12,6 @@ export default function NowMe() {
     const NowMeElements = styled.div`
         height:18rem;
         flex:1 1 17rem;
-        border: red 1px solid;
     `
     return (
         <NowMeBox>  

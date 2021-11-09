@@ -2,40 +2,47 @@ import React from 'react'
 import styled from 'styled-components';
 import  { graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import { Carouse,Navbar } from '../../components'
+
+import { SimpleSlider,Navbar, Footer, Container } from '../../components'
 import  { InfoBlocks, BrandHeading, BrandDetails, Credentials, NowMe}  from './pieces'
 import { theme } from '../../theme'
 import { Responsive, ProductImg, Triple} from './product.styles'
 
 export default function Product({ data }) {
-    const dataContent = data.allFile.edges[0].node.childrenDataYaml[0]
+    const dataContent = data.allFile.edges[0].node.childrenBrandsYaml[0]
     const { highlight,name,mission,awards,labels,productImages,filePath } = dataContent.main
     const { about, benefit,futureMe,futureUs,nowUs,nowMe } = dataContent.details
     console.log(benefit,about)
     const BrandMain = styled.div`
-        padding:0;
+        padding-bottom:2rem;
         background-color: ${theme.colors.beige};
         border-radius:${theme.borderRadius.hero};
         width: 100%;
         height: auto;
     `
 
-    const Container =styled.div`
-        width: 75%;
-        max-width: 50rem;
-        margin:auto;
-        height: auto;
-    `
     const GridContainer = styled(Container)`
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr;
         gap:0 8%;
         grid-template-areas:
-          'name responsive'
-          'info prodImage'
-          'file prodImage'
-          'credentials timeline';
+        'name responsive'
+        'info prodImage'
+        'file prodImage'
+        'credentials timeline';
+        @media(max-width:${theme.breakPoint.sm}){
+          gap:0;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+          'name '
+          'prodImage'
+          'timeline'
+          'info'
+          'file'
+          'credentials'
+          ;
+          }
     `
     const tripleStyles ={
         width:'60%',
@@ -55,7 +62,8 @@ export default function Product({ data }) {
                     <BrandHeading gridName="name" brandName={name}/>
                     <Responsive />
                     <ProductImg>
-                        <Carouse images = {productImages}/>
+                        {/* <Carouse images = {productImages}/> */}
+                        <SimpleSlider imageList={productImages}/>
                     </ProductImg>
                     <InfoBlocks highlight={highlight} mission={mission} filePath={filePath} />
                     <Credentials awards={awards} labels={labels} />
@@ -71,6 +79,7 @@ export default function Product({ data }) {
             <BrandDetails brandName={name} about={about} benefit={benefit}/>
             <NowMe/>
             </Container>
+            <Footer />
             </>
     )
 }
@@ -78,10 +87,10 @@ export default function Product({ data }) {
 
 export const brand_query = graphql`
 query Brand {
-    allFile(filter: {relativePath: {eq: "OrganiCup.yaml"}}) {
+    allFile(filter: {relativePath: {eq: "brands/OrganiCup.yaml"}}) {
       edges {
         node {
-          childrenDataYaml {
+          childrenBrandsYaml {
             slug
             details {
               about
@@ -103,7 +112,7 @@ query Brand {
               }
               productImages {
                 childrenImageSharp {
-                  gatsbyImageData
+                  gatsbyImageData(transformOptions: {fit: CONTAIN})
                 }
               }
               labels {
