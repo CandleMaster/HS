@@ -1,5 +1,5 @@
 import React from 'react'
-import {theme} from '../../../theme'
+import {theme} from '../../../../styles/theme'
 import styled from 'styled-components';
 export default function NowMe() {
     const NowMeBox= styled.div`

@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import styled from 'styled-components'
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 
 const DefineGroup=styled.div`
         margin-right:.75rem ;
@@ -43,7 +43,6 @@ export default class Terms extends React.Component {
     
     componentDidMount() {
         document.addEventListener('click', this.handleClickOutside, true);
-
     }
 
     componentWillUnmount() {

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import { FeaturedProducts } from './components'
-import { theme } from './theme'
-import { Display, DisplayArrowContainer,DisplayArrowBox, Arrow } from './Global.styles'
+import { theme } from '../styles/theme'
+import { Display, DisplayArrowContainer,DisplayArrowBox, Arrow } from './../styles/Global.styles'
 import {BlogCardAlt} from './components'
 export default function IdeaDisplay({blogImage1,blogImage2}) {
     const IdeasDisplay = styled(Display)`

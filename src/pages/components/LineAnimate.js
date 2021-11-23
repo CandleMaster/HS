@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components';
-import { Vision } from '../Global.styles'
+import { Vision } from '../../styles/Global.styles'
 
 export default function LineAnimate({ background }) {
     const slideInFromLeft = keyframes`

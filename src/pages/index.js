@@ -1,13 +1,13 @@
 import React from 'react'
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 import Hero from './Hero'
 import IdeaDisplay from './IdeaDisplay'
 import ProductDisplay from './ProductDisplay'
-import { theme } from './theme'
+import { theme } from '../styles/theme'
 import  { graphql } from 'gatsby'
 import {  getImage } from 'gatsby-plugin-image'
-import { Navbar, LineAnimate, Layout } from './components'
-import './Global.styles.css'
+import { LineAnimate, Layout } from './components'
+import './../styles/Global.styles.css'
 
 export default function index({data}) {
     const Testamony = styled.div`

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import React, { useState } from 'react'
 
 import { Layout } from '../components'
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 import MapSection from './MapSection'
 import BlogSection from './BlogSection'
 // import ContainerWrapper from './ContainerWrapper'

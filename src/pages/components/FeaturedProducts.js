@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image'
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 
 export default function FeaturedProducts ({ featuredImage, brand, description }) {
     const FeaturedProduct = styled.button`

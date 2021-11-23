@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { DownArrow } from '../Global.styles'
+import { DownArrow } from '../../styles/Global.styles'
 
 export default function Expand() {
     class ExpandText extends React.Component {

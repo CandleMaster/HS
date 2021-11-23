@@ -1,31 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
-export default function BlogCard({ padding }) {
-    const BlogCard=styled.div`
-        height: auto;
-        /* max-height: 15rem; */
-        margin:${padding};
-        width: 100%;
-        border-radius:0 2rem;
-        display: flex;
-        flex-direction: column;
-        background-color: ${theme.colors.dusk};
-        aspect-ratio: 3/2;
-        *{
-            height:auto;
-            margin: 0;
-            color:white;
-        }
-        p{
-            display: inline;
-            font-size: .75rem;
-        line-height:1.25rem;
 
-        }
-    `
     const BlogInfo=styled.div`
             flex: 1 1 6rem;
             padding: 1rem 2rem 0.7rem 2rem;
@@ -47,6 +25,29 @@ export default function BlogCard({ padding }) {
         flex: 1 1 9rem;
         border-radius:0 0 0 2rem;
         background: orange;
+    `
+export default function BlogCard({ padding }) {
+        const BlogCard=styled.div`
+        height: auto;
+        /* max-height: 15rem; */
+        margin:${padding};
+        width: 100%;
+        border-radius:0 2rem;
+        display: flex;
+        flex-direction: column;
+        background-color: ${theme.colors.dusk};
+        aspect-ratio: 3/2;
+        *{
+            height:auto;
+            margin: 0;
+            color:white;
+        }
+        p{
+            display: inline;
+            font-size: .75rem;
+        line-height:1.25rem;
+
+        }
     `
     return (
         <BlogCard>

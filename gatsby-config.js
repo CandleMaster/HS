@@ -33,6 +33,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://hotmail.us1.list-manage.com/subscribe/post?u=ce0af335cc3e31349fac52f6a&amp;id=11cda25583', 
+          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+  },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -60,9 +67,71 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    // {
+    //   resolve: 'gatsby-plugin-local-search',
+    //   options: {
+    //     name: 'page',
+    //     engine: 'lunr',
+    //     engineOptions: 'speed',
+    //     query: `
+    //      {
+    //       allBrandsYaml {
+    //           nodes {
+    //             id
+    //             name
+    //             slug
+    //             tags {
+    //               impactType
+    //               productType
+    //             }
+    //             main {
+    //               brandNameLogo {
+    //                 childrenImageSharp {
+    //                   gatsbyImageData
+    //                 }
+    //               }
+    //               productImages {
+    //                 childrenImageSharp {
+    //                   gatsbyImageData
+    //                 }
+    //               }
+    //           }
+    //       }
+    //     }
+    //     `,
+
+    //     // Field used as the reference value for each document.
+    //     // Default: 'id'.
+    //     ref: 'id',
+
+    //     // List of keys to index. The values of the keys are taken from the
+    //     // normalizer function below.
+    //     // Default: all fields
+    //     index: ['productType','name'],
+
+    //     // List of keys to store and make available in your UI. The values of
+    //     // the keys are taken from the normalizer function below.
+    //     // Default: all fields
+    //     store: ['id', 'slug', 'brandNameLogo','productImages'],
+
+    //     // Function used to map the result from the GraphQL query. This should
+    //     // return an array of items to index in the form of flat objects
+    //     // containing properties to index. The objects must contain the `ref`
+    //     // field above (default: 'id'). This is required.
+    //     normalizer: ({ data }) =>
+    //       data.allBrandsYaml.nodes.map(node => ({
+    //         id: node.id,
+    //         name: node.name,
+    //         slug: node.slug,
+    //         productType: node.tags.productType,
+    //         brandNameLogo: node.main.brandNameLogo,
+    //         productImages: node.main.productImages,
+    //       })),
+    //   },
+    // }
   ],
 }

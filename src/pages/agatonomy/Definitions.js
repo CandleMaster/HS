@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import Terms from './showDef'
+import Terms from './show-def'
 
 
 function Definitions({ test}) {

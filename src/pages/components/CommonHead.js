@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Container } from "../Global.styles"
+import { Container } from "../../styles/Global.styles"
 import { GatsbyImage } from 'gatsby-plugin-image'
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 import { LineAnimate } from './'
-import { Vision } from '../Global.styles'
+import { Vision } from '../../styles/Global.styles'
 
 const Heading = styled.div`
     background-color: ${theme.colors.beige};
@@ -42,6 +42,7 @@ export default function CommonHead({ imageSrc, titleUp, titleDown}) {
                 <GatsbyImage 
                     image={imageSrc}
                     style={tripleStyles}
+                    alt="heading"
                 />
                 </Container>
             </Heading>

@@ -10,6 +10,6 @@ export { default as FooterCard } from './FooterCard'
 export { default as Mailing } from './Mailing'
 export { default as Layout } from './Layout'
 export { default as LineAnimate } from './LineAnimate'
-export { default as BlogCard } from './BlogCard'
+export { default as BlogCard } from './blog-card'
 export { default as BlogCardAlt } from './BlogCardAlt'
  

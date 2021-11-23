@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image'
-import { theme } from './theme'
+import { theme } from '../styles/theme'
 import { Link } from "gatsby"
 
 
@@ -33,14 +33,24 @@ const ButtonWrapper = styled.div`
 `
 const HeroButtons = styled(Link)`
     width:14rem;
-    padding:.3rem;
+    padding:.5rem;
     text-align: center;
     text-decoration: none;
     font-size:1.25rem;
     color: ${theme.colors.midnight};
-    background:rgba(225,225,225,0.5);
+    background-color:rgba(225,225,225,0.5);
     border-radius: 99px;
-    border: rgba(225,225,225,1) 3px solid;
+    border: rgba(225,225,225,1) 2px solid;
+    transition: (background,transform) .4s ease;
+    &:hover{
+    background:rgb(255, 200, 124) linear-gradient(90deg,
+        rgba(255, 200, 124, 1) 0%,
+        rgba(252, 165, 131, 1) 100%
+        ) !important; 
+    color:white;
+    border: none;
+    /* transform: scale(1.2); */
+    }
 `
 const HeroText= styled.h1`
     position: absolute;

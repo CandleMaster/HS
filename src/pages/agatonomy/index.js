@@ -1,11 +1,11 @@
 import React from "react"
 import styled from "styled-components"
-import { theme } from "../theme"
-import Definitions from "./Definitions"
+import { theme } from "../../styles/theme"
+import Definitions from "./definitions"
 import { Layout, CommonHead } from "../components"
 import { StaticImage, getImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
-import { Container } from '../Global.styles'
+import { Container } from '../../styles/Global.styles'
 import Expand from "./expand"
 
 function index({ data }) {

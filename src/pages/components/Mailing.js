@@ -5,18 +5,20 @@ import styled from 'styled-components';
 export default function Mailing({ position, fontColor }) {
 
 const [message, setResult] = useState("")
- async function handleSubmit(e) {
-    e.preventDefault();
-    const result = await addToMailchimp(email)
-    setResult(prop => "Thank you for supporting me!:)")
-  
-  }
+const [email,setEmail] = useState("")
+
+async function handleSubmit(e) {
+  e.preventDefault();
+  const result = await addToMailchimp(email)
+  setResult(prop => "Thank you for supporting me!:)")
+}
+
 handleSubmit().catch(e=>{console.log('An error occursed with MailChimp')})
-  const [email,setEmail] = useState("")
-  function handleChange(e)  {
-    const newValue = e.target.value;
-      setEmail(newValue)
-  }
+
+function handleChange(e)  {
+  const newValue = e.target.value;
+    setEmail(newValue)
+}
 
 const Form = styled.form`
     *{

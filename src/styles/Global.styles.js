@@ -1,5 +1,15 @@
 import styled, { keyframes } from 'styled-components';
-import { theme } from './theme'
+import { theme } from '../styles/theme'
+export const BlogGrid = styled.section`
+    border: 1px pink solid;
+    margin: 5rem auto;
+    width: 75%;
+    max-width: 80rem;
+    display: grid;
+    gap:4rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+    background-color:${theme.colors.midnight};
+`
 
 export const Vision = styled.h1`
 color: grey;

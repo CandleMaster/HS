@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
-export default function BlogCard({ image }) {
-    const BlogCard=styled.div`
+    const BlogCardWrap=styled.div`
         height: auto;
         width: 100%;
         border-radius:0 2rem;
@@ -47,8 +46,9 @@ export default function BlogCard({ image }) {
         background: pink;
         height: auto;
     `
+export default function BlogCard({ image }) {
     return (
-        <BlogCard>
+        <BlogCardWrap>
             <BlogInfo>
                 <Source>Hopskotch</Source>
                 <BlogTitle>What are impact brands & why are they important?</BlogTitle>
@@ -58,6 +58,6 @@ export default function BlogCard({ image }) {
             </BlogInfo>
             {/* <GatsbyImage image={image}/> */}
             <TestImg></TestImg>
-        </BlogCard>
+        </BlogCardWrap>
     )
 }

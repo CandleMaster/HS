@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { LineAnimate} from '../components'
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 
 export default function ImpactHeading() {
     const Heading= styled.div`

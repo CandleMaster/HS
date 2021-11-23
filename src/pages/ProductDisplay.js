@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import { FeaturedProducts } from './components'
-import { Display, Arrow, DisplayArrowContainer,DisplayArrowBox } from './Global.styles'
-import { theme } from './theme'
+import { Display, Arrow, DisplayArrowContainer,DisplayArrowBox } from './../styles/Global.styles'
+import { theme } from '../styles/theme'
 import {StaticImage} from 'gatsby-plugin-image'
 export default function ProductDisplay({product1,product2,product3}) {
 const ProductIntro = styled.div`

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { theme } from '../theme'
+import { theme } from '../../styles/theme'
 import Map from './Map'
 import Related from './Related'
 // import RightPanelInner from './RightPanelInner'

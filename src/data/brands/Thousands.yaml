@@ -1,18 +1,11 @@
-# GUIDELINE 
-# All dashes, indentation and colon + space mean something for the data structure
-# so they need to be followed carefully
-# DON'T remove any items before colon
-# DON'T worry about file paths for now, just make sure you have the files
-# DO add more dashes if it suits you
-# Message me anytime if you have any questions:)
 
-slug: Organicup
-name: OrganiCup
+slug: Thousands
+name: Thousands
 tags:
   impactType: 
-    - improve_physical_heatlh
-    - tackle_oppression
-  productType: home
+    - improve_mental_heatlh
+    - tackle
+  productType: mom_baby
 
 main:
   highlight: reusable menstral cup that is made of 100% soft medical grade silicone. Designed to replace a sustainable healthy alternative to women that also doesn't harm the natural
@@ -29,7 +22,7 @@ main:
     - ../../images/logo/HS_logo_white.png
     - ../../images/logo/HS_logo_white.png
   productImages:
-    - ../../images/products/organicup1.png
+    - ../../images/products/thousands_helmet.png
     - ../../images/products/organicup2.png
     - ../../images/products/organicup3.png
     

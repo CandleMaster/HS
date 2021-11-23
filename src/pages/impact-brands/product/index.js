@@ -1,47 +1,80 @@
-import React from 'react'
+import React, {useLayoutEffect, useState} from 'react'
 import styled from 'styled-components';
 import  { graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-
 import { SimpleSlider,Navbar, Footer, Container } from '../../components'
 import  { InfoBlocks, BrandHeading, BrandDetails, Credentials, NowMe}  from './pieces'
-import { theme } from '../../theme'
-import { Responsive, ProductImg, Triple} from './product.styles'
-
+import { theme } from '../../../styles/theme'
+import { TimelineEvent, TimelineDots , YearLi} from '../Timeline'
 export default function Product({ data }) {
-    const dataContent = data.allFile.edges[0].node.childrenBrandsYaml[0]
-    const { highlight,name,mission,awards,labels,productImages,filePath } = dataContent.main
-    const { about, benefit,futureMe,futureUs,nowUs,nowMe } = dataContent.details
-    console.log(benefit,about)
+    const dataContent = data.allBrandsYaml.nodes[1]
+    const { 
+      timeline:{
+        years,
+        events
+      },
+      main:{
+        highlight,
+        mission,
+        awards,
+        labels,
+        productImages,
+        filePath
+      } ,
+      details:{
+        about, 
+        benefit,
+        futureMe,
+        futureUs,
+        nowUs,
+        nowMe 
+      },
+      name,
+    }= dataContent
+
+    console.log(dataContent)
+    
     const BrandMain = styled.div`
         padding-bottom:2rem;
         background-color: ${theme.colors.beige};
         border-radius:${theme.borderRadius.hero};
         width: 100%;
         height: auto;
+      `
+    const Triple = styled.div`
+        display: grid;
+        place-items: center;
+        margin:2rem 0;
+        height:auto;
+        h2{
+        text-align: center;
+        height: auto;
+    }
     `
-
-    const GridContainer = styled(Container)`
+    const GridContainer = styled.div`
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: .8fr 1fr;
         gap:0 8%;
+        width: 75%;
+        max-width: 60rem;
+        margin:auto;
+        height: auto;
         grid-template-areas:
         'name responsive'
         'info prodImage'
         'file prodImage'
         'credentials timeline';
-        @media(max-width:${theme.breakPoint.sm}){
-          gap:0;
+        @media(max-width:${theme.breakPoint.md}){
+            gap:0;
             grid-template-columns: 1fr;
             grid-template-areas:
-          'name '
-          'prodImage'
-          'timeline'
-          'info'
-          'file'
-          'credentials'
-          ;
+              'name'
+              'prodImage'
+              'timeline'
+              'info'
+              'file'
+              'credentials';
           }
     `
     const tripleStyles ={
@@ -50,24 +83,63 @@ export default function Product({ data }) {
         height: 'auto',
         margin: '2rem'
     }
-    const Timeline = styled.div`
-            grid-area: timeline;
-        `
+const Responsive=styled.div`
+    grid-area:responsive;
+    background-color:white;
+`
+const ProductImg = styled.div`
+    grid-area: prodImage;  
+    display: grid;
+    place-items: center;
+    padding: 0 2rem 0rem 2rem ;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+`
+const Timeline = styled.div`
+    grid-area: timeline;
+    position: relative;
+    height:7rem;
+    align-items: flex-start;
+    padding: 1rem 0rem;
+    transform: translateX(-1rem);
+    `
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
 
+  const [width, height] = useWindowSize();
+function ShowWindowDimensions(props) {
+}
     return (
             <>
             <BrandMain>
                 <Navbar />
+                <span style={{opacity:"0"}}>Window size: {width} x {height}</span>;
                 <GridContainer>
                     <BrandHeading gridName="name" brandName={name}/>
                     <Responsive />
                     <ProductImg>
-                        {/* <Carouse images = {productImages}/> */}
-                        <SimpleSlider imageList={productImages}/>
+                        <SimpleSlider imageList={productImages} duration="999999000" display="flex"/>
                     </ProductImg>
-                    <InfoBlocks highlight={highlight} mission={mission} filePath={filePath} />
+                    <InfoBlocks info="info" highlight={highlight} mission={mission} filePath={filePath} />
                     <Credentials awards={awards} labels={labels} />
-                    <Timeline>timeline</Timeline>
+                    <Timeline>
+                        <TimelineEvent background="white !important">
+                            {events.map(event=>(<li>{event}</li>))}
+                        </TimelineEvent>
+                        <TimelineDots background="black">
+                            {years.map(year=>(<YearLi content={year}/>))}
+                        </TimelineDots>
+                    </Timeline>
                 </GridContainer>
             </BrandMain>
             <Container>
@@ -87,11 +159,10 @@ export default function Product({ data }) {
 
 export const brand_query = graphql`
 query Brand {
-    allFile(filter: {relativePath: {eq: "brands/OrganiCup.yaml"}}) {
-      edges {
-        node {
-          childrenBrandsYaml {
+    allBrandsYaml {
+        nodes {
             slug
+            name
             details {
               about
               benefit
@@ -101,7 +172,6 @@ query Brand {
               nowUs
             }
             main {
-              name
               highlight
               mission
               filePath
@@ -111,18 +181,22 @@ query Brand {
                 }
               }
               productImages {
-                childrenImageSharp {
-                  gatsbyImageData(transformOptions: {fit: CONTAIN})
+                  childrenImageSharp {
+                    gatsbyImageData(transformOptions: {fit: CONTAIN})
+                  }
                 }
-              }
               labels {
-                childrenImageSharp {
-                  gatsbyImageData
+                  childrenImageSharp {
+                    gatsbyImageData
+                  }
                 }
-              }
             }
-          }
-        }
+            timeline {
+                events
+                years
+            }
+          
+        
       }
     }
   }

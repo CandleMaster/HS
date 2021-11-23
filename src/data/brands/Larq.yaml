@@ -1,18 +1,12 @@
-# GUIDELINE 
-# All dashes, indentation and colon + space mean something for the data structure
-# so they need to be followed carefully
-# DON'T remove any items before colon
-# DON'T worry about file paths for now, just make sure you have the files
-# DO add more dashes if it suits you
-# Message me anytime if you have any questions:)
 
-slug: Organicup
-name: OrganiCup
+slug: larq
+name: Larq
+
 tags:
   impactType: 
     - improve_physical_heatlh
-    - tackle_oppression
-  productType: home
+    - tackle_inequality
+  productType: lifestyle_apparel
 
 main:
   highlight: reusable menstral cup that is made of 100% soft medical grade silicone. Designed to replace a sustainable healthy alternative to women that also doesn't harm the natural
@@ -31,12 +25,12 @@ main:
   productImages:
     - ../../images/products/organicup1.png
     - ../../images/products/organicup2.png
-    - ../../images/products/organicup3.png
-    
+    - ../../images/products/organicup3.png   
+
 details: 
   about: You may have heard of the menstral cup, a fairly new alternative to tampons and pads. A cup is convenient, and is keeping an normous amount aof waste out of our landfill most abundant mineral on our planet.
   benefit: Like many other impact brands, Organicup aims to benefit both people and the envrionment benefit bothe people and the envrionment Using a mentral cup for two years can svae up to 528 tempons worht of waste - that's roughly 20 kilos! And each cup can actually bbe used for much longer than that
-  nowMe: 
+   nowMe: 
     - reusable 
     - menstral cup 
     - that is made of 100% 
