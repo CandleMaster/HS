@@ -1,0 +1,84 @@
+# GUIDELINE 
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE 
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+# Affil link to HOme: <a href="https://imp.i113075.net/WD2vL3">Rael</a> 
+
+nameLinked: <a href="https://imp.i113075.net/WD2vL3">Rael</a> 
+name: Rael
+featured: true
+featuredDescription: Period care
+tags:
+  impactType: 
+    - improve_physical_health
+    - improve_mental_health
+    - tackle_inequality_and_discrimination
+    - reduce_waste_or_pollution
+  productType: beauty_and_health
+
+main:
+  highlight: skin-friendly products that are made to be soft and safe for your skin. Period care all-month round, from tampons and pads to skin care and heating patches
+  mission: to provide every woman with access to quality, high-performing period care that's as good for them as it is for the environment.
+  filePath: ./Rael/vetting-from.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards: 
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./Rael/product1.png
+    - ./Rael/product2.png
+    - ./Rael/product3.png
+    - ./Rael/product4.png
+    
+details: 
+  about: |
+    <p>'Go with your flow. Period.' It may sound like a pun, but for many women their 'time of the month' is no joke. Finding suitable feminine care products is difficult even without considering environmental impact. <a href="https://imp.i113075.net/WD2vL3">Rael</a> provides a clean solution. Rael tampons have a core that is made with 100% organic and non-GMO cotton. You can find your perfect fit among three types of applicators made of either BPA-free plastic, plant-based or cardboard materials for easy application and maximum protection. With Rael tampons, you can handle your period without worrying about toxic or irritating chemicals harming you or your environment.</p>
+    <p>The same goes for Rael heating patches for cramps. As soon as you apply them, the patches immediately warm up to help you combat cramps and menstrual pain. Infused with lemon balm, juniper berry, jasmine, dandelion root, and rosehip, the patches naturally promote blood flow and reduce discomfort and swelling for up to 6 hours.</p>
+    <p>The holistic <a href="https://imp.i113075.net/WD2vL3">period care company</a> now also offers clean skin products that are free from irritating ingredients like synthetic fragrances or dyes, so you can glow all cycle round! "Like your pulse, temperature, breathing rate and blood pressure, periods are one of the most important vital signs when it comes to a woman's overall health. We're on a mission to empower women to incorporate cycle care into their everyday self-care." (<a href="https://imp.i113075.net/WD2vL3">Rael</a>)</p>
+    <p>If you're looking to reduce period waste further while having a comfortable and safe period, explore options like a menstrual cup in combination with this fantastic period underwear. Unique solutions for everyone's preferences!</p>    
+ 
+ benefit: |
+    <p>Although Rael's products are theoretically accessible to anyone with an Internet connection, the reality hits much harder. That's why <a href="https://imp.i113075.net/WD2vL3">Rael</a> teamed up with <a href="http://www.hashtaghappyperiod.org/">Happy Period</a>. Together they support women in need in Los Angeles by providing them with menstrual hygiene kits. You can also take part in this action. For every photo shared on Instagram with the hashtag #HappyPeriodsForAll, Rael will donate a period product.</p>
+    <p>Rael further works with their partners to provide period education, advocate for menstrual dignity, and distribute feminine essentials to underprivileged women and girls with the goal of cultivating a world where all women can access safe period care.</p>
+
+  nowMe:  
+    - skin-friendly products made without harsh chemicals that could irritate skin like artificial dyes or <a href="https://www.westman-atelier.com/blogs/guccis-guide/clean-beauty-synthetic-natural-fragrance-health-safety">synthetic fragrances</a>
+    - lower amount of plastics in touch with the skin through plant-based applicators and reusables
+	 	   	
+  futureMe:  
+    - toxin-free materials that don't disrupt hormones
+    - no exposure to <a href="https://edition.cnn.com/2015/11/13/health/whats-in-your-pad-or-tampon/index.html">carcinogens</a> 
+    - reduce allergies and toxic shock syndrome <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948026/">over time</a> 
+ 
+  nowUs:  
+    - recyclable packaging and plant-based applicators reduce plastic waste
+    - reusable period products reduce waste in landfills or oceans 
+
+  futureUs:   
+    - period education reduces stigma, misconceptions and shame around periods
+    - less mocking in school is better for girls' mental health and reduces hours lost in school due to periods
+    - education of women is one of the most powerful <a href="https://www.brookings.edu/blog/education-plus-development/2021/02/10/why-is-girls-education-important-for-climate-action/">leverage points</a> in curbing global warming 
+     
+timeline:
+  years:
+    - 2017 
+
+  events:
+    - foundation
+
+Keyword: natural period care
+

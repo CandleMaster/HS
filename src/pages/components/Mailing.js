@@ -5,19 +5,31 @@ import styled from 'styled-components';
 export default function Mailing({ position, fontColor }) {
 
 const [message, setResult] = useState("")
-const [email,setEmail] = useState("")
+
+const [contact,setContact] = useState({ 
+  name:"",
+  email:""
+})
+
 
 async function handleSubmit(e) {
   e.preventDefault();
-  const result = await addToMailchimp(email)
-  setResult(prop => "Thank you for supporting me!:)")
+  const result = await addToMailchimp(contact.email,[contact.name])
+  setResult("Thank you for supporting me!:)")
 }
 
-handleSubmit().catch(e=>{console.log('An error occursed with MailChimp')})
+// handleSubmit().catch(e=>{console.log('An error occursed with MailChimp')})
 
 function handleChange(e)  {
-  const newValue = e.target.value;
-    setEmail(newValue)
+  const {id, value} = e.target;
+
+  setContact(prev=>{
+      return{
+        ...prev,
+        [id]:value
+      }
+  })
+  console.log(contact)
 }
 
 const Form = styled.form`
@@ -37,9 +49,21 @@ const Form = styled.form`
     return (
       <>
         <Form  onSubmit={handleSubmit}>
-              <input id="name" required placeholder="name"/>
-              <input onChange={handleChange} id="email" value={email} required placeholder="e-mail address"/>
-              <button type="submit">I'M IN</button>
+              <input 
+                  id="name" 
+                  placeholder="name"
+                  value={contact.name}
+                  onChange={handleChange}
+                  required
+              />
+              <input 
+                  id="email" 
+                  placeholder="e-mail address"
+                  value={contact.email} 
+                  onChange={handleChange} 
+                  required 
+              />
+              <button type="submit" id="submit">I'M IN</button>
               <div>{message}</div>
         </Form>
       </>

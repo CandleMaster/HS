@@ -2,33 +2,46 @@
     font-family: 'HeadingWest';
     src:url('../fonts/HeadingWest.otf')
 }
+body{
+    overflow-x: hidden;
+}
 * {
-    /* font-family: 'HeadingWest'; */
     font-family: 'Inter', Helvetic, sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-
+    color:#2e3b4b;
+    word-wrap: wrap;
 }
 *    div{
-    font-size: .8rem;
+    font-size: 1rem;
+    line-height: 1.75rem;
 }
 * > h1,h2,h3,h4,h5,h6{
+    color:#2e3b4b;
     letter-spacing: 1px;
-    color:grey;
-    font-weight: 600;
+    font-weight: 400;
     padding:.3rem 0;
 }
 
-* > h2{
-    font-weight: 600;
-    
+* > h2,h1{
+    font-weight: 700;
 }
 * > h1{
     letter-spacing: 2px;
     font-size: 2.5rem;
     
 }
+*> a{
+    color:#747e96;
+    /* font-weight:500; */
+     /* color:black; */
+    text-decoration: none;
 
+}
+*> a:hover{
+    color:#7fb0c0;
+    }
+
+.font-100{font-size: 1rem}

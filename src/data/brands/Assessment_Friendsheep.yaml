@@ -1,0 +1,86 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+#Affil link to Home: <a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>
+
+nameLinked: <a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>
+name: Friendsheep
+featured: true
+featuredDescription: Wool dryer balls
+tags:
+  impactType:
+    - improve_physical_health
+    - tackle_oppression
+    - reduce_CO2
+  productType: home
+
+main:
+  highlight: reusable wool dryer balls that replace traditional dryer sheets - a more sustainable, healthy alternatives that save money and time.
+  mission: to eliminate single-use plastic and toxic chemicals commonly found in household commodities like dryer sheets, fabric fresheners and pet toys by offering reusable zero waste alternatives.
+  filePath: ./Friendsheep/vetting-form.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./Friendsheep/product1.png
+    - ./Friendsheep/product2.png
+
+details:
+  about: |
+    <p><a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>' sustainable wool dryer balls replace your traditional dryer sheets and fabric softener. They are made from pure organic New Zealand wool, are free of added chemicals, fragrances and are hypoallergenic.</p>
+    <p>Wool dryer balls also shorten your drying cycles by 20-40%, which is good for your wallet and the environment and will even reduce wrinkles and static cling.</p>
+    <p><a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a> products are <a href="https://www.friendsheepwool.com/discount/ImpactWithHopskotch?redirect=/pages/how-are-friendsheep-eco-dryer-balls-made?ref=74" rel="nofollow">andmade and needle felted by artisans in Nepal</a>h under ethical working conditions, rather than industrially mass-produced. The quality you receive means that they are made to last (1000+ loads!). 'Quality over quantity' is a crucial  sustainability concept, and one you get with this brand.</p>
+
+  benefit: |
+    <p><a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>'s products are convenient for you, and reduce stress on the environment (the win-win we're looking for!). An <a href="https://www.friendsheepwool.com/discount/ImpactWithHopskotch?redirect=/pages/our-impact?ref=74" rel="nofollow">estimated</a> 180 Million chemical-infused dryer sheets and 1.8 Million bottles of fabric softener have been replaced with handmade dryer balls, so far. This also saved thousands of hours of energy-intensive drying time.</p>
+    <p>The company's impact goes beyond their products though, by planting a tree for every product sold, and by donating generously. Not only is the brand part of the organisation <a href="https://www.onepercentfortheplanet.org/">1% For the Planet</a>, but gives around 20% of profit to NFP organisations. <a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a> looks after their stakeholders throughout the supply chain. Wool is sourced from small, family owned businesses in New Zealand. The finished product is handmade in ethical working conditions by underprivileged women or people with disabilities in Kathmandu, Nepal. This way, a traditional handcraft is kept alive as well - precious inter-generational wisdom we often forget to value enough.</p>
+  nowMe:
+    - reduces drying times
+    - save on electricity bill
+    - plastic free and chemical free laundry softening and drying
+    - hypoallergenic
+    - gentle on your clothes
+    - reduces wrinkles and static cling
+
+  futureMe:
+    - healthier skin and overall health from chemical-free laundry drying and softening. <a href="https://www.ewg.org/guides/subcategories/53-FabricSoftener/">Source 1)</a>, <a href="https://branchbasics.com/blogs/cleaning/12-toxic-chemicals-in-dryer-sheets-fabric-softeners">2</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/31905182/">3</a>
+
+  nowUs:
+    - empowerment of artisans
+    - support of fair wage jobs
+    - upkeep traditional handcraft skills
+    - reduced burden of plastic in oceans and landfills
+
+  futureUs:
+    - less chemicals in waterways
+    - reduction in energy consumption and the company's carbon offset reduces CO2 emissions compared to alternatives
+    - reduces oil consumption or stress on renewables grids
+    - women empowerment in developing country may have positive influence on climate change through family planning and choice. <a href="https://www.earthday.org/womens-empowerment-is-key-to-reducing-climate-change/">Source 1)</a>, <a href="https://www.ltrr.arizona.edu/~katie/kt/misc/CCCC/CCOCC-2/Fewer%2520emitters%2520lower%2520emissions%2520report%2520Aug%252009.pdf">2</a>, <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)61643-3/fulltext">3</a>
+
+timeline:
+  years:
+    - 2015
+    - 2018
+    - 2019
+
+  events:
+    - foundation
+    - certified cruelty free
+    - member of 1% FTP
+Keyword: sustainable wool dryer balls

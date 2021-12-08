@@ -14,12 +14,16 @@ export default  function BrandHeading({ gridName,brandName }) {
 `
     const Brand = styled.div`
         height: auto;
+        font-weight: 600;
         font-size: 1.75rem;
-        line-height:2.3rem;
+        line-height:3rem;
+        letter-spacing: 2px;
     `
-    const Impact = styled(Brand)`
+    const Impact = styled.div`
+    height: auto;
+    font-weight: 100;
         font-size: 1rem;
-        line-height: 2.5rem;
+        line-height: 3rem;
     `
     const Divider = styled.div`
         height: 1px;

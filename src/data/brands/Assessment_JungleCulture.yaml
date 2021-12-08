@@ -1,0 +1,80 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+#Affil Link to HOME: n/a
+
+nameLinked: <a href="https://jungleculture.eco/?sca_ref=438774.tm7duDX228 >Jungle Culture</a>
+name: Jungle Culture
+featured: true
+featuredDescription: Reusable kitchen utensils
+tags:
+  impactType:
+    - reduce_CO2
+    - reduce_waste_or_pollution
+    - tackle_oppression
+  productType: home
+
+main:
+  highlight: unique and handmade reusable swaps for your kitchen and food on-the-go, like coconot bowls, bamboo straws and bamboo cutlery
+  mission: to remedy the damage a single straw can do to our environment. to conserve and preserve the planet Earth.
+  filePath: ./JungleCulture/vetting-form.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./JungleCulture/product1.png
+    - ./JungleCulture/product2.png
+
+details:
+  about: |
+    <p>Jungle Culture makes reusable, high-quality bamboo and coconut products that are all 100% plastic-free, organic and unique. Their products include the number one best-selling bamboo straws on the giant platform Amazon - that’s how much they stand out. </p>
+    <p>Their popularity goes so far that they have partnered with National Geographic, BBC Earth and TOMS.</p>
+    <p>If you ever wondered “how are bamboo straws made?”, Jungle Culture got you covered with a unique story. Depending on the product, the production differs slightly. This is because every piece is handmade by an expert in Vietnam. Jungle Straws are handmade at a family-run farm, while the bamboo cutlery sets were initially carved by a devoted naturist who has worked with bamboo his entire life. Now, the latter started training and employing family and friends in the village to help him carve the cutlery, providing jobs with fair pay, skills and accommodation! The coconut bowls are shaped into stunning breakfast bowls by talented artists in Vietnam.</p>
+
+  benefit: |
+    <p>Jungle Culture is all about creating high quality products that can save the Earth and empower developing communities. The company created an “ethical supply chain, powered by small farms, craft workshops and transparent factories”. All in line with the underlying philosophy that centers around the conservation and protection of the Earth. </p>
+    <p>The company is a member of the 1% for the Planet foundation, meaning 1% of annual sales are supporting the preservation & restoration of the natural environment.</p>
+    <p>Additionally, the company is very open to support nonprofits with their services and help them market their cause using unique Jungle culture products for a low price that doesn’t leave the company with any profits, but covers costs of the people making the products by hand.</p>
+
+  nowMe:
+    - unique, safe, reusable utensils
+    - reducing food being in contact with plastics
+    - reducing waste
+
+  futureMe:
+    - high-quality, lasting, safe materials in contact with food rather than plastics
+
+  nowUs:
+    - reduction of waste in landfill and oceans when replacing disposables
+    - reduction of externalities from <a href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/03/UNEP-D001-Tableware-Report_Lowres.pdf>producing disposables</a>
+
+  futureUs:
+    - less pressure on global warming from swapping to reusables and low emission production
+    - reduced pressure on our oceans with many disposable plastics being eliminated
+    - support and empowerment of communities in need
+
+timeline:
+  years:
+    - 2018
+    - 2018
+
+  events:
+    - foundation
+    - 1% for the Planet member
+Keyword: how are bamboo straws made

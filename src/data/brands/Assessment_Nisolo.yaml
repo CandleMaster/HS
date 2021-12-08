@@ -1,0 +1,100 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+#Affil link to Home: <a href="nisolo.uvwgb9.net/qnOL3n">Nisolo</a>
+
+nameLinked: <a href="nisolo.uvwgb9.net/qnOL3n">Nisolo</a>
+name: Nisolo
+featured: true
+featuredDescription: Handmade leather shoes
+tags:
+  impactType:
+    - tackle_inequality_and_discrimination
+    - tackle_oppression
+    - improve_financial_independence
+  productType: lifestyle_and_apparel
+
+main:
+  highlight: high quality, handmade leather shoes that last, look stunning and are so comfortable you won't want to take them off.
+  mission: to design great looking products that are comfortable, functional, and always made responsibly. to push the fashion industry in a more sustainable direction.
+  filePath: ./Nisolo/vetting-from.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./Nisolo/product1.png
+    - ./Nisolo/product2.png
+    - ./Nisolo/product3.png
+
+details:
+  about: |
+    <p>When purchasing <a href="nisolo.uvwgb9.net/qnOL3n">Nisolo</a> products, you act in alignment with the principle 'quality over quantity', and 'less is more'. Their shoes and accessories are of the highest quality and are made to last for years. And - they look absolutely fabulous! The company makes no compromise and adjusts their margins to assure certified living wages and highest quality materials for an affordable price. Next to recycled and upcycled materials, <a href="nisolo.uvwgb9.net/qnOL3n">Nisolo</a>'s leather tanneries are certified by the Leather Working Group, representing responsible leather sourcing.</p>  
+    <p>The level of user satisfaction speaks for itself, with comfort and style being widely praised by their customer base. With many Nisolo shoes being waterproof and vegetable-tanned you can rest assured that you will be owning a stylish, versatile, durable piece of footwear that doesn't cost the earth or producer's empowerment.</p>
+    <p>The shoes can be sent back to the company where they can be repurposed through their a href="https://nisolo.uvwgb9.net/Ry2Nqy">Shoe Reclamation Program</a>.</p>
+
+  benefit: |
+    <p><a href="nisolo.uvwgb9.net/qnOL3n">Nisolo</a> is an inspiring impact brand par excellence. It goes a few 'extra miles', voluntarily seeking to create a href="https://nisolo.uvwgb9.net/P0mv96">benefits for others through business</a>.</p> 
+    <p>A main focus is living wages. In the fashion industry, less than 2% of people making clothes earn a living wage, which is a human right. Greenwashing techniques like presenting irrelevant data makes most companies look much better than they actually are. For example, an 'average wage' can often include wages of both managers and factory workers, which represents a very inaccurate, blown up number to conscious consumers.</p> 
+    <p>This is why Nisolo decided to transparently publish third-party certified reports on the lowest wages of any of their workers and why the company encourages consumers to demand this from all brands.</p> 
+    <p>Nisolo is <a href="https://bcorporation.net/about-b-lab">B certified</a>, meaning the company is held accountable to always consider environmental and social wellbeing.</p> 
+    <p>'The products we wear should not only look good but should enhance the lives of the people who made them, give back more to the planet than they take away, and make our lives a little more enjoyable. This is why we design great looking products that are comfortable, functional, and always made responsibly.' is Nisolo's philosophy. </p> 
+    <p>Together with <a href="https://www.livefashionable.com/collections/apparel">ABLE</a> and <a href="https://goodops.co/">GoodOps</a>, Nisolo created a social impact assessment platform called <a href="https://nisolo.uvwgb9.net/zan537">ACCOUNTABLE</a> which ensures worker protection while giving customers a transparent look into factories.</p>
+    <p><a href="nisolo.uvwgb9.net/qnOL3n">Nisolo</a> works in alignment with a 'circular fashion' approach and upcycles and recycles materials. 95% of their leather uppers originate from <a href="https://www.leatherworkinggroup.com">Leather Working Group</a> Certified tanneries, which meet the highest standard of environmental responsibility in the industry. Their <a href="https://nisolo.uvwgb9.net/Ry2Nqy">Shoe Reclamation Program</a> is there to divert shoes from landfill and makes them available for reuptake into the system.</p>
+    <p>Solar panels are used on the roof of their Peru factory, and the goal is 0% carbon emissions through offsetting, for example through partnering with <a href="https://ecosphere.plus/">Ecosphere+</a> which invests in forest conservation.</p>
+
+  nowMe:
+    - high quality products that last
+    - safe materials
+    - comfort
+
+  futureMe:
+    - lasting products that are an investment
+    - material that molds to your foot for comfort and <a href="https://blog.sfceurope.com/the-ten-benefits-of-leather-shoes">healthy feet and gait</a>
+
+  nowUs:
+    - fast-fashion alternative that reduces impact on environment
+    - low impact production using a <a href="https://www.leatherworkinggroup.com/news/latest-news/what-is-sustainable-leather-">by-product as material</a>
+    - supports job positions for producers with genuine fair pay and empowering job environments and creates demand for these
+    - actively influencing other major businesses to do the same
+
+  futureUs:
+    - less pollution of landfills, oceans and soils compared to standard alternatives like polyester or cotton
+    - supports the adoption of a new standard in the fashion industry
+    - more empowered, independent producers support a healthy collective mindset
+
+timeline:
+  years:
+    - 2011
+    - 2014
+    - 2017
+    - 2017
+    - 2017
+    - 2019
+    - 2019
+
+  events:
+    - foundation
+    - internal assessments to ensure a living wage that meets the actual needs of our shoemakers and their children
+    - B-certification
+    - closed wage-gap of lowest wage from $276 to $280/month after third-party audit by ACCOUNTABLE
+    - |
+      'Living wage' 3-rd party certification by ACCOUNTABLE
+    - partnership with ABLE to publish lowest wages
+    - launched the Lowest Wage Challenge with ABLE
+Keyword: nisolo sustainability

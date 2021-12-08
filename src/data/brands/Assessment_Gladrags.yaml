@@ -1,0 +1,90 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+#affiliate link to home page: <a href="http://www.gladrags.com?aff=95">'Gladrags'</a>
+
+nameLinked: <a href="http://www.gladrags.com?aff=95">'Gladrags'</a>
+name: Gladrags
+#featured: true
+featuredDescription: Reusable menstrual products
+tags:
+  impactType:
+    - reduce_CO2
+    - reduce_waste_or_pollution
+    - tackle_oppression
+    - improve_physical_health
+    - improve_mental_health
+
+  productType: beauty_and_health
+
+main:
+  highlight: reusable period products such as liners and pads, designed to make you feel comfortable in a safe and environmentally-friendly manner.
+  mission: to positively transform the experience of menstruation through reusable menstrual products & relevant education.
+  filePath: ./GladRags/vetting-form.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./GladRags/product1.png
+    - ./GladRags/product2.png
+
+details:
+  about: |
+    <p><a href="http://www.gladrags.com?aff=95">'Gladrags'</a> reusable panty liners and pads are a solution for several problems that may have not been in front of our minds for a long time. When menstruating, the majority of women would be used to reaching for disposables. However, single-use pads and tampons are neither good for our bodies nor the environment <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948026/">'source1'</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8462722/">'2'</a>, <a href="https://rctom.hbs.org/submission/the-ecological-impact-of-feminine-hygiene-products/">'3'</a>, <a href="https://digital.hbs.edu/platform-rctom/submission/the-ecological-impact-of-feminine-hygiene-products/">'4'</a>, <a href="https://www.theguardian.com/sustainable-business/2015/apr/27/disposable-tampons-arent-sustainable-but-do-women-want-to-talk-about-it">'5'</a>. Single-use pads are in touch with one of the most absorbent parts of our bodies and contain plenty of chemicals (e.g., dyes and bleach). Tampons come with the risk of toxic shock syndrome (TSS) and disturb the vaginal flora.</p>
+    <p><a href="http://www.gladrags.com?aff=95">'Gladrags'</a>, one of the best reusable period pads, are different: they are made from cotton or organic cotton fiber, thus being gentle on your skin. They are also reusable, i.e. they don’t end up in landfill! That sums up to a lot of waste prevented by each switch! You can even save money when investing in reusables compared to buying disposables, namely $450 over 5 years! </p>
+    <p>The reusables are great for postpartum, light incontinence and folks with vulvodynia, vaginitis or allergies as well! Learn more about their cloth pads and menstrual cups <a href="https://gladrags.com/pages/questions-about-menstrual-cups-cloth-pads-answered?aff=95" rel="nofollow">here</a> </p>
+
+  benefit: |
+    <p><a href="http://www.gladrags.com?aff=95">'Gladrags'</a> has been in the business for decades. Right from the start, environmental sustainability and women's health has been driving the company’s operations. <a href="http://www.gladrags.com?aff=95">'Gladrags'</a> was B certified and recertified multiple times and achieved high ratings in 2021 including the “Best for Changemakers” tag, proving their continuous effort to benefit people and the planet. <a href="http://www.gladrags.com?aff=95">'Gladrags'</a>  actually was one of the pioneers, receiving this certification as the first company in Oregon. Definitely a trend-setter making one of the best reusable period pads!</p>
+    <p>The company donates reusable period products and parts of their profit to organizations and/or communities in need to empower women and girls.</p>
+    <p>Did you know: one woman uses on average between 12,000 to 16,000 disposable pads, tampons, and pantyliners in a lifetime, each of them wrapped in plastic. This is a lot of landfill that could even potentially end up in our oceans! Each new <a href="http://www.gladrags.com?aff=95">'Gladrags'</a> customer helps reduce this burden. <a href="http://www.gladrags.com?aff=95">'Gladrags'</a> are not only a solution to the waste problem, but also for providing a safe alternative to the health issues that could accompany disposable period products.</p>
+
+  nowMe:
+    - safer than tampons that have a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948026/">risk of TSS</a>)
+    - safer than disposable pads which (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948026/">'contain'</a> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8462722/">'chemicals and dyes'</a>)
+
+  futureMe:
+    - |
+      save money: $150 vs $600 <a href="https://gladrags.com/pages/questions-about-menstrual-cups-cloth-pads-answered?aff=95" rel="nofollow">over 5 years/a>)
+    - eliminate potential long-term health concerns from ongoing exposure to irritating ingredients
+
+  nowUs:
+    - reduced single-use period products reduces landfill and burden on our oceans
+    - production without chemicals, dyes or fragrances that can irritate skin and pollute our waterways and compromise manufacturers’ health
+
+  futureUs:
+    - less energy and CO2 emissions used compared to production of tampons and pads. <a href="https://rctom.hbs.org/submission/the-ecological-impact-of-feminine-hygiene-products/">Source 1</a>, <a href="https://digital.hbs.edu/platform-rctom/submission/the-ecological-impact-of-feminine-hygiene-products/">2</a><a href="https://www.theguardian.com/sustainable-business/2015/apr/27/disposable-tampons-arent-sustainable-but-do-women-want-to-talk-about-it">3</a>
+    - reduced plastic pollution and water use <a href="http://www.designlife-cycle.com/life-cycle-of-tampons">for growing cotton</a>
+    - helping reduce gender disparities through donations and reducing stigma
+    - in turn helps reduce dropout rates of girls in schools
+
+timeline:
+  years:
+    - 1993
+    - 2012
+    - 2014
+    - 2016
+    - 2019
+  events:
+    - foundation
+    - certified B corporation
+    - re-certified as B corporation
+    - re-certified as B corporation
+    - re-certified as B corporation
+Keyword: best reusable period pads

@@ -4,8 +4,9 @@ export const theme = {
       beige:'#f5f3f0',
       midnight:'#2e3b4b',
       indian:'#ffc87c',
-      peach:'#fac583',
+      peach:'#fca583',
       smoke:'#ebebeb',
+      smokeLight:'#f8f6f6',
       dusk:'#acb7bf',
       noosa:'#a8ccd8',
       ams:'#4A5368',
@@ -13,6 +14,10 @@ export const theme = {
     },
     fonts:{
       main:"Inter"
+    },
+    fontSize:{
+      btnSize:"1.25rem"
+      
     },
     borderRadius:{
       hero:"0 0 75px 0"

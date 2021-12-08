@@ -1,0 +1,84 @@
+# GUIDELINE 
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE 
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+name: OrganiCup
+featured: true
+featuredDescription: Sustainable bottles
+tags:
+  impactType: 
+    - improve_physical_heatlh
+    - tackle_oppression
+  productType: home
+
+main:
+  highlight: reusable menstral cup that is made of 100% soft medical grade silicone. Designed to replace a sustainable healthy alternative to women that also doesn't harm the natural
+  mission: to provide a sustainable and scalable solution to end period poverty <a href="https://www.google.com">My link</a>
+  filePath: ./brand-review-page.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards: 
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./TestOrganicup/product1.png
+    - ./TestOrganicup/product2.png
+    - ./TestOrganicup/product3.png
+    
+details: 
+  about: You may have heard of the menstral cup, a fairly new alternative to tampons and pads. A cup is convenient, and is keeping an normous amount aof waste out of our landfill most abundant mineral on our planet.
+  benefit: Like many other impact brands, Organicup aims to benefit both people and the envrionment benefit bothe people and the envrionment Using a mentral cup for two years can svae up to 528 tempons worht of waste - that's roughly 20 kilos! And each cup can actually bbe used for much longer than that
+  nowMe: 
+    - reusable 
+    - menstral cup 
+    - that is made of 100% 
+    - that is made of 100% 
+    - soft medical grade silicone
+    - soft medical grade silicone
+  futureMe: 
+    - have non mutant offspring
+    - save earth  
+    - save earth  
+    - save money
+    - save money
+    - things last longer
+  nowUs: 
+    - good economy
+    - support good people 
+    - injecting recources to the right goals
+    - investment period
+    - investment period
+  futureUs:  
+    - save earth
+    - more efficent society
+    - more efficent society
+    - new economy
+    - new economy
+    - new frontier
+
+timeline:
+  years:
+    - 2011 
+    - 2014 
+    - 2016 
+    - 2019 
+    - 2020 
+  events:
+    - Raised money
+    - Official launch
+    - 0Ocean Clean-up program
+    - STEM programs
+    - 100% reccyled

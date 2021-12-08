@@ -12,4 +12,6 @@ export { default as Layout } from './Layout'
 export { default as LineAnimate } from './LineAnimate'
 export { default as BlogCard } from './blog-card'
 export { default as BlogCardAlt } from './BlogCardAlt'
+export { default as Quotes } from './Quotes'
+export { default as Triple } from './Triple'
  

@@ -1,0 +1,116 @@
+# GUIDELINE 
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE 
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+nameLinked: <a href="https://www.organicup.com/">AllMatters</a>
+name: AllMatters
+featured: true
+featuredDescription: Menstrual cups
+tags:
+  impactType: 
+    - improve_physical_health
+    - improve_mental_health
+    - tackle_oppression
+    - tackle_inequality_and_discrimination
+    - reduce_waste_or_pollution
+  productType: beauty_and_health
+
+main:
+  highlight: reusable menstral cup that is made of 100% soft medical grade silicone. Designed to replace pads and tampons as a sustainable, healthy alternative that also cuts a lot of single-use waste.
+  mission: to provide a sustainable and scalable solution to end period poverty
+  filePath: ./AllMatters/vetting-form.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards: 
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./AllMatters/product1.png
+    - ./AllMatters/product2.png
+    
+details: 
+  about: |
+    <p>You may have heard of the menstrual cup, a fairly new alternative to tampons and pads. A cup is convenient, and is keeping an enormous amount of waste out of our landfill.</p>
+    <p>The Almatters menstrual cup is made out of 100% medical- grade silicone, derived from the second most abundant mineral on our planet (Quartz). The cup comes in a small recycled carton package, and in a handy storage bag for your cup that is from unbleached organic cotton. There is not much more one can do to shrink one's period(ical) footprint!</p> 
+    <p>When wearing the right fitting menstrual cup, it is easy to literally forget about your period. You won't even notice that you're wearing anything to catch the flow! How often we had to step back into the shower to go clean the cup, after having forgotten about it completely during shower #1!</p> 
+    <p>Tip: Our favourite way to handle periods with waste free period products, is a menstrual cup 'backed up' by period underwear on the first, heavier days or overnight! No leak, no smell, no waste, no trouble!</p> 
+
+https://www.organicup.com/
+
+  benefit: |
+    <p>Like many other impact brands, Almatters aims to benefit both people and the environment.</p>
+    <p>Using a menstrual cup for two years can save up to 528 tampons worth of waste - that's roughly 30 kilos! And each cup can actually be used for much longer than that: up to 9-10 years. This way, AllMatters helps eliminate tons of waste from our landfills and oceans by providing a safe, convenient and reusable alternative to tampons and pads.</p>
+    <p>In fact, to this day, women switching to OrganiCup waste free period products collectively avoided over 369 Million disposable period products, that all contain plastic and come wrapped in plastic packaging!</p>
+    <p>On top of waste-reduction, a silicone-grade menstrual cup like the one from Almatters can be a healthier and more convenient alternative for you. Did you know that most tampons contain quite some harsh chemicals? On top of that, they can be pretty disturbing to your natural flora 'down there' - as they are soaking up fluids, rather than just collecting them like an Almatters does. In addition, this method, when applied appropriately, is much less likely to leak that smell, compared to tampons and pads, and there might be a lesser risk of TSS as well. If you've been craving some more intimacy during 'those days' as well, a menstrual cup can even open possibilities for some of those activities, too. To accomplish their mission of ending period poverty, the company has created and is part of several projects that aim to increase awareness and remove stigma around periods. Through their own programs, such as the Period Education Program, AllMatters has so far donated more than 15,000 cups in their 9 years of existence! The company has also partnered with the charity Freedom 4 Girls. The organization fights period poverty and lack of menstrual education in Kenya. Here, an astonishing 60% of females don't have access to sanitary protection. However, it is not only the access to sanitary products that are an issue, but also the lack of information and the stigma around periods. Girls all over the world are still being mocked and embarrassed for the most natural and life-bearing occurrence of menstruation, leading to a higher rate of missed days at schools and drop-out rate. Here is where Almatters' projects can have a long-term effect on the empowerment of young girls and equalize the playing field for all kids.</p>
+    <p>Read more on AllMatters' waste free period products projects <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948026/">here</a>.</p> 
+
+  nowMe:  
+    - <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948026/">may reduce risk of Toxic Shock Syndrome</a> 
+    - medical grade silicone is <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4884743/">safe for human use</a> 
+    - <a href="https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(19)30111-2/fulltext">doesn't disturb</a> vaginal flora
+    - can stay inserted for 8-12h, including overnight
+    - holds more blood than tampons or pads
+    - no smell with a proper fit	 	   	
+  futureMe:  
+    - <a href="https://www.composednutrition.com/blog/benefits-of-menstrual-cups">save money</a> long-term
+    - no <a href="https://www.organicup.com/environmental-reasons-to-switch/">chemicals</a> make it <a href="<a href="https://www.composednutrition.com/blog/benefits-of-menstrual-cups">healthier</a> compared to non-organic tampons and pads  
+    - no disruption of vaginal flora by absorption 
+ 
+  nowUs:  
+    - reduces burden on <a href="https://stanfordmag.org/contents/planet-friendly-periods">landfill</a> and <a href="https://www.wen.org.uk/whatstheproblem/">water</a>
+    - period education for girls and women in need
+    - <a href="https://stanfordmag.org/contents/planet-friendly-periods">reduction of use of energy and CO2 emission</a> from resource-intensive <a href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/07/UNEP-LCI-Single-use-vs-reusable-Menstrual-Products-Meta-study.pdf">production of tampons or pads</a>  
+
+
+  futureUs:   
+    - |
+      period education reduces stigma, misconceptions and shame around periods
+    - |
+      less mocking in school increases girls' mental health and decreases lost hours in school due to periods
+    - education of women is one of the most powerful leverage points in <a href="https://www.brookings.edu/blog/education-plus-development/2021/02/10/why-is-girls-education-important-for-climate-action/">curbing global warming </a>
+    - |
+      Plastic reduction: most pads contain polyethylene plastic, an <a href="https://www.organicup.com/environmental-reasons-to-switch/">environmentally harmful pollutant</a>
+    - |
+      CO2 reduction: A year's worth of disposable period products has a <a href="https://rctom.hbs.org/submission/the-ecological-impact-of-feminine-hygiene-products/">high</a> carbon footprint
+    - Overall reduction of <a href="https://digital.hbs.edu/platform-rctom/submission/the-ecological-impact-of-feminine-hygiene-products/">ecological impact</a> 
+
+timeline:
+  years:
+    - 2012 
+    - 2015 
+    - 2016 
+    - 2017 
+    - 2017
+    - 2018 
+    - 2019
+    - 2019
+    - 2019
+    - 2019 
+  events:
+    - foundation
+    - awarded 'Best New Product' and 'Product of the Year'
+    - AllergyCertified
+    - OrganiGirls campaign launched
+    - registration with The Vegan Society
+    - voted 'Buyer's favorite' at Indie Beauty Expo in NY
+    - Allergy award & Most sustainable in beauty & health award
+    - |
+      the project 'Taboo: Global Periods' is launched
+    - more than 10k cups donated
+    - 1 mio cups sold
+
+
+Keyword: waste free period products

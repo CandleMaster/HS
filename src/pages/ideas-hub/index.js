@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import React, { useState } from 'react'
+import React from 'react'
 
 import { Layout } from '../components'
 import { theme } from '../../styles/theme'
 import MapSection from './MapSection'
 import BlogSection from './BlogSection'
-// import ContainerWrapper from './ContainerWrapper'
 
 
 export default function Blog() {
@@ -16,7 +15,6 @@ export default function Blog() {
         border: 1px white solid;
         h1{
             height: auto;
-            /* font-size: 1rem; */
             text-align: center;
             width: 70%;
             margin: 10rem auto 4rem;

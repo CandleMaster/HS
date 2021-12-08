@@ -21,7 +21,7 @@ const InfoHead=styled.h2`
     `
 const InfoText = styled.div`
     font-family:Inter, sans-serif;
-    font-size: .85rem;
+    font-size: 1rem;
     margin: 0;
     padding-bottom: 1rem;
     `
@@ -32,12 +32,18 @@ margin: .5rem 0;
 `
     return (
       <InfoBlock>
-                <InfoHead>Product</InfoHead>
-                <InfoText>{highlight}</InfoText>
-                <InfoHead>Mission</InfoHead>
-                <InfoText>{mission}</InfoText>
-            <File href={filePath}><StaticImage src="../../../../images/triple_impact.png" style={{width:"3rem",height:"auto"}} alt="file"/></File>
-                  
+            <InfoHead>Product</InfoHead>
+            <InfoText dangerouslySetInnerHTML={{ __html: highlight }}/>
+            <InfoHead>Mission</InfoHead>
+            <InfoText dangerouslySetInnerHTML={{ __html: mission }}/>
+            <File href={filePath}>
+                <div>Brand assessment report</div>
+                {/* <StaticImage 
+                    src="../../../../images/triple_impact.png" 
+                    style={{width:"3rem",height:"auto"}} 
+                    lt="file"
+                /> */}
+            </File>
       </InfoBlock>
     )
   }

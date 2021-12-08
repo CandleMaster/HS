@@ -1,0 +1,96 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+#Affil link to HOME  https://allbirds.pxf.io/Keyv3a
+# <a href="https://allbirds.pxf.io/Keyv3a">Allbirds</a>
+
+nameLinked: <a href="https://allbirds.pxf.io/Keyv3a">Allbirds</a>
+name: Allbirds
+featured: true
+featuredDescription: Shoes from natural materials
+tags:
+  impactType:
+    - improve_physical_health
+    - reduce_CO2
+    - reduce_waste_or_pollution
+  productType: lifestyle_and_apparel
+
+main:
+  highlight: comfortable shoes made out of natural materials such as wool, designed to provide comfort and breathability without costing the Eearth!
+  mission: to do better things in a better way and influence other businesses to follow in their footsteps
+  filePath: ./Allbirds/vetting-form.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./Allbirds/product1.png
+    - ./Allbirds/product2.png
+    - ./Allbirds/product3.png
+
+details:
+  about: |
+    <p><a href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is a sustainability-focused brand that designs and makes shoes and clothing. Their focus is on using naturally derived materials for their products, for example wool. The global footwear industry makes over 20 billion pairs of petroleum-based shoes a year which in turn negatively affects global warming.</p>
+    <p>Tim Brown and Joey Zwillinger teamed up to create a new type of shoe using nature’s sustainable resources, such as New Zealand merino wool, and thus created Allbirds’ first shoe, <a href="https://allbirds.pxf.io/5b1D3n">the wool runner</a. The same philosophy spans throughout all their products be it shoes or comfy, casual apparel made out of innovative, natural ingredients that don’t cost the Earth! </p>
+
+  benefit: |
+    <p><a href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is a public benefit corporation which means that their board of directors and management are empowered and encouraged to consider environmental conservation when making decisions. </p>
+    <p>Their goal and ambition is to “reverse climate change through better business”. To support this ambition, href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> has identified three main levers for reducing their carbon emission in half by 2025 while maintaining a carbon neutral business: Regenerative Agriculture, Renewable Materials, and Responsible Energy.</p>
+    <p>Regenerative agriculture plays a key role in reducing carbon in air and materials like wool have the potential to be low-carbon or carbon-negative. They look for materials that are natural and leave minimal carbon footprint, thus they use natural and renewable fabrics such as Merino Wool, Tencel Lyocell (eucalyptus fiber) and sugarcane fiber in their products.</p>
+    <p>The responsible use of energy is of paramount importance to Allbirds. For that reason, they prioritize ocean transportation rather than air, hanging clothes to dry instead of machine-drying and partnering with factories and suppliers that utilize sustainable practices. </p>
+    <p><a href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is committed to a more sustainable and regenerative business model and is constantly seeking solutions to drive a change in the footwear and apparel industry. Their purpose and mission is to also inspire other businesses to examine their own practices and take planetary impact into account. </p>
+
+  nowMe:
+    - healthy footwear that is made from natural materials
+    - high comfort with natural materials being moisture-wicking, breathable, more odor <a href="https://journals.asm.org/doi/full/10.1128/AEM.01422-14">and microbes resistant</a>
+
+  futureMe:
+    - high quality, natural fabrics may have long term benefits on our health. <a href="https://www.sciencedaily.com/releases/2015/10/151023084508.htm">Source 1</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/25889781/">2</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6133113/">3</a>
+    - quality product with high durability is an investment
+
+  nowUs:
+    - |
+      fast-fashion alternative that reduces impact on environment: products made by a company using renewable energy
+    - replacement of petroleum-based products with natural fiber reduces emissions
+    - actively influencing other businesses to do the same
+
+  futureUs:
+    - supporting a company that is reducing carbon footprint to zero <a href="https://cdn.allbirds.com/image/upload/v1625161698/marketing-pages/Allbirds_Sustainability_Report_2020.pdf?_gl=1*1rjc1in*_ga*NjcyMzI0ODU3LjE2MzUzODA2MDU.*_ga_KJL05B1DJZ*MTYzNTYyODUyMy4yLjEuMTYzNTYzMDAyOC4w">by 2030</a>
+    - can reduce global warming
+    - natural materials and recycling opportunity reduces petroleum-based waste from the fashion industry
+    - can reduce chemicals being washed off synthetic clothes and being introduced into href="https://www.sciencedaily.com/releases/2015/10/151023084508.htm">our waterways</a>
+
+timeline:
+  years:
+    - 2014
+    - 2016
+    - 2019
+    - 2019
+    - 2020
+    - 2021
+
+  events:
+    - foundation
+    - incorporated as Public Benefit Corporation (PBC)
+    - AllergyCertified
+    - Carbon Neutral certified
+    - recertified as B corporation
+    - introduced carbon footprint labelling
+    - outsourced carbon footprint tool
+
+Keyword: shoes made from natural materials

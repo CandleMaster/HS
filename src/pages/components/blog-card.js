@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
 import { theme } from '../../styles/theme'
-import { GatsbyImage } from 'gatsby-plugin-image'
 
     const BlogCardWrap=styled.div`
         height: auto;
@@ -56,7 +55,6 @@ export default function BlogCard({ image }) {
                 <AuthorDate>By Olivia Sakanovich</AuthorDate>
                 <AuthorDate>21 October, 2021</AuthorDate>
             </BlogInfo>
-            {/* <GatsbyImage image={image}/> */}
             <TestImg></TestImg>
         </BlogCardWrap>
     )

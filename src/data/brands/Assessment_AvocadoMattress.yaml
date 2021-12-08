@@ -1,0 +1,91 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+#affiliate link to HOME: <a href="https://shareasale.com/r.cfm?b=939087&u=2807031&m=68778&urllink=&afftrack=">Avocado Mattress</a>
+
+nameLinked: <a href="https://shareasale.com/r.cfm?b=939087&u=2807031&m=68778&urllink=&afftrack=">Avocado Mattress</a>
+name: Avocado Mattress
+#featured: true
+featuredDescription: sustainable mattresses and bedding
+tags:
+  impactType:
+    - reduce_CO2
+    - improve_physical_health
+    - improve_mental_health
+
+  productType: home
+
+main:
+  highlight: comfortable, safe mattresses and bedding essentials that do not only provide you with the best sleep but are produced in the most sustainable manner possible.
+  mission: to be the most respected source for organic and natural mattresses, pillows, and bedding at affordable prices — while maintaining environmentally conscious, ethical, and sustainable business practices across our entire supply chain.
+  filePath: ./AvocadoMattress/vetting-form.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./AvocadoMattress/product1.png
+    - ./AvocadoMattress/product2.png
+    - ./AvocadoMattress/product3.png
+
+details:
+  about: |
+    <p><a href="https://shareasale.com/r.cfm?b=939087&u=2807031&m=68778&urllink=&afftrack=">Avocado Mattress</a> makes (one of) the best sustainable mattresses out there! Given that we sleep around one third of our life (!), it is certainly not a waste to consider how we can improve our quality of sleep and how we could invest in healthier sleep. One third of our lives where we’re wrapping our bodies and skins into the cosiness of our beds. But have you ever considered the materials your mattress and bedding are made of? Avocado sets a new standard as a mattress company with only using clean, safe materials. The company and products hold a large number of certifications backing their claims. GOTS organic certified is the only cotton the company uses for mattresses, pillows, and bedding. Organic cotton is not just a higher-functioning material. Conventional cotton is a polluted crop that wastes more energy and water. <a href="https://shareasale.com/r.cfm?b=939087&u=2807031&m=68778&urllink=&afftrack=">Avocado’s</a> organic cotton is ethically grown in India without any of the nasties. The mattresses are manufactured in their California factory, which is powered entirely by renewable energy!</p>
+    <p>Other renewable materials the company uses includes GOLS certified organic latex, GOTS certified organic wool, and GOTS certified organic kapok fiber. Which makes many Avocado products even biodegradable. For furniture, it is either reclaimed wood or fast-growing, FSC-certified timber like alder and Douglas fir that is used. Most products are Greenguard Gold and MADE SAFE® certified, so you can rest assured that you are buying a clean, safe product for your home.</p>
+
+  benefit: |
+    <p>“Our mission is to be one of the world’s most <a href"http://shrsl.com/3a6kz">sustainable brands</a.” And wow, Avocado is not only going that extra mile, but running an extra marathon to achieve that goal. It is the world’s only <a href="https://www.climateneutral.org/">Climate Neutral Certified®</a> mattress and bedding brand. One percent of all revenue is donated to environmental nonprofits through their membership with <a href=""https://www.onepercentfortheplanet.org/">1% For the Planet</a>. And the latter has awarded <a href="https://shareasale.com/r.cfm?b=939087&u=2807031&m=68778&urllink=&afftrack=">Avocado Mattress</a> with their first ever Pinnacle Award in 2020, which honors businesses that raise the bar in environmental responsibility. The list of certifications and <a href"http://shrsl.com/3a6kz">awards</a that the company holds are too long to list here! </p>
+    <p><a href="https://shareasale.com/r.cfm?b=939087&u=2807031&m=68778&urllink=&afftrack=">Avocado</a> also cares about people: discounts for front line workers during the Covid-19 pandemic and donating most of mattresses and pillows that are returned to the company to shelters in need; as well as providing living wages, medical care and paid volunteer days, and access Headspace and ClassPass showcases their commitment to the ‘people’ component in the triple impact. Their factory in India employs many women who were victims of domestic violence and provides safe, clean jobs with no chemicals used when processing raw wool or latex. Avocado is also the only mattress company that uses wool certified by the <a href="https://textileexchange.org/standards/responsible-wool/">Responsible Wool Standard</a>. This strict certification ensures our farmers maintain best practices and look out for animal welfare.</p>
+    <p>Energy use is limited as much as possible by using recycled steel coils and natural latex instead of a synthetic, petroleum-based alternative. The energy that is consumed is matched 100% to support wind farms through <a href="https://arcadia.com">Arcadia Power</a>.</p>
+    <p>Some more impressive numbers just from 2020: Avocado has offset 100% of carbon emissions, upcycled 100% of unused material, donated 100% of returned pillows to nonprofits, produced 500,000 organic masks and donated 15,000 of those. A superstar impact brand leaving no stone unturned!</p>
+
+  nowMe:
+    - no chemicals in contact with skin while sleeping
+    - improved thermoregulation leads to <a href="https://www.sciencedirect.com/science/article/pii/S0306456518301335?via%3Dihub">'better quality sleep'</a>
+    - better sleep reduces brain fog, negative emotions and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6143346/">improves focus and relationships</a>
+
+  futureMe:
+    - long-term health improves with better sleep. <a href="https://pubmed.ncbi.nlm.nih.gov/30920354/">Source 1</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/20398008/">2</a>) on safe, breathable materials (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6716586/">3</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0306456518301335?via%3Dihub">4</a>)
+
+  nowUs:
+    - organic growing practices keeps soil healthier
+    - reduced CO2 through local manufacturing powered by renewables and through support of a carbon negative company
+
+  futureUs:
+    - stakeholder and women empowerment has long-term positive consequences on their mental health and population growth. <a href="https://blog.forumias.com/answered-discuss-how-empowering-women-would-help-in-population-growth-control/">Source 1</a>, <a href="https://www.un.org/womenwatch/feature/climate_change/downloads/Women_and_Climate_Change_Factsheet.pdf">2</a>, <a href="https://www.earthday.org/womens-empowerment-is-key-to-reducing-climate-change/">3</a>)
+    - supporting a carbon negative company reduces CO2 emissions
+    - growing awareness on clean energy
+    - support a company lobbying for climate action
+    - potentially reduced burden on landfills through partially biodegradable products
+
+timeline:
+  years:
+    - 2017
+    - 2019
+    - 2020
+    - 2020
+    - 2020
+
+  events:
+    - foundation
+    - climate neutral certified
+    - carbon negative company
+    - certified B corporation
+    - 1% For the Planet’s inaugural Pinnacle Award winner
+
+Keyword: best sustainable mattress

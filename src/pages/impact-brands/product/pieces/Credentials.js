@@ -23,9 +23,14 @@ h2{
 }
 `
 
-function awardMap(item){
+function awardMap(item,index){
     const image = getImage(item.childrenImageSharp[0])
-    return(<GatsbyImage image={image} alt='no image' objectFit="contain"></GatsbyImage>)
+    return(<GatsbyImage 
+        image={image} 
+        alt='no image' 
+        objectFit="contain"
+        key={index}
+    />)
 }
     return (
         <Credential>

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { theme } from '../../styles/theme'
 import { SimpleSlider } from '../components'
 import { GatsbyImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
 
 const BrandLogo=styled(GatsbyImage)`
     width: 2rem;
@@ -10,19 +11,19 @@ const BrandLogo=styled(GatsbyImage)`
     object-fit:contain;
     top:-2.5rem;
 `
-export default function ProductCard({ ProductImages, BrandNameLogo, display,...prop}) {
-const ProductCardWrap=styled.div`
+export default function ProductCard({ ProductImages, BrandNameLogo, LinkTo, display,...prop}) {
+const ProductCardWrap=styled(Link)`
     background-color: ${theme.colors.beige};
-    border-radius:0 50px;
+    border-radius:0 50px 50px 50px;
     aspect-ratio:1;
     display:${display}
 `
     return (
         <>
-            <ProductCardWrap> 
+            <ProductCardWrap to={LinkTo}> 
             <BrandLogo image={BrandNameLogo} />
                 <SimpleSlider imageList={ProductImages} duration="99999999" button="none" />
             </ProductCardWrap>
-            </>    
+        </>    
     )
 }

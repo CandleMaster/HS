@@ -1,0 +1,85 @@
+# GUIDELINE
+# All dashes, indentation and colon + space mean something for the data structure
+# so they need to be followed carefully
+# DON'T remove any items before colon
+# DON'T worry about file paths for now, just make sure you have the files
+# DO add more dashes if it suits you
+# Message me anytime if you have any questions:)
+
+# CHANGES INCLUDE
+# 1 NO SLUGS
+# 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
+
+# Affil link for HOME https://shrsl.com/2xyfw
+#HTML <a href="https://shrsl.com/2xyfw">Reel</a>
+
+nameLinked: <a href="https://shrsl.com/2xyfw">Reel</a>
+name: Reel
+featured: true
+featuredDescription: Bamboo toilet paper
+tags:
+  impactType:
+    - improve_physical_health
+    - improve_mental_health
+    - reduce_CO2
+    - reduce_waste_or_pollution
+    - tackle_oppression
+    - improve_safety_sanitation
+    - tackle_inequality_and_discrimination
+
+  productType: home
+
+main:
+  highlight: comfortable, soft and strong toilet paper made from bamboo which uses much less water and grows super-fast! No chlorine, no fertilisers, no pesticides.
+  mission: to affect as many lives as possible by providing much-needed access to clean toilets for those without.
+  filePath: ./Reel/vetting-from.pdf
+  brandLogo: ../../images/logo/HS_logo_white.png
+  brandNameLogo: ../../images/logo/HS_logo_blue.png
+  awards:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_blue.png
+    - ../../images/logo/HS_logo_colored.png
+  labels:
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+    - ../../images/logo/HS_logo_white.png
+  productImages:
+    - ./Reel/product1.png
+    - ./Reel/product2.png
+
+details:
+  about: |
+    <p><a href="https://shrsl.com/2xyfw">Reel</a>’s toilet paper made from bamboo is better on the planet and better on your bum! The 3-ply, ‘ready biodegradable’ certified toilet paper comes completely plastic free. In fact, all shipping materials are biodegradable. The paper is sourced from protected, naturally grown bamboo plants in Southwestern China with the manufacturers having obtained <a href="https://fsc.org/en">FSC®</a> (Forest Stewardship Council) certification. The company chose to source from and produce in China after careful consideration of which location would give the best opportunity to make a difference.</p>
+    <p>Bamboo makes for a super soft paper product, and it is naturally designed for highest strength!</p> 
+    <p>The bamboo plants grow without pesticides or fertilizers and <a href="https://shrsl.com/2xyg3">use 30% less water</a> compared to hardwood trees. It also gives out 35% more oxygen than trees! The stalks are converted into chips which are then boiled and bleached using chlorine-free bleach. After drying and pressing into plates, the rolls are formed and cut into the rolls that land in your bathroom!</p>
+
+  benefit: |
+    <p>Toilets are expensive and use loads of water. This leaves 2 billion people with no access to a toilet. You might have never thought about this privilege, but having a toilet in your home protects you not only from odor and embarrassment, but from deadly disease.</p>
+    <p>When you buy a roll of <a href="https://shrsl.com/2xyfw">Reel</a> toilet paper, the company gives back through their partner <a href="https://www.oursoil.org/">SOIL</a>. SOIL works in Haiti to design, test, and implement sustainable and cost-effective solutions to the sanitation crisis. </p>
+    <p>For every box sold, <a href="https://shrsl.com/2xyfw">Reel</a> donates $0.50 to SOIL. Additionally, the company also collects donations for their non-profit partner. </p>
+
+  nowMe:
+    - no ink, dyes or scents which minimises irritation <a href="https://www.glamour.com/story/heres-how-your-toilet-paper-could-be-messing-with-your-vagina#:~:text=Technically%2C%20you%20can%20be%20allergic,if%20it's%20scented)%20switch%20brands.">on your skin</a>
+    - comfy toilet visits
+
+  futureMe:
+    - certified ‘ready biodegradable’ toilet paper is easy on pipes and compostable toilets
+    - no skin irritation ensuring long-term health <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2860827/">'down there'</a>
+
+  nowUs:
+    - bamboo uses much less water than trees
+    - make a high impact by helping provide sanitation and toilets to people in need
+    - reducing waterborne disease, hospitalisation and death, and stigma
+
+  futureUs:
+    - women empowerment and improved family dynamics can naturally slow population growth
+    - positive influence on education and growth of countries receiving donations
+    - the use of bamboo paper is replacing the cutting down of trees benefiting global warming and biodiversity loss
+    - biodegradable toilet paper is less harsh on our waterways
+
+  years:
+    - test
+
+  events:
+    - test
+Keyword: sustainable toilet paper alternatives

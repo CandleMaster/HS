@@ -27,6 +27,7 @@ function Navbar() {
             padding: 1rem;
             display: grid;
             place-items: center;
+            font-size: 1.25rem;
         }
     `
 
@@ -34,6 +35,7 @@ function Navbar() {
         color: white;
         text-decoration: none;
         line-height: 1.5rem;
+        text-align:center;
         transition: opacity .3s ease-in-out, text-decoration .5s ease-in-out;
         opacity:0;
         /* transition:; */
@@ -61,9 +63,9 @@ function Navbar() {
                 />
             </Link>
             <NavLink to='/impact-brands'>impact brands</NavLink>
-            <NavLink to='/ideas-hub'>ideas hub</NavLink>
-            <NavLink to='/agatonomy'>agatonomy</NavLink>
+            <NavLink to='/ideas-hub' style={{display:'none'}}>ideas hub</NavLink>
             <NavLink to='/about-us'>about us</NavLink>
+            <NavLink to='/agatonomy'>agatonomy</NavLink>
             <Link to='/'>
                 <Hamburger>
                     <div />

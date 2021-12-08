@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components'
 
 const items = 5
-const duration = 12
+const duration = 20
 const cycleGlyphs = keyframes`
   0%, ${100 / items - 3}% { opacity: 1; }
   ${100 / items}%, 100% {opacity: 0;}

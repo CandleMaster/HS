@@ -4,7 +4,7 @@ import { theme } from '../../styles/theme'
 import { Container, FooterCard, Mailing } from './'
 import { StaticImage } from 'gatsby-plugin-image';
 
-export default function Footer({data}) {
+export default function Footer() {
     const FooterContainer = styled.footer`
         background-color: ${theme.colors.beige} !important;
         height: auto;
@@ -34,7 +34,6 @@ export default function Footer({data}) {
         margin: '1.5rem 0'
     }
 
-    console.log(data)
     return (
         <>
             <FooterContainer>
@@ -49,10 +48,30 @@ export default function Footer({data}) {
                         </FooterCard>
                         <FooterCard title='Connect:' titleStyle={{display:'grid',placeItems:'center'}}>
                             <Connect>
-                                <StaticImage src="../../images/logo/twitter_icon_large.png"></StaticImage>
-                                <StaticImage src="../../images/logo/facebook_icon_large.png"></StaticImage>
-                                <StaticImage src="../../images/logo/youtube_icon_large.png"></StaticImage>
-                                <StaticImage src="../../images/logo/IG_icon_large.png"></StaticImage>
+                                <a href="https://www.twitter.com/hopskotchway " 
+                                    target="_blank">
+                                    <StaticImage 
+                                        src="../../images/icons/twitter_icon_large.png" 
+                                        alt="our twitter"
+                                        /></a>
+                                <a href="https://www.facebook.com/Hopskotch-104115318382016 " 
+                                    target="_blank">
+                                    <StaticImage 
+                                        src="../../images/icons/facebook_icon_large.png" 
+                                        alt="our facebook"
+                                        /></a>
+                                <a href="https://www.youtube.com/channel/UC2cIg-Kq4w-NsxSLThHU8fA" 
+                                    target="_blank">
+                                    <StaticImage 
+                                        src="../../images/icons/youtube_icon_large.png" 
+                                        alt="our youtube"
+                                        /></a>
+                                <a href="https://www.instagram.com/hopskotchway" 
+                                    target="_blank">
+                                    <StaticImage 
+                                        src="../../images/icons/IG_icon_large.png" 
+                                        alt="our IG"
+                                        /></a>
                             </Connect>
                         </FooterCard>
                         <FooterCard title='Subscribe to stay in the loop.'>

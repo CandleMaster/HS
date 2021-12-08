@@ -1,51 +1,45 @@
 import React from 'react'
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import Hero from './Hero'
-import IdeaDisplay from './IdeaDisplay'
+// import IdeaDisplay from './IdeaDisplay'
 import ProductDisplay from './ProductDisplay'
-import { theme } from '../styles/theme'
 import  { graphql } from 'gatsby'
-import {  getImage } from 'gatsby-plugin-image'
-import { LineAnimate, Layout } from './components'
+import {  getImage} from 'gatsby-plugin-image'
+import {  Layout, Quotes } from './components'
 import './../styles/Global.styles.css'
+import useWindowSize from './components/useWindowSize'
+import { Testamony } from './components/Quotes'
 
-export default function index({data}) {
-    const Testamony = styled.div`
-        width: 60%;
-        height: auto;
-        margin: 13rem auto;
-        padding: 0;
-        >h2{
-          text-align: center;
-          margin: 0;
-          padding: 0;
-          color:${theme.colors.dusk}
-        }
-        div{
-          width: 100%;
-          padding-left:2.75rem;
-        }
-    `
 
+
+export default function Index({data}) {
+  const [width, height]= useWindowSize()
+  console.log(width)
     const coverImage = getImage(data.imageSharp.childImageSharp)
-    const product1 = getImage(data.imageSharp2.childImageSharp)
-    const product2 = getImage(data.imageSharp3.childImageSharp)
-    
-    return (
-      <>
-        <Layout>
+    const featuredBrands = data.allBrandsYaml.nodes
 
-        <Hero image={coverImage}/>
-        <Testamony>
-            <h2>It's not just about doing less harm & being sustainable. </h2>
-            <h2>It's about doing more good.</h2>
-            {/* <div><LineAnimate /></div> */}
-            
-        </Testamony>
-        <ProductDisplay product1={product1} product2={product2} product3={product2} />
-        <IdeaDisplay blogImage1={product2} blogImage2={product1}/>
+    return (
+        <Layout>
+            <Hero image={coverImage}/>
+            <Testamony
+              data-sal="slide-up"
+              data-sal-duration="1000" // changes duration of the animation (from 200 to 2000 ms)
+              data-sal-delay="200" // adds delay to the animation (from 5 to 1000 ms)
+              data-sal-easing="ease"
+      >
+                <h2>It's not just about doing less harm & being sustainable. </h2>
+                <h2>It's about doing <b>more good</b>.</h2>
+            </Testamony>
+            <ProductDisplay 
+                featuredBrands={featuredBrands} 
+                CarouselWidth={width}/>
+            {/* <IdeaDisplay blogImage1={product2} blogImage2={product1}/> */}
+            <Quotes 
+              quoteHeading="Our Philosophy" 
+              quote="We believe that the team work of impact brands and consumers are key to solving our global issue. We call this teamwork agatonomy."
+              />
+              
         </Layout>
-      </>
     )
 }
 
@@ -56,18 +50,25 @@ export const query = graphql`
         gatsbyImageData(placeholder: BLURRED,quality:100)
       }
     }
-    
-    imageSharp2: file(relativePath: {eq: "gatsby-astronaut.png"}) {
-      childImageSharp {
-        gatsbyImageData(placeholder: BLURRED,quality:100)
+    allBrandsYaml(filter: {featured: {eq: true}}) {
+    nodes {
+      name
+      featured
+      featuredDescription
+      main {
+        productImages {
+          childrenImageSharp {
+            gatsbyImageData
+          }
+        }
+        brandNameLogo {
+          childrenImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
-    
-    imageSharp3: file(relativePath: {eq: "gatsby-icon.png"}) {
-      childImageSharp {
-        gatsbyImageData(placeholder: BLURRED,quality:100)
-      }
-    }
+  }
     
 }
   `

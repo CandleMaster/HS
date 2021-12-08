@@ -58,7 +58,6 @@ export default function BlogCard({ padding }) {
                 <p>  | </p>
                 <AuthorDate>21 October, 2021</AuthorDate>
             </BlogInfo>
-            {/* <GatsbyImage image={image}/> */}
             <TestImg></TestImg>
         </BlogCard>
     )
