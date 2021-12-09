@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, CommonHead } from './components'
+import { Navbar, CommonHead } from '../components'
 import { graphql } from "gatsby"
 import { getImage } from 'gatsby-plugin-image'
 

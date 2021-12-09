@@ -1,12 +1,19 @@
 import React, { useState } from 'react'
 import { DownArrow } from '../../styles/Global.styles'
+import styled from 'styled-components'
 
-export default function Expand() {
+const Subheading=styled.h3`
+    /* display:block */
+`
+const ArrowBox=styled(DownArrow)`
+    display:block
+`
+export default function Expand({ subheading, articleText}) {
     class ExpandText extends React.Component {
         constructor(props){
             super(props);
             this.handClick=this.handClick.bind(this)
-            this.state={active:props.truth}
+            this.state={active:props.show}
         }
         
         handClick(){
@@ -17,16 +24,16 @@ export default function Expand() {
     render(){
         return(
             <>
-                {this.state.active && (<div >article</div>)}
-                <DownArrow onClick={this.handClick}></DownArrow>
+                {this.state.active && (<Subheading >{this.props.article}</Subheading>)}
+                <ArrowBox onClick={this.handClick}></ArrowBox>
             </>
         )}
     
     }
     return (
         <>
-            <h3></h3>
-            <ExpandText truth={false}></ExpandText>
+            <Subheading>{subheading}</Subheading>
+            <ExpandText show={false} article={articleText}></ExpandText>
         </>
     )
 }

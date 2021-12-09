@@ -28,7 +28,9 @@ function index({ data }) {
   }
  
   const childHopscotch = getImage(data.imageSharp.childImageSharp)
-
+  const AgatonomyBox=styled(Container)`
+    display:block
+  `
   return (
 
       <Layout >
@@ -48,9 +50,9 @@ function index({ data }) {
           </ImgWrap>
         </Container>
       </DefinitionsContainter>
-      <Container>
-        <Expand></Expand>
-      </Container>
+      <AgatonomyBox>
+        <Expand articleText="hullo" subheading="hullo"></Expand>
+      </AgatonomyBox>
       </Layout>
 
   )

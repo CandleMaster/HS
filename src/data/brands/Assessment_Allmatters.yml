@@ -26,7 +26,7 @@ tags:
 main:
   highlight: reusable menstral cup that is made of 100% soft medical grade silicone. Designed to replace pads and tampons as a sustainable, healthy alternative that also cuts a lot of single-use waste.
   mission: to provide a sustainable and scalable solution to end period poverty
-  filePath: ./AllMatters/vetting-form.pdf
+  filePath: ./Allmatters/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
   awards: 
@@ -38,8 +38,8 @@ main:
     - ../../images/logo/HS_logo_white.png
     - ../../images/logo/HS_logo_white.png
   productImages:
-    - ./AllMatters/product1.png
-    - ./AllMatters/product2.png
+    - ./Allmatters/product1.png
+    - ./Allmatters/product2.png
     
 details: 
   about: |
@@ -47,8 +47,6 @@ details:
     <p>The Almatters menstrual cup is made out of 100% medical- grade silicone, derived from the second most abundant mineral on our planet (Quartz). The cup comes in a small recycled carton package, and in a handy storage bag for your cup that is from unbleached organic cotton. There is not much more one can do to shrink one's period(ical) footprint!</p> 
     <p>When wearing the right fitting menstrual cup, it is easy to literally forget about your period. You won't even notice that you're wearing anything to catch the flow! How often we had to step back into the shower to go clean the cup, after having forgotten about it completely during shower #1!</p> 
     <p>Tip: Our favourite way to handle periods with waste free period products, is a menstrual cup 'backed up' by period underwear on the first, heavier days or overnight! No leak, no smell, no waste, no trouble!</p> 
-
-https://www.organicup.com/
 
   benefit: |
     <p>Like many other impact brands, Almatters aims to benefit both people and the environment.</p>

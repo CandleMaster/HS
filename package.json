@@ -23,6 +23,7 @@
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-styled-components": "^4.13.0",
     "gatsby-source-filesystem": "^3.13.0",
+    "gatsby-transformer-remark": "^5.3.0",
     "gatsby-transformer-sharp": "^3.13.0",
     "gatsby-transformer-yaml": "^3.14.0",
     "keyframes": "^2.3.0",

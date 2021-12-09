@@ -5,9 +5,6 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  // mapping: {
-  //   'BrandsYaml.main.filePath': 'File.base',
-  // },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -33,6 +30,14 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown`,
+        path: `${__dirname}/src/markdown`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -71,6 +76,7 @@ module.exports = {
         display: 'swap'
       }
     },
+
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
