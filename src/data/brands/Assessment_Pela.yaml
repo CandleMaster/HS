@@ -10,9 +10,9 @@
 # 1 NO SLUGS
 # 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
 
-#Affil link to home: <a href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>
+#Affil link to home: <a target="_blank" href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>
 
-nameLinked: <a href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>
+nameLinked: <a target="_blank" href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>
 name: Pela
 featured: true
 featuredDescription: Compostable phone cases
@@ -25,7 +25,7 @@ tags:
 main:
   highlight: compostable phone cases that look great and break down in soil and leave no trace behind.
   mission: to remove 1 billion pounds of plastic from the waste stream by 2028.
-  filePath: ./Pela/vetting-from.pdf
+  filePath: ./Pela/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
   awards:
@@ -43,14 +43,14 @@ main:
 
 details:
   about: |
-    <p>If you want your next phone case to leave no (harmful) trace behind - <a href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>'s phone cases are just right for you! Pela makes 100% <a href="https://shrsl.com/3a6yt">compostable</a> phone cases, free of lead, cadmium, PBA and phthalates; made of a blend of biopolymers and Canadian Prairie flax shive, without compromising on design.</p>  
-    <p><a href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>'s compostable phone cases are third-party certified compostable, so you can be sure their materials will turn into compost within less than a year and leave nothing but enriched soil behind - at least in an industrial composting facility. The time frame of breaking down can be a few years in a <a href="https://shrsl.com/3a6yt">home-composting environment</a>. However, that's nothing compared to the hundreds of years a conventional plastic case will be around - and then degrade into microplastics.</p>
-    <p>As more and more companies are focusing on producing less impactful products, it is our important job as consumers to do our part at their "end of life". When you're "done" with your compostable phone case (or any other compostable product), make sure to actually leave it in a composting environment - <a href="https://shrsl.com/3a6yp">it needs air, moisture and sunlight</a> to break down properly (it will most likely NOT get these in the huge piles of landfill). Pela has its own program, <a href="https://shrsl.com/3a6yw">Pela 360</a>, where you can send your old phone case to - yes, even if it was plastic! Pela will take responsibility for it either getting recycled or composted.</p>
+    <p>If you want your next phone case to leave no (harmful) trace behind - <a target="_blank" href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>'s phone cases are just right for you! Pela makes 100% <a target="_blank" href="https://shrsl.com/3a6yt">compostable</a> phone cases, free of lead, cadmium, PBA and phthalates; made of a blend of biopolymers and Canadian Prairie flax shive, without compromising on design.</p>  
+    <p><a target="_blank" href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a>'s compostable phone cases are third-party certified compostable, so you can be sure their materials will turn into compost within less than a year and leave nothing but enriched soil behind - at least in an industrial composting facility. The time frame of breaking down can be a few years in a <a target="_blank" href="https://shrsl.com/3a6yt">home-composting environment</a>. However, that's nothing compared to the hundreds of years a conventional plastic case will be around - and then degrade into microplastics.</p>
+    <p>As more and more companies are focusing on producing less impactful products, it is our important job as consumers to do our part at their "end of life". When you're "done" with your compostable phone case (or any other compostable product), make sure to actually leave it in a composting environment - <a target="_blank" href="https://shrsl.com/3a6yp">it needs air, moisture and sunlight</a> to break down properly (it will most likely NOT get these in the huge piles of landfill). Pela has its own program, <a target="_blank" href="https://shrsl.com/3a6yw">Pela 360</a>, where you can send your old phone case to - yes, even if it was plastic! Pela will take responsibility for it either getting recycled or composted.</p>
 
   benefit: |
-    <p><a href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a> was founded by a shocked father, finding his son digging up plastic rubbish while playing on the beach. This led to years of innovating to find new materials that are sturdy, look good, and can break down in soil! Pela radiates their passion for reducing waste in our world. Being <a href="https://bcorporation.net/about-b-lab">b-certified </a>and also part of <a href="https://www.onepercentfortheplanet.org/">1% For the Planet</a> are just some ways of how Pela shows accountability. Pela also is third-party certified climate neutral, meaning all emissions are measured and offset. It gives parts of every sale to ocean cleanup and preservation initiatives, and further donates to multiple <a href="https://shrsl.com/3a6yz">partners</a>.</p> 
+    <p><a target="_blank" href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a> was founded by a shocked father, finding his son digging up plastic rubbish while playing on the beach. This led to years of innovating to find new materials that are sturdy, look good, and can break down in soil! Pela radiates their passion for reducing waste in our world. Being <a target="_blank" href="https://bcorporation.net/about-b-lab">b-certified </a>and also part of <a target="_blank" href="https://www.onepercentfortheplanet.org/">1% For the Planet</a> are just some ways of how Pela shows accountability. Pela also is third-party certified climate neutral, meaning all emissions are measured and offset. It gives parts of every sale to ocean cleanup and preservation initiatives, and further donates to multiple <a target="_blank" href="https://shrsl.com/3a6yz">partners</a>.</p> 
     <p>Community, Creativity, Consciousness and Courage are the company's four core values, created to ensure the achievement of the ambitious mission of removing 1 billion pounds of plastic from the waste stream by 2028</p> 
-    <p>The team doesn't stop at being successful with their first innovative product, their phone cases. When taking a look at their newest projects, like the <a href="https://pela.earth/lomi">Lomi home-composter</a> , or their popular personal care products, one gets an idea of just how actively the people behind the brand are searching for solutions to one of our biggest problems: waste. So far, tons of CO2, water and waste have been eliminated by people choosing <a href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a> over standard alternatives. Multiple-wins we like!</p>
+    <p>The team doesn't stop at being successful with their first innovative product, their phone cases. When taking a look at their newest projects, like the <a target="_blank" href="https://pela.earth/lomi">Lomi home-composter</a> , or their popular personal care products, one gets an idea of just how actively the people behind the brand are searching for solutions to one of our biggest problems: waste. So far, tons of CO2, water and waste have been eliminated by people choosing <a target="_blank" href="https://shareasale.com/r.cfm?b=1216646&u=2807031&m=81303&urllink=&afftrack= ">Pela</a> over standard alternatives. Multiple-wins we like!</p>
 
   nowMe:
     - high-quality feel
@@ -60,7 +60,7 @@ details:
   futureMe:
     - phone protection
     - reduces plastic in landfill and oceans
-    - which can reduce microplastics in drinking water or food like <a href="https://theconversation.com/hundreds-of-fish-species-including-many-that-humans-eat-are-consuming-plastic-154634">fish</a>
+    - which can reduce microplastics in drinking water or food like <a target="_blank" href="https://theconversation.com/hundreds-of-fish-species-including-many-that-humans-eat-are-consuming-plastic-154634">fish</a>
 
   nowUs:
     - less CO2, water and waste externalities from production compared to alternatives made from crude oil

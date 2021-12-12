@@ -9,6 +9,12 @@ export default function Footer() {
         background-color: ${theme.colors.beige} !important;
         height: auto;
         z-index: 999;
+        *
+        {
+        z-index: 999;
+        }
+        /* position:fixed;
+        bottom: 0; */
 
     `
     const FooterContent = styled.div`
@@ -48,26 +54,34 @@ export default function Footer() {
                         </FooterCard>
                         <FooterCard title='Connect:' titleStyle={{display:'grid',placeItems:'center'}}>
                             <Connect>
-                                <a href="https://www.twitter.com/hopskotchway " 
-                                    target="_blank">
+                                <a 
+                                    target="_blank" href="https://www.twitter.com/hopskotchway " 
+                                    rel="noreferrer"
+                                    >
                                     <StaticImage 
                                         src="../../images/icons/twitter_icon_large.png" 
                                         alt="our twitter"
                                         /></a>
-                                <a href="https://www.facebook.com/Hopskotch-104115318382016 " 
-                                    target="_blank">
+                                <a 
+                                    target="_blank" href="https://www.facebook.com/Hopskotch-104115318382016 " 
+                                    rel="noreferrer"
+                                    >
                                     <StaticImage 
                                         src="../../images/icons/facebook_icon_large.png" 
                                         alt="our facebook"
                                         /></a>
-                                <a href="https://www.youtube.com/channel/UC2cIg-Kq4w-NsxSLThHU8fA" 
-                                    target="_blank">
+                                <a 
+                                    target="_blank" href="https://www.youtube.com/channel/UC2cIg-Kq4w-NsxSLThHU8fA" 
+                                    rel="noreferrer"
+                                    >
                                     <StaticImage 
                                         src="../../images/icons/youtube_icon_large.png" 
                                         alt="our youtube"
                                         /></a>
-                                <a href="https://www.instagram.com/hopskotchway" 
-                                    target="_blank">
+                                <a 
+                                    target="_blank" href="https://www.instagram.com/hopskotchway" 
+                                    rel="noreferrer"
+                                    >
                                     <StaticImage 
                                         src="../../images/icons/IG_icon_large.png" 
                                         alt="our IG"

@@ -10,9 +10,9 @@
 # 1 NO SLUGS
 # 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
 
-#Aff link to Home: <a href="https://meliorameansbetter.com/?aff=53">Meliora</a>
+#Aff link to Home: <a target="_blank" href="https://meliorameansbetter.com/?aff=53">Meliora</a>
 
-nameLinked: <a href="https://meliorameansbetter.com/?aff=53">Meliora</a>
+nameLinked: <a target="_blank" href="https://meliorameansbetter.com/?aff=53">Meliora</a>
 name: Meliora
 featured: true
 featuredDescription: Safe cleaning products
@@ -45,35 +45,35 @@ main:
 
 details:
   about: |
-    <p><a href="https://meliorameansbetter.com/?aff=53">Meliora</a> sells EWG certified cleaning products, like their <a href="https://meliorameansbetter.com/collections/homecleaning/?aff=53">home cleaning products</a> or laundry powder. The latter comes in 100% plastic free packaging, and includes a metal scoop. Free of synthetic fragrances, dyes, preservatives, and brighteners, you can rest assured that no nasties are washing your clothes clean. You can also get a refill only, packed in a paper bag! Another popular Meliora product that makes your whites shine like new is their <a href="https://meliorameansbetter.com/collections/laundry/products/oxygen-brightener/?aff=53"> oxygen brightener</a>. </p>  
-    <p>As promised, Meliora displayed all ingredients transparently on their website. You can choose from <a href="https://meliorameansbetter.com/collections/laundry/products/laundry-powder/?aff=53">unscented</a> to <a href="https://meliorameansbetter.com/collections/laundry/products/laundry-powder?variant=22964725510/?aff=53">scented</a> options, however, all scents are made from certified organic essential oils only.</p>
+    <p><a target="_blank" href="https://meliorameansbetter.com/?aff=53">Meliora</a> sells EWG certified cleaning products, like their <a target="_blank" href="https://meliorameansbetter.com/collections/homecleaning/?aff=53">home cleaning products</a> or laundry powder. The latter comes in 100% plastic free packaging, and includes a metal scoop. Free of synthetic fragrances, dyes, preservatives, and brighteners, you can rest assured that no nasties are washing your clothes clean. You can also get a refill only, packed in a paper bag! Another popular Meliora product that makes your whites shine like new is their <a target="_blank" href="https://meliorameansbetter.com/collections/laundry/products/oxygen-brightener/?aff=53"> oxygen brightener</a>. </p>  
+    <p>As promised, Meliora displayed all ingredients transparently on their website. You can choose from <a target="_blank" href="https://meliorameansbetter.com/collections/laundry/products/laundry-powder/?aff=53">unscented</a> to <a target="_blank" href="https://meliorameansbetter.com/collections/laundry/products/laundry-powder?variant=22964725510/?aff=53">scented</a> options, however, all scents are made from certified organic essential oils only.</p>
     <p>The laundry powder is Vegan, Cruelty-Free, and MADE SAFE Certified.</p>
 
   benefit: |
-    <p><a href="https://meliorameansbetter.com/?aff=53">Meliora</a> is Latin for "better", and that is exactly what this company is trying to be. To change for the better, every Meliora product must tick three crucial boxes. Namely, to work well as a cleaning agent, to be environmentally friendly, and to be people-friendly. We love it - it ticks the Hopskotch 'triple impact' concept perfectly. For you, for the planet, for people.</p> 
-    <p>Did you know that there is no legal requirement in the US to display any ingredients on cleaning products? <a href="https://meliorameansbetter.com/?aff=53">Meliora</a> simply created their own standards: from laundry and home cleaning to bath and body soaps, every single ingredient is transparently listed on each packaging. The products contain no synthetic fragrances, dyes, optical brighteners, or preservatives. The main components are washing and baking soda, vegetable glycerin, sunflower and coconut oil, as well as essential oils.</p> 
-    <p>Meliora sells <a href="https://www.madesafe.org/">MADE SAFE</a> certified and <a href="https://www.ewg.org/">EWG</a> verified cleaning products, meaning you can rest assured that you are not harming people or your environment while cleaning your home. The Leaping Bunny seal signifies no animal testing. All products and packaging are single-use plastic free, while refills are offered for many of the products.</p> 
-    <p>By partnering with <a href="https://www.onepercentfortheplanet.org/">1% For the Planet</a> and <a href="https://www.womensvoices.org/">Women's Voices For The Earth</a>, 2% of <a href="https://meliorameansbetter.com/?aff=53">Meliora</a>'s annual revenue goes to environmental and charitable non for profits. The B Corporation certificate proves that Meliora is doing its best to merge positive social and environmental impact. It highlights strengths in company ownership and governance (woman-owned), labor practices (living wages), and the products themselves.</p>
+    <p><a target="_blank" href="https://meliorameansbetter.com/?aff=53">Meliora</a> is Latin for "better", and that is exactly what this company is trying to be. To change for the better, every Meliora product must tick three crucial boxes. Namely, to work well as a cleaning agent, to be environmentally friendly, and to be people-friendly. We love it - it ticks the Hopskotch 'triple impact' concept perfectly. For you, for the planet, for people.</p> 
+    <p>Did you know that there is no legal requirement in the US to display any ingredients on cleaning products? <a target="_blank" href="https://meliorameansbetter.com/?aff=53">Meliora</a> simply created their own standards: from laundry and home cleaning to bath and body soaps, every single ingredient is transparently listed on each packaging. The products contain no synthetic fragrances, dyes, optical brighteners, or preservatives. The main components are washing and baking soda, vegetable glycerin, sunflower and coconut oil, as well as essential oils.</p> 
+    <p>Meliora sells <a target="_blank" href="https://www.madesafe.org/">MADE SAFE</a> certified and <a target="_blank" href="https://www.ewg.org/">EWG</a> verified cleaning products, meaning you can rest assured that you are not harming people or your environment while cleaning your home. The Leaping Bunny seal signifies no animal testing. All products and packaging are single-use plastic free, while refills are offered for many of the products.</p> 
+    <p>By partnering with <a target="_blank" href="https://www.onepercentfortheplanet.org/">1% For the Planet</a> and <a target="_blank" href="https://www.womensvoices.org/">Women's Voices For The Earth</a>, 2% of <a target="_blank" href="https://meliorameansbetter.com/?aff=53">Meliora</a>'s annual revenue goes to environmental and charitable non for profits. The B Corporation certificate proves that Meliora is doing its best to merge positive social and environmental impact. It highlights strengths in company ownership and governance (woman-owned), labor practices (living wages), and the products themselves.</p>
 
   nowMe:
     - |
-      <a href="https://www.epa.gov/greenerproducts/identifying-greener-cleaning-products">healthier</a> cleaning: less harmful chemicals in your home, on your skin, airways and clothing
+      <a target="_blank" href="https://www.epa.gov/greenerproducts/identifying-greener-cleaning-products">healthier</a> cleaning: less harmful chemicals in your home, on your skin, airways and clothing
     - less waste when using refills
     - plastic free products
 
   futureMe:
-    - less health concerns compared to standard laundry detergent and cleaners. <a href="https://www.lung.org/clean-air/at-home/indoor-air-pollutants/cleaning-supplies-household-chem">Source 1</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/31905182/>2</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/30500342/">3</a>
+    - less health concerns compared to standard laundry detergent and cleaners. <a target="_blank" href="https://www.lung.org/clean-air/at-home/indoor-air-pollutants/cleaning-supplies-household-chem">Source 1</a>, <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/31905182/>2</a>, <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30500342/">3</a>
 
   nowUs:
     - reduced waste in landfill and oceans
-    - less chemicals in <a href="https://pubmed.ncbi.nlm.nih.gov/26590059/">waterways</a> which could end up in drinking water
+    - less chemicals in <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/26590059/">waterways</a> which could end up in drinking water
     - reduction of CO2 emissions by avoiding plastic and local production
     - creating demand for transparent reporting of ingredients
 
   futureUs:
     - less CO2 emissions benefits global warming
     - less chemical pollution benefits ocean acidification
-    - which in turn benefits <a href="https://www.mdpi.com/1660-4601/17/12/4563">marine life and human health</a>
+    - which in turn benefits <a target="_blank" href="https://www.mdpi.com/1660-4601/17/12/4563">marine life and human health</a>
 
 timeline:
   years:

@@ -14,10 +14,13 @@ export default  function BrandHeading({ gridName,brandName }) {
 `
     const Brand = styled.div`
         height: auto;
-        font-weight: 600;
         font-size: 1.75rem;
         line-height:3rem;
         letter-spacing: 2px;
+        a{
+        font-weight: 600 !important;
+
+        }
     `
     const Impact = styled.div`
     height: auto;
@@ -31,7 +34,7 @@ export default  function BrandHeading({ gridName,brandName }) {
     `
     return (
             <BrandName>
-                <Brand>{brandName}</Brand>
+                <Brand dangerouslySetInnerHTML={{__html:brandName}} target="_blank"/>
                 <Impact>impact brand</Impact>
                 <Divider />
             </BrandName>

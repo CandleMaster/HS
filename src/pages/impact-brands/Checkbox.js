@@ -5,7 +5,7 @@ export default function CheckBox({borderRadius,onChange,tag,checked,boxType,tagD
     const CheckBoxItem=styled.div`
         /* width: 70%;
         margin: 0 auto ; */
-        color: white;
+
         *{
             display: inline;
             height: auto; 
@@ -35,6 +35,9 @@ export default function CheckBox({borderRadius,onChange,tag,checked,boxType,tagD
             background: ${theme.colors.dusk} ;
     
             }
+        }
+        label{
+            color: white;
         }
     `
     return(

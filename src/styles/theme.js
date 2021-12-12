@@ -2,6 +2,7 @@
 export const theme = {
     colors:{
       beige:'#f5f3f0',
+      beigeLight:'#FCFBFA',
       midnight:'#2e3b4b',
       indian:'#ffc87c',
       peach:'#fca583',
@@ -25,7 +26,7 @@ export const theme = {
     breakPoint:{
       xs:"380px",
       sm:"720px",
-      md:"1024px",
+      md:"950px",
       l:"1536px"
     }
     

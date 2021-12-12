@@ -11,9 +11,9 @@
 # 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
 
 #Affil link to Home: https://prf.hn/l/7ow0gev
-# <a href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a>
+# <a target="_blank" href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a>
 
-nameLinked: <a href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a>
+nameLinked: <a target="_blank" href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a>
 name: Who Gives A Crap
 featured: true
 featuredDescription: Toilet paper
@@ -31,7 +31,7 @@ tags:
 main:
   highlight: recycled toilet paper and toilet paper made from bamboo. Aiming to provide comfort to you and your bum, and support communities without access to water, sanitation and hygenic toilets.
   mission: to ensure everyone has access to clean water and a toilet within our lifetime
-  filePath: ./WhoGivesACrap/vetting-from.pdf
+  filePath: ./WhoGivesACrap/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
   awards:
@@ -49,21 +49,21 @@ main:
 
 details:
   about: |
-    <p># <a href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a> makes toilet paper. An item we use daily, yet many of us might have never given much thought to its quality and impact on our health and the environment. It is also probably one of the most undervalued things we have in our homes. This is where Who Gives A Crap can make a difference both as a product (call it ethical toilet paper) and as a company. </p>
+    <p># <a target="_blank" href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a> makes toilet paper. An item we use daily, yet many of us might have never given much thought to its quality and impact on our health and the environment. It is also probably one of the most undervalued things we have in our homes. This is where Who Gives A Crap can make a difference both as a product (call it ethical toilet paper) and as a company. </p>
     <p>Their toilet paper is 'good for your bum' - made out of comfortable bamboo or recycled toilet paper and without any nasties. The company is passionate about helping to provide the same basic need for the two billion people who do not have access to clean toilets and water yet. </p>
 
   benefit: |
-    <p># <a href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a> (WGAC) is a superstar impact brand! An admirable 50% of their profit goes towards donations to nonprofits working in the WASH sector (short for: Water, Sanitation and Hygiene). For example, <a href="https://www.waterforpeople.org/">Water For People</a> or <a href="https://splash.org/">Splash</a> or <a href="https://www.wsup.com/">WSUP</a> who provide clean water and toilets to communities in need. About 2 billion people do not have access to WASH. According to WGAC's # <a href="https://prf.hn/l/7ow0gev ">'website'</a> "that's roughly 40% of the global population and means that around 289,000 children under five die every year from diarrheal diseases caused by poor water and sanitation. That's almost 800 children per day, or one child every two minutes."</p>
-    <p>Over the years, <a href="https://prf.hn/l/7ow0gev ">'WGAC'</a> has donated over $7 Million USD, hitting a new donation-high in 2021. Meaning, more and more conscious consumers like you are supporting companies like WGAC - which is fantastic! This is probably due to their products being superior in leaving you healthy, and superior in leaving you with an extra comfy feeling after those #1's and #2's. On top of that, you're actually making a difference with every time you sit on that ceramic throne. Swiping on Insta and then swiping your butt, you're helping to bring more dignity into this world. On top of that, you're purchasing something that is better for the environment: every day, 27,000 trees are cut down just to make regular toilet paper. What a waste! WGAC does give a crap - what is there not to love about an impact brand like that!?</p>
+    <p># <a target="_blank" href="https://prf.hn/l/7ow0gev ">'Who Gives A Crap'</a> (WGAC) is a superstar impact brand! An admirable 50% of their profit goes towards donations to nonprofits working in the WASH sector (short for: Water, Sanitation and Hygiene). For example, <a target="_blank" href="https://www.waterforpeople.org/">Water For People</a> or <a target="_blank" href="https://splash.org/">Splash</a> or <a target="_blank" href="https://www.wsup.com/">WSUP</a> who provide clean water and toilets to communities in need. About 2 billion people do not have access to WASH. According to WGAC's # <a target="_blank" href="https://prf.hn/l/7ow0gev ">'website'</a> "that's roughly 40% of the global population and means that around 289,000 children under five die every year from diarrheal diseases caused by poor water and sanitation. That's almost 800 children per day, or one child every two minutes."</p>
+    <p>Over the years, <a target="_blank" href="https://prf.hn/l/7ow0gev ">'WGAC'</a> has donated over $7 Million USD, hitting a new donation-high in 2021. Meaning, more and more conscious consumers like you are supporting companies like WGAC - which is fantastic! This is probably due to their products being superior in leaving you healthy, and superior in leaving you with an extra comfy feeling after those #1's and #2's. On top of that, you're actually making a difference with every time you sit on that ceramic throne. Swiping on Insta and then swiping your butt, you're helping to bring more dignity into this world. On top of that, you're purchasing something that is better for the environment: every day, 27,000 trees are cut down just to make regular toilet paper. What a waste! WGAC does give a crap - what is there not to love about an impact brand like that!?</p>
 
   nowMe:
     - no ink, dyes or scents used
-    - minimises <a href="https://www.glamour.com/story/heres-how-your-toilet-paper-could-be-messing-with-your-vagina#:~:text=Technically%2C%20you%20can%20be%20allergic,if%20it's%20scented)%20switch%20brands.">irritation on your skin</a>
+    - minimises <a target="_blank" href="https://www.glamour.com/story/heres-how-your-toilet-paper-could-be-messing-with-your-vagina#:~:text=Technically%2C%20you%20can%20be%20allergic,if%20it's%20scented)%20switch%20brands.">irritation on your skin</a>
     - comfy toilet visits
 
   futureMe:
     - biodegradable toilet paper is easy on pipes and compostable toilets
-    - no skin irritation ensuring long-term health <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2860827/">'down there'</a>
+    - no skin irritation ensuring long-term health <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2860827/">'down there'</a>
 
   nowUs:
     - recycled paper or bamboo deplete less resources, or none
@@ -88,8 +88,8 @@ timeline:
   events:
     - crowdfunding to raise first $50k
     - B certification
-    - named "Best for Community" by <a href="https://bcorporation.net/about-b-lab">'B Labs'</a>
-    - named "Best for Community" by <a href="https://bcorporation.net/about-b-lab">'B Labs'</a>
-    - named "Best for Community" by <a href="https://bcorporation.net/about-b-lab">'B Labs'</a>
-    - named "Best for Changemaker" by <a href="https://bcorporation.net/about-b-lab">'B Labs'</a>
+    - named "Best for Community" by <a target="_blank" href="https://bcorporation.net/about-b-lab">'B Labs'</a>
+    - named "Best for Community" by <a target="_blank" href="https://bcorporation.net/about-b-lab">'B Labs'</a>
+    - named "Best for Community" by <a target="_blank" href="https://bcorporation.net/about-b-lab">'B Labs'</a>
+    - named "Best for Changemaker" by <a target="_blank" href="https://bcorporation.net/about-b-lab">'B Labs'</a>
 Keyword: waste free period products

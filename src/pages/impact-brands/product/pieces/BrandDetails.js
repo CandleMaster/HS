@@ -29,6 +29,7 @@ const DetailSubheading=styled.h3`
 const DetailText = styled.div`
     p{
         padding: .25rem 0;
+        color:black;
     }
 `
 const ConsumerCircle = styled.div`

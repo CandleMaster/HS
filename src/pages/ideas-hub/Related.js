@@ -1,6 +1,6 @@
 import React,{ useState } from 'react'
 import styled from 'styled-components';
-import { BlogCard, BlogCardAlt } from '../components'
+import { BlogCard } from '../components'
 
 
 export default function Related() {

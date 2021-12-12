@@ -1,33 +1,33 @@
 import React from 'react'
 import styled from 'styled-components';
 import { FeaturedProducts } from './components'
-
-import { Arrow, DisplayArrowContainer,DisplayArrowBox } from './../styles/Global.styles'
 import { theme } from '../styles/theme'
-import {StaticImage,getImage} from 'gatsby-plugin-image'
+import { StaticImage,getImage } from 'gatsby-plugin-image'
 import lodash from 'lodash'
 import { Carousel } from '@trendyol-js/react-carousel';
 
 const ProductIntro = styled.div`
-    width:80%;
+    width:100%;
     position: relative;
     margin: 4rem auto 0 auto;
     display: flex;
     gap:5rem;
     flex-wrap: wrap;
     height: auto;
+    /* background:${theme.colors.smoke}; delete this */
     div{
         align-self: flex-end;
         flex: 1 1 16rem;
-        h2{
-            height: auto;
-            color: ${theme.colors.dusk};
-        }
-        p{
-            font-size:1.3rem;
+        p{font-size:1.3rem;
+            margin: auto;
+            width:75%;
+            font-weight: 200;
+            padding:2rem 0;
+            color:${theme.colors.ams};
         }
     }
     div:last-child{
+        display: none; /* delete this */
         @media(max-width:${theme.breakPoint.sm}){
             display: none;
         }
@@ -37,9 +37,17 @@ const ProductIntro = styled.div`
         z-index: 2;
     }
 `
-    
+const FeaturedIntroHeading = styled.h2`
+          height: auto;
+            color: ${theme.colors.ams};
+            margin: auto;
+            padding-top: 2rem;
+            width:75%;
+            /* display: none; */
+`
+
 const Display = styled.div`
-    margin: 5rem 0;
+    margin: 0 0 5rem 0;
     height:30rem;
 `
 
@@ -78,7 +86,7 @@ export default function ProductDisplay({featuredBrands,CarouselWidth}) {
             }
         }
         >:last-child{
-            right:1rem;
+            right:0rem;
             top:0rem;
         }
 `
@@ -86,7 +94,6 @@ const myCarouselItems = (featuredBrand) =>{
         const { featuredDescription, 
                   name,
                   main:{
-                      brandNameLogo, 
                       productImages
               }} =featuredBrand
         return <FeaturedProducts 
@@ -103,7 +110,7 @@ console.log(CarouselWidth>780 && CarouselWidth<1280)
         <>
         <ProductIntro>
             <div>
-                <h2>We connect you to superheroes ...</h2>
+                <FeaturedIntroHeading>We connect you to superheroes ...</FeaturedIntroHeading>
                 <p>We only promote brands that are holistically sustainable, sell high quality products and show tangible progress towards their stated mission around global issues.</p>
             </div>
             <StaticImage 

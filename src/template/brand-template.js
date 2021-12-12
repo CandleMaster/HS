@@ -1,10 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import  { graphql } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
-import { SimpleSlider,Navbar, Footer, Container,Triple } from '../pages/components'
-import useWindowSize from '../pages/components/useWindowSize'
-import  { InfoBlocks, BrandHeading, BrandDetails, Credentials, NowMe}  from '../pages/impact-brands/product/pieces'
+import { SimpleSlider,Navbar, Footer, Container,Triple,useWindowSize,Seo } from '../pages/components'
+import  { InfoBlocks, BrandHeading, BrandDetails,  NowMe}  from '../pages/impact-brands/product/pieces'
 import { theme } from '../styles/theme'
 // import { TimelineEvent, TimelineDots , YearLi} from '../pages/impact-brands/Timeline'
 export default function Product({ data }) {
@@ -13,8 +11,6 @@ export default function Product({ data }) {
       main:{
         highlight,
         mission,
-        awards,
-        labels,
         productImages,
         filePath:{
           publicURL
@@ -28,11 +24,9 @@ export default function Product({ data }) {
         nowUs,
         nowMe
       },
+      Keyword,
+      nameLinked,
       name,
-      timeline:{
-        years,
-        events
-      },
     }= dataContent
 
     // console.log(about)
@@ -48,12 +42,12 @@ export default function Product({ data }) {
     const GridContainer = styled.div`
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: .8fr 1fr;
+        grid-template-columns: .9fr 1fr;
         gap:0 8%;
         width: 75%;
-        max-width: 60rem;
+        max-width: 55rem;
         margin:auto;
-        padding-bottom: 4rem ;
+        padding-bottom: 2rem ;
         height: auto;
         grid-template-areas:
         'name responsive'
@@ -61,6 +55,7 @@ export default function Product({ data }) {
         'file prodImage'
         'credentials timeline';
         @media(max-width:${theme.breakPoint.md}){
+        width: 75%;
             gap:0;
             grid-template-columns: 1fr;
             grid-template-areas:
@@ -71,6 +66,10 @@ export default function Product({ data }) {
               'file'
               'credentials';
           }
+
+          @media(max-width:${theme.breakPoint.sm}){}
+          width: 87%;
+
     `
 const Responsive=styled.div`
     grid-area:responsive;
@@ -81,31 +80,40 @@ const ProductImg = styled.div`
     display: grid;
     place-items: center;
     padding: 0 2rem 0rem 2rem ;
+    /* min-width: 20rem !important; */
     background-color: white;
     border-radius: 0 0 25px 25px;
+    min-height: 25rem;
+
 `
-const Timeline = styled.div`
-    grid-area: timeline;
-    position: relative;
-    height:7rem;
-    align-items: flex-start;
-    padding: 1rem 0rem;
-    transform: translateX(-1rem);
-    `
+// const Timeline = styled.div`
+//     grid-area: timeline;
+//     position: relative;
+//     height:7rem;
+//     align-items: flex-start;
+//     padding: 1rem 0rem;
+//     transform: translateX(-1rem);
+//     `
 
 const Affiliate = styled.div`
-  color:grey;
+  color:${theme.colors.dusk};
   grid-area:timeline;
+  font-size: .9rem;
+  padding: 2rem .5rem;
 `
 const [width, height] = useWindowSize();
 
     return (
             <>
+              <Seo
+                title={name}
+                description={highlight+Keyword}
+            />
             <BrandMain>
                 <Navbar />
                 <span style={{opacity:"0"}}>Window size: {width} x {height}</span>;
                 <GridContainer>
-                    <BrandHeading gridName="name" brandName={name}/>
+                    <BrandHeading gridName="name" brandName={nameLinked}/>
                     <Responsive />
                     <ProductImg>
                         <SimpleSlider imageList={productImages} duration="999999000" display="flex"/>
@@ -120,24 +128,26 @@ const [width, height] = useWindowSize();
                             {years.map(year=>(<YearLi key={year} content={year}/>))}
                         </TimelineDots>
                     </Timeline> */}
-                    <Affiliate>Note to add affilicate</Affiliate>
+                    <Affiliate>This page may contain affiliate links. We may receive a small commission if you click on a link and make a purchase. We only promote brands that pass our vetting criteria and that we believe will add value to your sustainable lifestyle. </Affiliate>
                 </GridContainer>
             </BrandMain>
+
             <Container>
-            <Triple tripleHeading="block"
-              tripleMargin="8rem auto"
-            />
-            <BrandDetails 
-                brandName={name} 
-                about={about} 
-                benefit={benefit}
-            />
-            <NowMe 
-                nowMePoints={nowMe}
-                futureMePoints={futureMe}
-                nowUsPoints={nowUs}
-                futureUsPoints={futureUs}
-            />
+                <Triple 
+                  tripleHeading="block"
+                  tripleMargin="8rem auto"
+                />
+                <BrandDetails 
+                    brandName={name} 
+                    about={about} 
+                    benefit={benefit}
+                />
+                <NowMe 
+                    nowMePoints={nowMe}
+                    futureMePoints={futureMe}
+                    nowUsPoints={nowUs}
+                    futureUsPoints={futureUs}
+                />
             </Container>
             <Footer />
             </>
@@ -150,7 +160,9 @@ query BrandTemplate ($name:String) {
     allBrandsYaml(filter: {name: {eq: $name}}) {
         nodes {
             name
+            nameLinked
             id
+            Keyword
             details {
               about
               benefit
@@ -181,10 +193,7 @@ query BrandTemplate ($name:String) {
                   }
                 }
             }
-            timeline {
-                events
-                years
-            }
+
           
         
       }

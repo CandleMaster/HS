@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 function Navbar() {
     const Nav = styled.nav`
         width: 100% ;
-        height: 6rem;
+        height: 4.5rem;
         background: rgb(255,200,124);
         background: linear-gradient(90deg, rgba(255,200,124,1) 0%, rgba(252,165,131,1) 100%);
         position: fixed;
@@ -27,17 +27,20 @@ function Navbar() {
             padding: 1rem;
             display: grid;
             place-items: center;
-            font-size: 1.25rem;
+            font-size: 1rem;
         }
     `
 
     const NavLink=styled(Link).attrs({className:"NavLink"})`
         color: white;
         text-decoration: none;
-        line-height: 1.5rem;
+        line-height: 1.25rem;
         text-align:center;
         transition: opacity .3s ease-in-out, text-decoration .5s ease-in-out;
         opacity:0;
+        font-weight: 400;
+        display: grid;
+        place-items: center;
         /* transition:; */
         /* :hover{
             text-decoration:underline;
@@ -45,11 +48,23 @@ function Navbar() {
         } */
     `
     const Hamburger = styled.div`
-        height: 1rem;
+        height: 2.3rem;
         width:2.2rem;
-        border:white solid;
-        border-width:4px 0 4px 0;
+        padding:.3rem 0;
+        /* border:white solid;
+        border-width:4px 0 4px 0; */
+        position: relative;
     `
+    const Line = styled.div`
+        width: auto;
+        height: 4px;
+        border-radius: 99px;
+        position: relative;
+        top:${props=> props.top};
+        background: white;
+
+    `
+
     return (
         <Nav>
             <Link to="/">
@@ -59,7 +74,7 @@ function Navbar() {
                     quality={95}
                     formats={["auto", "webp", "avif"]}
                     alt="A Gatsby astronaut"
-                    style={{ width:'1.8rem'}}
+                    style={{ width:'2rem'}}
                 />
             </Link>
             <NavLink to='/impact-brands'>impact brands</NavLink>
@@ -68,8 +83,9 @@ function Navbar() {
             <NavLink to='/agatonomy'>agatonomy</NavLink>
             <Link to='/'>
                 <Hamburger>
-                    <div />
-                    <div />
+                    <Line top="0.4rem"/>
+                    <Line top="1rem" />
+                    {/* <Line top="1rem" /> */}
                 </Hamburger>
             </Link>
 

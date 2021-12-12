@@ -10,9 +10,9 @@
 # 1 NO SLUGS
 # 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
 
-# Affil LInk to home: <a href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a>
+# Affil LInk to home: <a target="_blank" href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a>
 
-nameLinked: <a href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a>
+nameLinked: <a target="_blank" href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a>
 name: Sleep & Beyond
 featured: true
 featuredDescription: Sleeping essentials
@@ -25,7 +25,7 @@ tags:
 main:
   highlight: high-quality sleeping essentials that are made from wool and tested to be free from carcinogens.
   mission: to create an inspirational, sustainable, and educational system that will benefit the human being without harming the Planet.
-  filePath: ./SleepBeyond/vetting-from.pdf
+  filePath: ./SleepBeyond/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
   awards:
@@ -42,36 +42,36 @@ main:
 
 details:
   about: |
-    <p><a href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a> has been in the business for over 30 years, and is an expert when it comes to providing their customers with super high-quality sleeping essentials.</p>  
-    <p>From merino wool bedding products, to comforter and organic cotton duvet cover, you will do your health a favor. The products are tested to be <a href="https://sleepandbeyond.com/about-us/sb-difference/">free of carcinogenic chemicals</a> ##MAKE AFFILIATE LINK, which shockingly, one could find in conventional bedding. A material we wrap around our bodies for a third of our life - that's how much we sleep! GOTS, OEKO TEX, WOOLMARK and ISO certifications are just some examples of the large number of <a href="https://shrsl.com/3a6xr">third-party</a> guarantees granted to Sleep and Beyond.</p>
+    <p><a target="_blank" href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a> has been in the business for over 30 years, and is an expert when it comes to providing their customers with super high-quality sleeping essentials.</p>  
+    <p>From merino wool bedding products, to comforter and organic cotton duvet cover, you will do your health a favor. The products are tested to be <a target="_blank" href="https://sleepandbeyond.com/about-us/sb-difference/">free of carcinogenic chemicals</a> ##MAKE AFFILIATE LINK, which shockingly, one could find in conventional bedding. A material we wrap around our bodies for a third of our life - that's how much we sleep! GOTS, OEKO TEX, WOOLMARK and ISO certifications are just some examples of the large number of <a target="_blank" href="https://shrsl.com/3a6xr">third-party</a> guarantees granted to Sleep and Beyond.</p>
     <p>The Merino and Shropshire wool is sourced from Sleep and Beyond's own sheep that are held in Kyrgyztan, where the animals can move around and graze freely in the mountains.</p>
 
   benefit: |
-    <p>You would probably know by now just how important quality sleep is for our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6143346/">health and cognitive function</a>. Sleep is like a <a href="https://pubmed.ncbi.nlm.nih.gov/20398008/">superpower</a> and we spend about a third of our life sleeping! For this reason it is crucial to think better about what we wrap ourselves into every single night. From bedding to mattress, the quality of their materials have a huge impact on how we sleep. </p> 
-    <p><a href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a> commits to 100% organic cotton, cruelty free wool, 5-10 years product guarantee and 'made with love' in one of their factories, aka 'Sleep & Beyond Gardens' located around the world. =</p> 
-    <p>The company employs and empowers women, and their Indian factory has been <a href="https://shrsl.com/3a6xu">solar powered</a> for several years. Zero-waste is a goal in the <a href="https://shrsl.com/3a6xx">production</a> , e.g. a fabric excess will be turned into packaging. Overall, packaging is fully recyclable and free of harsh chemicals. Fair trade wages are being paid to factory workers, and good working conditions are provided.</p> 
-    <p>Additionally, for each product sold, <a href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a> gives 5% to charity.</p>
+    <p>You would probably know by now just how important quality sleep is for our <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6143346/">health and cognitive function</a>. Sleep is like a <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/20398008/">superpower</a> and we spend about a third of our life sleeping! For this reason it is crucial to think better about what we wrap ourselves into every single night. From bedding to mattress, the quality of their materials have a huge impact on how we sleep. </p> 
+    <p><a target="_blank" href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a> commits to 100% organic cotton, cruelty free wool, 5-10 years product guarantee and 'made with love' in one of their factories, aka 'Sleep & Beyond Gardens' located around the world. =</p> 
+    <p>The company employs and empowers women, and their Indian factory has been <a target="_blank" href="https://shrsl.com/3a6xu">solar powered</a> for several years. Zero-waste is a goal in the <a target="_blank" href="https://shrsl.com/3a6xx">production</a> , e.g. a fabric excess will be turned into packaging. Overall, packaging is fully recyclable and free of harsh chemicals. Fair trade wages are being paid to factory workers, and good working conditions are provided.</p> 
+    <p>Additionally, for each product sold, <a target="_blank" href="https://shareasale.com/r.cfm?b=1403809&u=2807031&m=90843&urllink=&afftrack=">Sleep & Beyond</a> gives 5% to charity.</p>
 
   nowMe:
-    - healthy, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6716586/">comfortable</a> sleep
+    - healthy, <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6716586/">comfortable</a> sleep
     - washable, breathable bedding
     - regulates body temperature all year round
     - antimicrobial
-    - static-free <a href="https://shrsl.com/3a6y3">fibers</a>
+    - static-free <a target="_blank" href="https://shrsl.com/3a6y3">fibers</a>
 
   futureMe:
     - |
-      better rest is an investment into health: sleep disturbances have been linked to many disorders such as <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879647/">Alzheimer's</a>and <a href="https://pubmed.ncbi.nlm.nih.gov/26972035/>cardiovascular disease</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/19338508/">emotion, memory, cognition</a> and more
+      better rest is an investment into health: sleep disturbances have been linked to many disorders such as <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6879647/">Alzheimer's</a>and <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/26972035/>cardiovascular disease</a>, <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/19338508/">emotion, memory, cognition</a> and more
 
   nowUs:
     - support of small economies around the world and fair trade
-    - <a href="https://shrsl.com/3a6xx">empowerment of women</a>
-    - better rest in homes and communities will improve <a href="https://pubmed.ncbi.nlm.nih.gov/19338508/">mood and health</a>
+    - <a target="_blank" href="https://shrsl.com/3a6xx">empowerment of women</a>
+    - better rest in homes and communities will improve <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/19338508/">mood and health</a>
     - |
       which supports interdependence and collaboration
 
   futureUs:
-    - reduced pollution by supporting natural bedding that <a href="https://shrsl.com/3a6xx">was manufactured with care</a>
+    - reduced pollution by supporting natural bedding that <a target="_blank" href="https://shrsl.com/3a6xx">was manufactured with care</a>
     - increased resilience and health of local communities worldwide
 
 timeline:

@@ -41,34 +41,43 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
             z-index:5;
         }
     `
+    // With cross decoration centered
     const NowMeElement = styled.div`
         position: relative;
         height:auto;
         flex:1 1 17rem;
+        min-width:20rem;
         padding: 3rem;
         cursor: pointer !important;
         transition: background .5s ease;
         *{height: auto}
-        ::after{
-        content: "";
-        position: absolute;
-        bottom: ${bottom};
-        left:${left};
-        top:${top};
-        right: ${right};
-        width: 15%;
-        height: 15%;
-        border-style:solid;
-        border-color:${theme.colors.ams} !important;
-        border-width: ${borderWidth} !important;
-        z-index:4;
-    }
+        ::after{ 
+            content: "";
+            position: absolute;
+            bottom: ${bottom};
+            left:${left};
+            top:${top};
+            right: ${right};
+            width: 15%;
+            height: 15%;
+            border-style:solid;
+            border-color:${theme.colors.ams} !important;
+            border-width: ${borderWidth} !important;
+            z-index:4;
+
+            }
             :hover{
                 background: ${theme.colors.smokeLight};
             }
-                ::visited::after{
-                    z-index: 2;
+            ::visited::after{
+                z-index: 2;
+            }
+            @media(max-width:860px){
+                ::after{
+                content:"";
+                border-color:transparent !important;
                 }
+        }
         `
     const Cover = styled.input`
         position: absolute;
@@ -91,7 +100,7 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
             background: ${theme.colors.smoke};
             visibility: visible;
             font-size: 1.25rem;
-            transition: background .5s ease;
+            transition: background .4s ease;
         } 
         :hover::before{
                 background: ${theme.colors.smokeLight};

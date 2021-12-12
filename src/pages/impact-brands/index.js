@@ -1,12 +1,12 @@
   import React from 'react';
 import styled from 'styled-components';
-import { Layout,Quotes,Triple } from '../components'
+import { Layout,Quotes,Triple,Seo } from '../components'
 import {theme} from '../../styles/theme'
 import ImpactHeading from './ImpactHeading'
 import ProductCard from './ProductCard'
-import { graphql,Link } from 'gatsby'
-import { getImage, StaticImage } from 'gatsby-plugin-image'
+import { graphql } from 'gatsby'
 import CheckBox  from './Checkbox'
+import ImpactBrandDescription  from './ImpactBrandDescription'
 import lodash from 'lodash'
 
 const Container = styled.div`
@@ -24,6 +24,10 @@ const BlogGrid = styled.section`
     gap:4rem;
     grid-template-columns: repeat(auto-fill, minmax(16rem,1fr));
     background-color:${theme.colors.midnight};
+    @media(max-width:${theme.breakPoint.sm}){
+      width: 83%;
+      gap: 1rem;
+    }
 `
 const ProductGrid=styled(BlogGrid)`
     gap:6rem 4rem ;
@@ -33,9 +37,9 @@ const catListState=["beauty_and_health","lifestyle_and_apparel","home","mom_and_
 
 const tagListState=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","reduce_waste_or_pollution","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]
 const tagList=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","reduce_waste_or_pollution","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]
-const TripleBrandSearch=styled(Triple)`
-    margin-top:-26rem !important;
-`
+
+
+
 const FilterContainer=styled.div`
   background-color:rgb(255,255,255,.12);
   height: auto;
@@ -47,31 +51,48 @@ const FilterByType =styled.div`
   height: auto;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   * >h2{
     color:white;
   }
 `
-const ImpactTypeBox=styled.div`
-  flex:2 1 25rem;
-  display:flex;
-`
 const IndustryTypeBox=styled.div`
-  flex:1 1 25rem
+  padding:0 1rem 1.5rem 0;
+  flex:1 1 15rem;
+width:auto;
+  min-width: 15rem;
+`
+const ImpactTypeBox=styled.div`
+width:auto;
+  flex:1 1 35rem;
+
+  flex-wrap: wrap;
+`
+const ImpactSubBox=styled.div`
+width:auto;
+  flex: 1 1 17rem;
 `
 const TypeHeading=styled.h2`
     color:white;
 `
-export default ({data:{allBrandsYaml:{nodes}}}) => {
-  class FilterTags extends React.Component{
+const ImpactMidBox= styled.div`
+  display:flex;
+  flex-wrap: wrap;
+`
+const BrandHeading = ({data:
+                {allBrandsYaml:
+                  {nodes},
+                markdownYaml:{text}}
+                }) => {
+  console.log(text)
+  class FilterTags extends React.Component{ 
     constructor(props) {
         super(props);
         this.state= { 
                 improve_mental_heatlh:true,
                 tackle_oppression:true,
-                tackle_inequality_and_discrimination:true,
                 improve_physical_health:true,
                 reduce_CO2:true,
-                reduce_waste_or_pollution:true,
                 tackle_inequality_and_discrimination:true,
                 reduce_waste_or_pollution:true,
                 improve_ocean_river_health:true,
@@ -101,10 +122,6 @@ export default ({data:{allBrandsYaml:{nodes}}}) => {
             }
             addRemoveItems(checkedList)
             addRemoveItems(checkedCat)
-
-            
-            console.log(prev)
-            console.log(catList.includes(e.target.name))
             return prev
           })}
     componentDidMount(e){}
@@ -118,9 +135,8 @@ export default ({data:{allBrandsYaml:{nodes}}}) => {
                   <TypeHeading>Industry</TypeHeading>
                   {catList.map((cat,index)=>{return<CheckBox 
                       boxType="checkbox" 
-                      key={index} 
+                      key={cat} 
                       tag={cat}
-                      tagDisplayed={cat}
                       onChange={this.addChecked} 
                       checked={this.state[cat]}
                       tagDisplayed={lodash.lowerCase(cat)}
@@ -128,10 +144,10 @@ export default ({data:{allBrandsYaml:{nodes}}}) => {
                       />
                   } )}
                 </IndustryTypeBox>
-                <div>
-                  <TypeHeading>Impact Type</TypeHeading>
                 <ImpactTypeBox>
-                <div>
+                  <TypeHeading>Impact Type</TypeHeading>
+                <ImpactMidBox>
+                <ImpactSubBox>
                 {tagList.map((tag,index)=>{
                   if (index < 5){
          return(<CheckBox 
@@ -142,12 +158,10 @@ export default ({data:{allBrandsYaml:{nodes}}}) => {
                       checked={this.state[tag]}
                       tagDisplayed={lodash.lowerCase(tag)}
                       borderRadius="2px"
-                      />
-                  
-         )
+                      />)
                   }} )}
-                </div>
-                <div>
+                </ImpactSubBox>
+                <ImpactSubBox>
                 {tagList.map((tag,index)=>{
                   if (index >= 5){
          return(<CheckBox 
@@ -162,24 +176,31 @@ export default ({data:{allBrandsYaml:{nodes}}}) => {
                   
          )
                   }} )}
-                </div>
+                </ImpactSubBox>
               
+                </ImpactMidBox>
                 </ImpactTypeBox>
-                </div>
               </FilterByType>
                         </FilterContainer>
                 <ProductGrid>
                 {nodes.map((node) => {
-                    const imagesNode=node.main;
-                    const { impactType, productType } = node.tags
+                    const {main:{productImages},
+                            tags:{
+                              impactType, 
+                              productType
+                              },
+                           name,
+                           id
+                           }=node;
                     const intersection = this.state.checkedList.filter(element => impactType.includes(element));
                     const intersection2 = this.state.checkedCat.filter(element => productType.includes(element));
                       return(intersection.length!==0&&intersection2.length!==0&&<ProductCard 
-                          key={node.id}
-                          ProductImages={imagesNode.productImages}
-                          BrandNameLogo={getImage(imagesNode.brandNameLogo.childrenImageSharp[0])}
+                          key={id}
+                          ProductImages={productImages}
+                          // BrandNameLogo={getImage(imagesNode.brandNameLogo.childrenImageSharp[0])}
+                          brandName={name}
                           data-tag={impactType}
-                          LinkTo={`/impact-brands/${lodash.kebabCase(node.name)}`}
+                          LinkTo={`/impact-brands/${lodash.kebabCase(name)}`}
                       />
                       )}
                     )}
@@ -190,23 +211,25 @@ export default ({data:{allBrandsYaml:{nodes}}}) => {
 }
         return (
                 <Layout>
+                <Seo/>
                     <Container> 
                         <ImpactHeading/>
                           <FilterTags />
                           <Quotes 
                               quoteHeading="What is an impact brand?" 
-                              headingColor="white !important" 
+                              headingColor="white" 
                               quote="Impact brands are sustainable companies that create a positive impact on the world by tackling its critical problems like poverty, pollution and oppression." />
                           <Triple 
                               tripleHeading="none !important"
                               tripleMargin="-5rem 0"
                           />
+                          <ImpactBrandDescription BrandIndexText={text}></ImpactBrandDescription>
                     </Container>
                 </Layout>
             )
         }
 
-
+export default BrandHeading
 
 export const ProductQuery=graphql`
 query Products{
@@ -232,6 +255,10 @@ query Products{
           id
         }
     }
+    markdownYaml(title: {eq: "brandIndex"}) {
+      text
+    }
+
   }
 
 `

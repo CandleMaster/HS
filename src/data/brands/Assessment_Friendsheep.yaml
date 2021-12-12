@@ -10,10 +10,10 @@
 # 1 NO SLUGS
 # 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
 
-#Affil link to Home: <a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>
+#Affil link to Home: <a target="_blank" href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>
 
-nameLinked: <a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>
-name: Friendsheep
+nameLinked: <a target="_blank" href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>
+name: Friend-sheep
 featured: true
 featuredDescription: Wool dryer balls
 tags:
@@ -43,13 +43,13 @@ main:
 
 details:
   about: |
-    <p><a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>' sustainable wool dryer balls replace your traditional dryer sheets and fabric softener. They are made from pure organic New Zealand wool, are free of added chemicals, fragrances and are hypoallergenic.</p>
+    <p><a target="_blank" href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>' sustainable wool dryer balls replace your traditional dryer sheets and fabric softener. They are made from pure organic New Zealand wool, are free of added chemicals, fragrances and are hypoallergenic.</p>
     <p>Wool dryer balls also shorten your drying cycles by 20-40%, which is good for your wallet and the environment and will even reduce wrinkles and static cling.</p>
-    <p><a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a> products are <a href="https://www.friendsheepwool.com/discount/ImpactWithHopskotch?redirect=/pages/how-are-friendsheep-eco-dryer-balls-made?ref=74" rel="nofollow">andmade and needle felted by artisans in Nepal</a>h under ethical working conditions, rather than industrially mass-produced. The quality you receive means that they are made to last (1000+ loads!). 'Quality over quantity' is a crucial  sustainability concept, and one you get with this brand.</p>
+    <p><a target="_blank" href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a> products are <a target="_blank" href="https://www.friendsheepwool.com/discount/ImpactWithHopskotch?redirect=/pages/how-are-friendsheep-eco-dryer-balls-made?ref=74" rel="nofollow">andmade and needle felted by artisans in Nepal</a>h under ethical working conditions, rather than industrially mass-produced. The quality you receive means that they are made to last (1000+ loads!). 'Quality over quantity' is a crucial  sustainability concept, and one you get with this brand.</p>
 
   benefit: |
-    <p><a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>'s products are convenient for you, and reduce stress on the environment (the win-win we're looking for!). An <a href="https://www.friendsheepwool.com/discount/ImpactWithHopskotch?redirect=/pages/our-impact?ref=74" rel="nofollow">estimated</a> 180 Million chemical-infused dryer sheets and 1.8 Million bottles of fabric softener have been replaced with handmade dryer balls, so far. This also saved thousands of hours of energy-intensive drying time.</p>
-    <p>The company's impact goes beyond their products though, by planting a tree for every product sold, and by donating generously. Not only is the brand part of the organisation <a href="https://www.onepercentfortheplanet.org/">1% For the Planet</a>, but gives around 20% of profit to NFP organisations. <a href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a> looks after their stakeholders throughout the supply chain. Wool is sourced from small, family owned businesses in New Zealand. The finished product is handmade in ethical working conditions by underprivileged women or people with disabilities in Kathmandu, Nepal. This way, a traditional handcraft is kept alive as well - precious inter-generational wisdom we often forget to value enough.</p>
+    <p><a target="_blank" href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a>'s products are convenient for you, and reduce stress on the environment (the win-win we're looking for!). An <a target="_blank" href="https://www.friendsheepwool.com/discount/ImpactWithHopskotch?redirect=/pages/our-impact?ref=74" rel="nofollow">estimated</a> 180 Million chemical-infused dryer sheets and 1.8 Million bottles of fabric softener have been replaced with handmade dryer balls, so far. This also saved thousands of hours of energy-intensive drying time.</p>
+    <p>The company's impact goes beyond their products though, by planting a tree for every product sold, and by donating generously. Not only is the brand part of the organisation <a target="_blank" href="https://www.onepercentfortheplanet.org/">1% For the Planet</a>, but gives around 20% of profit to NFP organisations. <a target="_blank" href="https://www.friendsheepwool.com/?ref=74">Friendsheep</a> looks after their stakeholders throughout the supply chain. Wool is sourced from small, family owned businesses in New Zealand. The finished product is handmade in ethical working conditions by underprivileged women or people with disabilities in Kathmandu, Nepal. This way, a traditional handcraft is kept alive as well - precious inter-generational wisdom we often forget to value enough.</p>
   nowMe:
     - reduces drying times
     - save on electricity bill
@@ -59,7 +59,7 @@ details:
     - reduces wrinkles and static cling
 
   futureMe:
-    - healthier skin and overall health from chemical-free laundry drying and softening. <a href="https://www.ewg.org/guides/subcategories/53-FabricSoftener/">Source 1)</a>, <a href="https://branchbasics.com/blogs/cleaning/12-toxic-chemicals-in-dryer-sheets-fabric-softeners">2</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/31905182/">3</a>
+    - healthier skin and overall health from chemical-free laundry drying and softening. <a target="_blank" href="https://www.ewg.org/guides/subcategories/53-FabricSoftener/">Source 1)</a>, <a target="_blank" href="https://branchbasics.com/blogs/cleaning/12-toxic-chemicals-in-dryer-sheets-fabric-softeners">2</a>, <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/31905182/">3</a>
 
   nowUs:
     - empowerment of artisans
@@ -71,7 +71,7 @@ details:
     - less chemicals in waterways
     - reduction in energy consumption and the company's carbon offset reduces CO2 emissions compared to alternatives
     - reduces oil consumption or stress on renewables grids
-    - women empowerment in developing country may have positive influence on climate change through family planning and choice. <a href="https://www.earthday.org/womens-empowerment-is-key-to-reducing-climate-change/">Source 1)</a>, <a href="https://www.ltrr.arizona.edu/~katie/kt/misc/CCCC/CCOCC-2/Fewer%2520emitters%2520lower%2520emissions%2520report%2520Aug%252009.pdf">2</a>, <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)61643-3/fulltext">3</a>
+    - women empowerment in developing country may have positive influence on climate change through family planning and choice. <a target="_blank" href="https://www.earthday.org/womens-empowerment-is-key-to-reducing-climate-change/">Source 1)</a>, <a target="_blank" href="https://www.ltrr.arizona.edu/~katie/kt/misc/CCCC/CCOCC-2/Fewer%2520emitters%2520lower%2520emissions%2520report%2520Aug%252009.pdf">2</a>, <a target="_blank" href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)61643-3/fulltext">3</a>
 
 timeline:
   years:

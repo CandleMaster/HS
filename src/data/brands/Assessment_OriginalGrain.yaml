@@ -11,9 +11,9 @@
 # 2 IF YOU WANT TO DISPLAY THE PRODUCT ON THE HOME PAGE, ADD featured colon space true
 
 #Affil link to HOme: https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=
-# HTML <a href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a>
+# HTML <a target="_blank" href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a>
 
-nameLinked: <a href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a>
+nameLinked: <a target="_blank" href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a>
 name: Original Grain
 featured: true
 featuredDescription: Unique watches
@@ -27,7 +27,7 @@ tags:
 main:
   highlight: unique watches made out of unique materials such as reclaimed whiskey barrels, ammunition crates, stadium seats and much more.
   mission: to create entirely unique timepieces out of wood and steel
-  filePath: ./OriginalGrain/vetting-from.pdf
+  filePath: ./OriginalGrain/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
   awards:
@@ -46,32 +46,31 @@ main:
 details:
   about: |
     <p>A timepiece or a piece of time?</p>  
-    <p>Made of reclaimed and sustainably sourced <a href="https://shrsl.com/3a6xa">materials that tell a story</a>, <a href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> watches are one-of-a-kind. Whiskey barrels, craft beer barrels, ammunition crates, old stadium seats are just some examples, as the company shows that possibilities are endless. Some a href="https://shrsl.com/3a6xa">collections</a> also repurposed military surplus materials, like tent canvas, bomber jackets, and various worn-out camouflage materials. Each piece is carefully and thoroughly crafted to be unique, while looking great when combined with stone-washed stainless steel. In fact, Original Grain watches are designed in-house and then handmade in the US.</p>
-    <p><a href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> is choosing to make their sustainable wooden watches using traditional methods of hand-crafting over modern ones. This might take more time and effort, however, it means that each piece of wood is used to the maximum, and not a single grain is wasted.</p>
+    <p>Made of reclaimed and sustainably sourced <a target="_blank" href="https://shrsl.com/3a6xa">materials that tell a story</a>, <a target="_blank" href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> watches are one-of-a-kind. Whiskey barrels, craft beer barrels, ammunition crates, old stadium seats are just some examples, as the company shows that possibilities are endless. Some <a target="_blank" href="https://shrsl.com/3a6xa">collections</a> also repurposed military surplus materials, like tent canvas, bomber jackets, and various worn-out camouflage materials. Each piece is carefully and thoroughly crafted to be unique, while looking great when combined with stone-washed stainless steel. In fact, Original Grain watches are designed in-house and then handmade in the US.</p>
+    <p><a target="_blank" href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> is choosing to make their sustainable wooden watches using traditional methods of hand-crafting over modern ones. This might take more time and effort, however, it means that each piece of wood is used to the maximum, and not a single grain is wasted.</p>
 
   benefit: |
-    <p><a href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> was founded by two brothers that were on a mission to create a completely unique timepiece out of wood and steel. Mission accomplished! Each timepiece the company creates is distinctive so you can find yourself a perfect match and tell a story never told before. A 'commitment to authenticity, innovation, and next-level craftsmanship'.</p> 
-    <p>Together with <a href="https://trees.org/">Trees for the Future</a> and <a href="https://onetreeplanted.org/">One Tree Planted</a>, <a href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> is on another mission: reforestation. For each watch sold, a tree is planted to give back to nature, to beautify and to feed the people in the surrounding environment. Around 500,000 trees have been planted to date.</p> 
+    <p><a target="_blank" href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> was founded by two brothers that were on a mission to create a completely unique timepiece out of wood and steel. Mission accomplished! Each timepiece the company creates is distinctive so you can find yourself a perfect match and tell a story never told before. A 'commitment to authenticity, innovation, and next-level craftsmanship'.</p> 
+    <p>Together with <a target="_blank" href="https://trees.org/">Trees for the Future</a> and <a target="_blank" href="https://onetreeplanted.org/">One Tree Planted</a>, <a target="_blank" href="https://shareasale.com/r.cfm?b=1514455&u=2807031&m=95913&urllink=&afftrack=">Original Grain </a> is on another mission: reforestation. For each watch sold, a tree is planted to give back to nature, to beautify and to feed the people in the surrounding environment. Around 500,000 trees have been planted to date.</p> 
     <p>'We pride ourselves on being good stewards of the environment.'</p> 
     <p>The company is determined to waste no grain, to use every piece of wood to its maximum potential and in turn reduce pressure on extracting new resources. The company's ethos and mission aligns with the mindset of 'quality over quantity' that we should all embrace more. Own one handcrafted watch that you love over many that break apart in a short amount of time. The 'quality over quantity' philosophy ties in nicely with the 'reduction' component of a sustainable mindset.</p>
 
   nowMe:
     - high-quality piece of jewellery
-    - |
-      highly unique memory made to last
-    - </a> <a href="https://pubmed.ncbi.nlm.nih.gov/3416591/">safer for skin</a> compared to <a href="https://www.madesafe.org/whats-in-that/jewelry/">fast fashion jewellery</a>
+    - highly unique memory made to last
+    - </a> <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/3416591/">safer for skin</a> compared to <a target="_blank" href="https://www.madesafe.org/whats-in-that/jewelry/">fast fashion jewellery</a>
     - can improve mental health by reducing distractions from checking the time on our phone
 
   futureMe:
     - memory that lasts
-    - safer for skin <a href="https://pubmed.ncbi.nlm.nih.gov/9085432/">compared to cheap jewellery</a>
+    - safer for skin <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/9085432/">compared to cheap jewellery</a>
 
   nowUs:
     - repurposing of used materials that would otherwise end in landfill
     - creating a memorable bond if gifted
 
   futureUs:
-    - high-quality piece of functional jewellery can replace <a href="https://www.tegenjewellery.com/absolutely-not-fabulous-why-fast-fashion-jewellery-is-harming-the-planet/">wasteful, low-quality, easily breakable fast-fashion gadgets</a>
+    - high-quality piece of functional jewellery can replace <a target="_blank" href="https://www.tegenjewellery.com/absolutely-not-fabulous-why-fast-fashion-jewellery-is-harming-the-planet/">wasteful, low-quality, easily breakable fast-fashion gadgets</a>
     - reducing waste and pollution from mass production
 
 timeline:

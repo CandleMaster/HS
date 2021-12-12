@@ -1,15 +1,11 @@
 import React from 'react'
-// import styled from 'styled-components';
 import Hero from './Hero'
-// import IdeaDisplay from './IdeaDisplay'
 import ProductDisplay from './ProductDisplay'
 import  { graphql } from 'gatsby'
 import {  getImage} from 'gatsby-plugin-image'
-import {  Layout, Quotes } from './components'
+import {  Layout, Quotes,useWindowSize, Seo } from './components'
+import { theme } from '../styles/theme'
 import './../styles/Global.styles.css'
-import useWindowSize from './components/useWindowSize'
-import { Testamony } from './components/Quotes'
-
 
 
 export default function Index({data}) {
@@ -20,25 +16,23 @@ export default function Index({data}) {
 
     return (
         <Layout>
+            <Seo/>
             <Hero image={coverImage}/>
-            <Testamony
-              data-sal="slide-up"
-              data-sal-duration="1000" // changes duration of the animation (from 200 to 2000 ms)
-              data-sal-delay="200" // adds delay to the animation (from 5 to 1000 ms)
-              data-sal-easing="ease"
-      >
-                <h2>It's not just about doing less harm & being sustainable. </h2>
-                <h2>It's about doing <b>more good</b>.</h2>
-            </Testamony>
+            <Quotes
+              quote="It is not only about doing less harm. It's about doing "
+              underline="more good."
+              quoteFont="1.8rem"
+            />
             <ProductDisplay 
                 featuredBrands={featuredBrands} 
                 CarouselWidth={width}/>
             {/* <IdeaDisplay blogImage1={product2} blogImage2={product1}/> */}
             <Quotes 
               quoteHeading="Our Philosophy" 
-              quote="We believe that the team work of impact brands and consumers are key to solving our global issue. We call this teamwork agatonomy."
+              quote="We believe the teamwork of impact brands and conscious consumers is key to solving our global issues. We call this type of collaborative and virtuous economy "
+              headingColor={theme.colors.ams}
+              underline="'Agatonomy'. "
               />
-              
         </Layout>
     )
 }
@@ -56,6 +50,7 @@ export const query = graphql`
       featured
       featuredDescription
       main {
+        highlight
         productImages {
           childrenImageSharp {
             gatsbyImageData

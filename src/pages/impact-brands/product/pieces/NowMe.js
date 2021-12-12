@@ -10,7 +10,7 @@ const NowMeBox= styled.div`
     background-color: ${theme.colors.smoke};
     border-radius: 50px;
     flex-wrap: wrap;
-    margin: 2rem 0;
+    margin: 2rem 0 8rem 0;
     overflow: hidden;
     `
 const DetailHeadingBenefits = styled(DetailHeading)`

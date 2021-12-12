@@ -25,12 +25,14 @@ const TripleWrap = styled.div`
         display: ${tripleHeading};
     `
     return (
-        <TripleWrap>
+        <TripleWrap
+            
+        >
             <TripleHeading>Triple Impact</TripleHeading>
             <StaticImage 
                 style={tripleStyles} 
-                src='../images/triple_diagram_updated.png' 
-                placeholder="blurred" 
+                src='../../images/diagrams/triple_impact_large.png' 
+
                 alt="triple impact"
             />
         </TripleWrap>

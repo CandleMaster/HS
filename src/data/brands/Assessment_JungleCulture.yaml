@@ -12,7 +12,7 @@
 
 #Affil Link to HOME: n/a
 
-nameLinked: <a href="https://jungleculture.eco/?sca_ref=438774.tm7duDX228 >Jungle Culture</a>
+nameLinked: <a target="_blank" href="https://jungleculture.eco/?sca_ref=438774.tm7duDX228 >Jungle Culture</a>
 name: Jungle Culture
 featured: true
 featuredDescription: Reusable kitchen utensils
@@ -62,7 +62,7 @@ details:
 
   nowUs:
     - reduction of waste in landfill and oceans when replacing disposables
-    - reduction of externalities from <a href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/03/UNEP-D001-Tableware-Report_Lowres.pdf>producing disposables</a>
+    - reduction of externalities from <a target="_blank" href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/03/UNEP-D001-Tableware-Report_Lowres.pdf>producing disposables</a>
 
   futureUs:
     - less pressure on global warming from swapping to reusables and low emission production

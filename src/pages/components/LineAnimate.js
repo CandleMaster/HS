@@ -14,7 +14,7 @@ export default function LineAnimate({ background }) {
         padding: 0;
         `
     const Line = styled(LineWrapper)`
-        width:100%;
+        width:auto;
         background: rgb(255, 200, 124) linear-gradient(
         90deg,
         rgba(255, 200, 124, 1) 0%,
@@ -24,10 +24,8 @@ export default function LineAnimate({ background }) {
         z-index: 999;
     `
     return (
-        <>
         <LineWrapper>
             <Line />
         </LineWrapper>
-        </>
     )
 }

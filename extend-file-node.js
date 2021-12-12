@@ -12,8 +12,8 @@ module.exports = ({ type, getNodeAndSavePathDependency, pathPrefix = `` }) => {
       type: GraphQLString,
       args: {},
       resolve: (file, fieldArgs, context) => {
-        const details = getNodeAndSavePathDependency(file.id, context.path)
-        const fileName = `${file.name}-${file.internal.contentDigest}${
+        const details = getNodeAndSavePathDependency(file.name, context.path)
+        const fileName = `${file.id}-${file.internal.contentDigest}${
           details.ext
         }`
 

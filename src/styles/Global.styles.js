@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../styles/theme'
+import { theme } from './theme'
 export const BlogGrid = styled.section`
     margin: 5rem auto;
     width: 75%;
@@ -11,10 +11,21 @@ export const BlogGrid = styled.section`
 `
 
 export const Vision = styled.h1`
-color: grey;
 width: auto;
-padding: 0rem 0rem;
-font-weight: 600;
+/* padding: 0rem 0rem; */
+font-weight: 700;
+font-size:6vmin;
+transition:font-size .2s linear;
+color:${theme.colors.midnight} !important;
+/* @media(max-width:${theme.breakPoint.xs}){
+    font-size:2rem;
+
+} */
+@media(max-width:${theme.breakPoint.sm}){
+    font-size:7vw;
+    }
+}
+
 `
 
 export const Display = styled.div`
@@ -39,8 +50,7 @@ export const Arrow = styled.button`
     border: solid white;
     border-width: 0 4px 4px 0;
     background: transparent;
-    paddiing:2.75rem;
-    /* margin:.5rem; */
+    /* padding:2.75rem; */
     width: 1rem !important;
     height: 1rem !important;
     transform:rotate(-45deg);
@@ -74,14 +84,15 @@ export const FlexBox=styled.div`
 `
 export const Container = styled.div`
     width: 75%;
-    max-width: 50rem;
-    min-width: 30rem;
+    max-width: 55rem;
     margin: auto;
     padding: 3rem 0;
-    min-height: 30rem;
     height: auto;
     display: flex;
+    transition: display .3s linear;
     justify-content: ${props => props.justify};
     flex-wrap: ${props => props.wrap};
     overflow: ${props => props.overflow};
+    @media(max-width:${theme.breakPoint.sm}){
+          width: 87%;}
   `

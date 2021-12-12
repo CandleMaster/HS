@@ -9,25 +9,30 @@ const DefineGroup=styled.div`
         flex-grow: 0;
         display: flex;
         transition: display 2s ease-in 1s;
+        flex-wrap:wrap ;
         width:auto;
+        /* height:auto; */
         `
     const Term = styled.button`
+    white-space: nowrap;
         padding: .25rem 1rem;
         border-radius: 25px;
         border: grey 1px solid;
         background-color: white;
         margin: .25rem 0;
+        text-align: left;
+        width: auto;
         `
     const termClicked = {
         backgroundColor:theme.colors.midnight, 
-        color:'white'
+        color:'white',
+        textAlign:'left',
+        width:'auto'
     }
     const Definition=styled.div`
         transition: display 2s ease-in-out 1s;
-        padding: .25rem .5rem;
-        position: absolute;
-        left:0%;
-        bottom:-100%;
+        padding: .5rem;
+
         `
 
 export default class Terms extends React.Component {

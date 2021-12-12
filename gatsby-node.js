@@ -9,10 +9,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       type BrandsYaml implements Node {
         filePath:File!
       }
+      
     `
     createTypes(typeDefs)
 }
 
+      // type File implements Node @childOf(types: ["File"])
 
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -21,6 +23,9 @@ exports.createPages = async ({ graphql, actions }) => {
       allBrandsYaml {
           nodes {
             main {
+              filePath{
+                publicURL
+              }
               brandNameLogo {
                 childrenImageSharp {
                   gatsbyImageData

@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: `Hopskotch`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `At Hopskotch, we believe that business can be a force for good. We connect you to verified impact brands and powerful ideas that drive them.`,
+    author: `@dannijiang`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
- `gatsby-plugin-styled-components`,
- `gatsby-transformer-yaml`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-yaml`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
@@ -37,13 +39,11 @@ module.exports = {
         path: `${__dirname}/src/markdown`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    // `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-          endpoint: 'https://hotmail.us1.list-manage.com/subscribe/post?u=ce0af335cc3e31349fac52f6a&amp;id=11cda25583', 
+          endpoint: 'https://hop-skotch.us20.list-manage.com/subscribe/post?u=2eecebcb912c58f974816f237&amp;id=f6550503fa', 
           timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
   },
@@ -56,39 +56,29 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo/HS_logo_colored.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-          endpoint: '', 
-          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
-      },
-  },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           `Inter\:300,400,400i,500,600,700`,
-  
         ],
         display: 'swap'
       }
     },
-
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
           threshold: 1, // Percentage of an element's area that needs to be visible to launch animation
           once: true, // Defines if animation needs to be launched once
           disable: false, // Flag for disabling animations
-  
           // Advanced Options
           selector: '[data-sal]', // Selector of the elements to be animated
           animateClassName: 'sal-animate', // Class name which triggers animation
           disabledClassName: 'sal-disabled', // Class name which defines the disabled state
-          rootMargin: '0% 50%', // Corresponds to root's bounding box margin
+          rootMargin: '30% 50%', // Corresponds to root's bounding box margin
           enterEventName: 'sal:in', // Enter event name
           exitEventName: 'sal:out', // Exit event name
       }
