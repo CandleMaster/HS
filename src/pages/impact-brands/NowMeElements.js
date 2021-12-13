@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import {theme} from '../../../../styles/theme'
-import {RightArrow, LeftArrow} from '../../../../styles/Global.styles'
+import {theme} from '../../styles/theme'
+import {RightArrow, LeftArrow} from '../../styles/Global.styles'
 
 const ListItems= styled.li`
     list-style: none;
@@ -106,14 +106,22 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
                 background: ${theme.colors.smokeLight};
             }
     `
-
+    // function processData(elementDat){
+    //     elementDat.map((element)=>{return<ListItems dangerouslySetInnerHTML={{__html:element}}/>})
+    // }
     const [check, setChecked]=useState(false)
+    console.log(elementData)
     return (
         <NowMeElement>
             <CoverLabel for={coverID}>
             <NowMeName>{contentHeading}</NowMeName>
             <ul>
-            {elementData(dataPoints).map(dataPoint=><ListItems dangerouslySetInnerHTML={{__html:dataPoint}}/>)}
+            {elementData && elementData.map((element)=>{return<ListItems dangerouslySetInnerHTML={{__html:element}}/>})}
+                {/* {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[0]}}/>}
+                {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[1]}}/>}
+                {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[2]}}/>}
+                {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[3]}}/>} */}
+
             </ul>
             <ArrowBox>
                 <LeftArrow onClick={()=>dataPrev()}/>

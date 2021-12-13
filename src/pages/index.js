@@ -3,7 +3,7 @@ import Hero from './Hero'
 import ProductDisplay from './ProductDisplay'
 import  { graphql } from 'gatsby'
 import {  getImage} from 'gatsby-plugin-image'
-import {  Layout, Quotes,useWindowSize, Seo } from './components'
+import {  Layout, Quotes,useWindowSize, Seo, Navbar, } from './components'
 import { theme } from '../styles/theme'
 import './../styles/Global.styles.css'
 
@@ -15,8 +15,9 @@ export default function Index({data}) {
     const featuredBrands = data.allBrandsYaml.nodes
 
     return (
+      <>
+            {/* <Seo/> */}
         <Layout>
-            <Seo/>
             <Hero image={coverImage}/>
             <Quotes
               quote="It is not only about doing less harm. It's about doing "
@@ -34,6 +35,7 @@ export default function Index({data}) {
               underline="'Agatonomy'. "
               />
         </Layout>
+        </>
     )
 }
 

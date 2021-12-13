@@ -7,7 +7,7 @@ export default function FooterCard( { children, title, titleStyle} ) {
     `
     const Cards= styled.div`
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         padding: 2rem 0;
     `
 

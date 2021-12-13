@@ -20,9 +20,11 @@ const BlogGrid = styled.section`
     margin: 5rem auto;
     width: 75%;
     max-width: 80rem;
+    
     display: grid;
     gap:4rem;
     grid-template-columns: repeat(auto-fill, minmax(16rem,1fr));
+    grid-template-rows: repeat(auto,20rem);
     background-color:${theme.colors.midnight};
     @media(max-width:${theme.breakPoint.sm}){
       width: 83%;
@@ -35,8 +37,8 @@ const ProductGrid=styled(BlogGrid)`
 const catList=["beauty_and_health","lifestyle_and_apparel","home","mom_and_baby"]
 const catListState=["beauty_and_health","lifestyle_and_apparel","home","mom_and_baby"]
 
-const tagListState=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","reduce_waste_or_pollution","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]
-const tagList=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","reduce_waste_or_pollution","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]
+const tagListState=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]
+const tagList=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]
 
 
 
@@ -84,7 +86,6 @@ const BrandHeading = ({data:
                   {nodes},
                 markdownYaml:{text}}
                 }) => {
-  console.log(text)
   class FilterTags extends React.Component{ 
     constructor(props) {
         super(props);
@@ -111,7 +112,8 @@ const BrandHeading = ({data:
         this.setState(prev=>{
             prev[e.target.name] = !prev[e.target.name]
             const { checkedList,checkedCat } = prev
-
+            
+            //toggle tag and add/remove from list
             function addRemoveItems(list){
               if (list.includes(e.target.name)){
                 const index=list.indexOf(e.target.name)
@@ -120,10 +122,24 @@ const BrandHeading = ({data:
                 list.push(e.target.name)
               }
             }
+
             addRemoveItems(checkedList)
             addRemoveItems(checkedCat)
+
             return prev
           })}
+        // clearItems(e){
+        //   this.setState(prevs=>{
+        //       const clickedTags=Object.keys(prevs)
+        //       clickedTags.map(tags =>{
+        //         if (tags==checkedList || tags==checkedCat ){
+        //           continue
+        //         }else{
+        //           prev[tags]=!prev[tags]
+        //       }})
+                
+
+        //   })}
     componentDidMount(e){}
     
     render(){
@@ -132,51 +148,45 @@ const BrandHeading = ({data:
           <FilterContainer>
               <FilterByType>
                 <IndustryTypeBox>
-                  <TypeHeading>Industry</TypeHeading>
-                  {catList.map((cat,index)=>{return<CheckBox 
-                      boxType="checkbox" 
-                      key={cat} 
-                      tag={cat}
-                      onChange={this.addChecked} 
-                      checked={this.state[cat]}
-                      tagDisplayed={lodash.lowerCase(cat)}
-                      borderRadius="2px"
-                      />
-                  } )}
+                    <TypeHeading>Industry</TypeHeading>
+                    {catList.map((cat,index)=>(<CheckBox 
+                        boxType="checkbox" 
+                        key={cat} 
+                        tag={cat}
+                        onChange={this.addChecked} 
+                        checked={this.state[cat]}
+                        tagDisplayed={lodash.lowerCase(cat)}
+                        borderRadius="2px"
+                        />
+                    ) )}
                 </IndustryTypeBox>
                 <ImpactTypeBox>
-                  <TypeHeading>Impact Type</TypeHeading>
-                <ImpactMidBox>
-                <ImpactSubBox>
-                {tagList.map((tag,index)=>{
-                  if (index < 5){
-         return(<CheckBox 
-                      boxType="checkbox" 
-                      key={index} 
-                      tag={tag} 
-                      onChange={this.addChecked} 
-                      checked={this.state[tag]}
-                      tagDisplayed={lodash.lowerCase(tag)}
-                      borderRadius="2px"
-                      />)
-                  }} )}
-                </ImpactSubBox>
-                <ImpactSubBox>
-                {tagList.map((tag,index)=>{
-                  if (index >= 5){
-         return(<CheckBox 
-                      boxType="checkbox" 
-                      key={index} 
-                      tag={tag} 
-                      onChange={this.addChecked} 
-                      checked={this.state[tag]}
-                      tagDisplayed={lodash.lowerCase(tag)}
-                      borderRadius="2px"
-                      />
-                  
-         )
-                  }} )}
-                </ImpactSubBox>
+                    <TypeHeading>Impact Type</TypeHeading>
+                    <ImpactMidBox>
+                        <ImpactSubBox>
+                        {tagList.map((tag,index)=>(index < 5 &&<CheckBox 
+                              boxType="checkbox" 
+                              key={index} 
+                              tag={tag} 
+                              onChange={this.addChecked} 
+                              checked={this.state[tag]}
+                              tagDisplayed={lodash.lowerCase(tag)}
+                              borderRadius="2px"
+                              />)
+                          )}
+                        </ImpactSubBox>
+                        <ImpactSubBox>
+                        {tagList.map((tag,index)=>(index >= 5 &&<CheckBox 
+                              boxType="checkbox" 
+                              key={index} 
+                              tag={tag} 
+                              onChange={this.addChecked} 
+                              checked={this.state[tag]}
+                              tagDisplayed={lodash.lowerCase(tag)}
+                              borderRadius="2px"
+                              />
+                ) )}
+                        </ImpactSubBox>
               
                 </ImpactMidBox>
                 </ImpactTypeBox>
@@ -193,8 +203,8 @@ const BrandHeading = ({data:
                            id
                            }=node;
                     const intersection = this.state.checkedList.filter(element => impactType.includes(element));
-                    const intersection2 = this.state.checkedCat.filter(element => productType.includes(element));
-                      return(intersection.length!==0&&intersection2.length!==0&&<ProductCard 
+                    {/* const intersection2 = this.state.checkedCat.filter(element => productType.includes(element)); */}
+                      return(intersection.length!==0&&this.state.checkedCat.includes(productType)&&<ProductCard 
                           key={id}
                           ProductImages={productImages}
                           // BrandNameLogo={getImage(imagesNode.brandNameLogo.childrenImageSharp[0])}
@@ -243,7 +253,7 @@ query Products{
             }
             productImages {
               childrenImageSharp {
-                gatsbyImageData
+                gatsbyImageData(width: 400)
               }
             }
           }
@@ -262,3 +272,4 @@ query Products{
   }
 
 `
+// intersection.length!==0&&intersection2.length!==0

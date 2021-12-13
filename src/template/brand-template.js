@@ -2,7 +2,11 @@ import React from 'react'
 import styled from 'styled-components';
 import  { graphql } from 'gatsby'
 import { SimpleSlider,Navbar, Footer, Container,Triple,useWindowSize,Seo } from '../pages/components'
-import  { InfoBlocks, BrandHeading, BrandDetails,  NowMe}  from '../pages/impact-brands/product/pieces'
+import   InfoBlocks from '../pages/impact-brands/InfoBlock'
+import   NowMe from '../pages/impact-brands/NowMe'
+import   BrandDetails from '../pages/impact-brands/BrandDetails'
+import   BrandHeading from '../pages/impact-brands/BrandHeading'
+
 import { theme } from '../styles/theme'
 // import { TimelineEvent, TimelineDots , YearLi} from '../pages/impact-brands/Timeline'
 export default function Product({ data }) {
@@ -142,12 +146,12 @@ const [width, height] = useWindowSize();
                     about={about} 
                     benefit={benefit}
                 />
-                <NowMe 
+{nowMe!==undefined && futureMe!==undefined && nowUs!==undefined && futureUs!==undefined && <NowMe 
                     nowMePoints={nowMe}
                     futureMePoints={futureMe}
                     nowUsPoints={nowUs}
                     futureUsPoints={futureUs}
-                />
+                />}
             </Container>
             <Footer />
             </>

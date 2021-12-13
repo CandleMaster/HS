@@ -12,27 +12,27 @@ const HeroImage =styled(GatsbyImage)`
     max-height:880px;
     position: absolute;
     top:0px;
+    bottom: 0px;
     left:0px;
-    background-attachment:fixed
+    background-attachment:fixed;
 
 `
 const He = styled.div`
     width: 100%;
-    height: 100%;
+    height: 100vh;
     max-height: 880px;
-    position: relative;
+    position: relative !important;
 `
 
 
 const HeroText= styled.h1`
-    position: absolute;
+    position: absolute !important;
     width:80%;
     max-width:30rem;
     margin:0 10%;
     height: auto;
     top:30%;
     transform: translateY(-5%);
-    /* font-size: 6rem !important; */
     /* @media(max-width:${theme.breakPoint.sm}){
         top:35%;
     } */
@@ -91,7 +91,8 @@ export default function Hero({image}) {
                 <Taking>Taking care of </Taking>
                 <StaticImage src="../images/hp_sustainability_icon.png" alt="Beyond Sustainability"/>
             </HeroText>
-            <HeroButtons buttonPosition="absolute"
+            <HeroButtons 
+                buttonPosition="absolute"
                 wrapPadding="0 10%"
             />
         </He>

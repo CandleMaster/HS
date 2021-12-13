@@ -14,7 +14,7 @@
 
 nameLinked: <a target="_blank" href="https://shareasale.com/r.cfm?b=1398840&u=2807031&m=90625&urllink=&afftrack=">Tru Earth</a>
 name: Tru Earth
-featured: true
+featured: false
 featuredDescription: Laundry detergent strips
 tags:
   impactType: 
@@ -53,13 +53,9 @@ details:
   benefit: |
     <p> <a target="_blank" href="https://shareasale.com/r.cfm?b=1398840&u=2807031&m=90625&urllink=&afftrack=">Tru Earth</a> was founded out of a dad frustrated about the huge amounts of plastic waste being displayed in kids shows. With the desire to do something about it, fueled by his serial entrepreneur friend, the idea of Tru Earth was developed, tested and soon became super popular!</p>
     <p>The company's values are simplicity, empowerment and integrity. And those values resonate with Hopskotch and the impact brand mentality:</p>
-    <p>'We believe [...] small actions add up to big changes. We're not perfect and we're not asking anyone else to be. We all have the power to choose. As our company grows we will keep the close sense of family that we started with.
-	We will never compromise our values or cut corners to reduce costs. We will not shortchange the environment to make a profit. We will be transparent about production and ingredients.
-	We will never shame anyone or make people feel bad about their choices, we will simply work to provide eco-friendly products that work.' (<a target="_blank" href="https://shareasale.com/r.cfm?b=1398840&u=2807031&m=90625&urllink=&afftrack=">Tru Earth</a>)</p>
+    <p>'We believe [...] small actions add up to big changes. We're not perfect and we're not asking anyone else to be. We all have the power to choose. As our company grows we will keep the close sense of family that we started with. We will never compromise our values or cut corners to reduce costs. We will not shortchange the environment to make a profit. We will be transparent about production and ingredients. We will never shame anyone or make people feel bad about their choices, we will simply work to provide eco-friendly products that work.' (<a target="_blank" href="https://shareasale.com/r.cfm?b=1398840&u=2807031&m=90625&urllink=&afftrack=">Tru Earth</a>)</p>
     <p>Several of Tru Earth's own <a target="_blank" href="https://shrsl.com/3a6z7">projects</a> have been set in motion, usually in collaboration with other change-makers. For example, the team-up with <a target="_blank" href="https://ocean.org/>Ocean Wise</a> for the 'Great American Shoreline' beach clean up. Or, planting trees together with a target="_blank" href="https://tentree.eu/">tentree</a>.</p> 
     <p>So far, in just over two years of operating, the company has already donated 9.7 million loads of laundry to groups in need. The total sales of laundry sheets amounts up to over 4.7 million plastic jugs from being bought and potentially from ending up in a landfill or ocean. On top of that, the transportation emissions of Tru Earth sheets is about 97% less compared to your usual detergent, which is much more bulky and heavy.</p>
-
-
 
   nowMe:  
     - saves storage space and messy measuring 
@@ -67,12 +63,11 @@ details:
     - hypoallergenic
    	
   futureMe: 
-    -  less health concerns compared with standard detergent. <a target="_blank" href="https://www.lung.org/clean-air/at-home/indoor-air-pollutants/cleaning-supplies-household-chem">Source 1</a>, <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/31905182/">2)</a>,  <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30500342/">3</a>
+    - less health concerns compared with standard detergent. <a target="_blank" href="https://www.lung.org/clean-air/at-home/indoor-air-pollutants/cleaning-supplies-household-chem">Source 1</a>, <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/31905182/">2)</a>,  <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30500342/">3</a>
  
-  nowUs: 
-   
-    -  less plastic in landfill/oceans 
-    -  less chemicals in waterways
+  nowUs:  
+    - less plastic in landfill/oceans 
+    - less chemicals in waterways
 
   futureUs: 
     - less CO2 emissions benefit global warming
@@ -90,4 +85,4 @@ timeline:
     - ranked No.2 2 by Canadian Business on its annual STARTUP LIST
     - 5-million loads donated
   
-keyword: laundry sheets with detergent
+Keyword: laundry sheets with detergent

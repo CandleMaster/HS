@@ -14,7 +14,7 @@
 
 nameLinked: <a target="_blank" href="http://www.gladrags.com?aff=95">'Gladrags'</a>
 name: Gladrags
-#featured: true
+featured: false
 featuredDescription: Reusable menstrual products
 tags:
   impactType:

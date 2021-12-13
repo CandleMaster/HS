@@ -11,8 +11,6 @@ import { Link } from 'gatsby'
 //     top:-2.5rem;
 // `
 const BrandName=styled.h4`
-    /* width: 2rem; */
-    /* height: 2rem; */
 border-radius:0 50px 0px 0px;
     padding: .6rem 1.5rem 1.8rem 1rem;
     object-fit:contain;
@@ -20,21 +18,18 @@ border-radius:0 50px 0px 0px;
     overflow: hidden;
     color:${theme.colors.smoke};
     top:-3.4rem;
-    /* height: 8rem; */
+    width: 100%;
     max-width:100%;
     word-wrap: wrap;
     font-size: 3.25rem;
-    /* font-weight: 300; */
     background: ${theme.colors.beige};
-    /* background: ${theme.colors.smoke}; */
-    /* width: 100%;
-    text-align:center; */
+
 `
 export default function ProductCard({ ProductImages, brandName, LinkTo, display,...prop}) {
 const ProductCardWrap=styled(Link)`
     background-color: ${theme.colors.beige};
     border-radius:0 50px 50px 50px;
-    aspect-ratio:1;
+    aspect-ratio:1 ;
     display:${display};
     position: relative;
 `

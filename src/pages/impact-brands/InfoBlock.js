@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {StaticImage } from 'gatsby-plugin-image'
-import {theme} from '../../../../styles/theme'
+import {theme} from '../../styles/theme'
 
 const InfoHead=styled.h2`
     font-size: 1.25rem;
@@ -63,7 +63,7 @@ const InfoBlock= styled.div`
             <InfoText dangerouslySetInnerHTML={{ __html: mission }}/>
             <File target="_blank" href={filePath}>
                 <StaticImage 
-                    src="../../../../images/icons/report_icon.png" 
+                    src="../../images/icons/report_icon.png" 
                     style={{width:"2.5rem",height:"auto"}} 
                     alt="file"
                 />

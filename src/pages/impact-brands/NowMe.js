@@ -1,7 +1,7 @@
 import React from 'react'
-import {theme} from '../../../../styles/theme'
+import {theme} from '../../styles/theme'
 import styled from 'styled-components';
-import usePaginate from '../../../components/usePaginate'
+import usePaginate from '../components/usePaginate'
 import NowMeElements from './NowMeElements'
 import { DetailHeading } from './BrandDetails'
 const NowMeBox= styled.div`
@@ -27,50 +27,50 @@ export default function NowMe({nowMePoints, nowUsPoints,futureMePoints,futureUsP
         <>
         <DetailHeadingBenefits>Short & Long Term Benefits</DetailHeadingBenefits>
         <NowMeBox>  
-            <NowMeElements 
+            {nowMePoints &&<NowMeElements 
             coverID="cover1"
-            dataPoints={nowMePoints}
-            elementData={currentData}
+            // dataPoints={nowMePoints}
+            elementData={currentData()}
             dataPrev={prev}
             dataNext={next}
             contentHeading="Now me"
             borderWidth="0"
             bottom="0"
             right="0"
-            />
-            <NowMeElements 
+            />}
+            {nowUsPoints &&<NowMeElements 
             coverID="cover2"
-            dataPoints={nowUsPoints}
-            elementData={nowUsData}
+            // dataPoints={nowUsPoints}
+            elementData={nowUsData()}
             dataPrev={nowUsPrev}
             dataNext={nowUsNext}
             contentHeading="Now us"
             borderWidth="0 0 0 1px"
             bottom="0"
             left="0"
-            />
-            <NowMeElements 
+            />}
+            {futureMePoints &&<NowMeElements 
             coverID="cover3"
-            dataPoints={futureMePoints}
-            elementData={futureMeData}
+            // dataPoints={futureMePoints}
+            elementData={futureMeData()}
             dataPrev={futureMePrev}
             dataNext={futureMeNext}
             contentHeading="Future Me"
             borderWidth="1px 0 0 0"
             right="0"
             top="0"
-            />
-            <NowMeElements 
+            />}
+            {futureUsPoints &&<NowMeElements 
             coverID="cover4"
-            dataPoints={futureUsPoints}
-            elementData={futureUsData}
+            // dataPoints={futureUsPoints}
+            elementData={futureUsData()}
             dataPrev={futureUsPrev}
             dataNext={futureUsNext}
             contentHeading="Future us"
             borderWidth="1px 0 0 1px"
             left="0"
             top="0"
-            />
+            />}
         </NowMeBox>
         </>
     )

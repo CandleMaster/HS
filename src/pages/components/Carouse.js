@@ -24,11 +24,16 @@ export default function SimpleSlider({ imageList,duration,button }) {
     const CarouselImg = styled(GatsbyImage)`
       /* width: 30%; */
       object-fit:contain;
+      aspect-ratio:1;
+      padding:1.25rem;
+      height: auto;
+      width: auto;
+
 
     `
   return(
     <CenteredCarousel variant='dark' interval={duration}>
-      {imageList.map((image,index) => {
+      {imageList && imageList.map((image,index) => {
         return(
           <Carousel.Item key={index}>
               <CarouselImg 

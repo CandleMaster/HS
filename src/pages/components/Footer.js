@@ -13,9 +13,6 @@ export default function Footer() {
         {
         z-index: 999;
         }
-        /* position:fixed;
-        bottom: 0; */
-
     `
     const FooterContent = styled.div`
         display: flex;

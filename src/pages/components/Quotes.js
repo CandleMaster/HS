@@ -14,6 +14,7 @@ const Testamony = styled.div`
     min-height: 7rem;
     display: grid;
     place-items: center;
+    position: relative;
   div{
     height: 1.25rem;
     margin: 1.5rem 0;

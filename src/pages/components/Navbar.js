@@ -5,14 +5,14 @@ import { StaticImage } from "gatsby-plugin-image"
 
 function Navbar() {
     const Nav = styled.nav`
-        width: 100% ;
+        width: 100vw;
         height: 4.5rem;
         background: rgb(255,200,124);
         background: linear-gradient(90deg, rgba(255,200,124,1) 0%, rgba(252,165,131,1) 100%);
         position: fixed;
         opacity: 90%;
         display: flex;
-        align-items:stretch;
+        align-content:space-around;
         vertical-align: center;
         transition:background 2s ease-in-out;
         z-index:999;
@@ -41,11 +41,7 @@ function Navbar() {
         font-weight: 400;
         display: grid;
         place-items: center;
-        /* transition:; */
-        /* :hover{
-            text-decoration:underline;
-            color:white;
-        } */
+
     `
     const Hamburger = styled.div`
         height: 2.3rem;
@@ -74,7 +70,7 @@ function Navbar() {
                     quality={95}
                     formats={["auto", "webp", "avif"]}
                     alt="A Gatsby astronaut"
-                    style={{ width:'2rem'}}
+                    style={{ width:'1.5rem'}}
                 />
             </Link>
             <NavLink to='/impact-brands'>impact brands</NavLink>
@@ -85,7 +81,6 @@ function Navbar() {
                 <Hamburger>
                     <Line top="0.4rem"/>
                     <Line top="1rem" />
-                    {/* <Line top="1rem" /> */}
                 </Hamburger>
             </Link>
 

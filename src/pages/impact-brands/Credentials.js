@@ -34,10 +34,10 @@ function awardMap(item,index){
 }
     return (
         <Credential>
-            <h2>Awards</h2>
-            <div>{awards.map(awardMap)}</div>
+            {/* <h2>Awards</h2>
+            {awards && <div>{awards.map(awardMap)}</div>}
             <h2>Labels</h2>
-            <div>{labels.map(awardMap)}</div>
+            {labels && <div>{labels.map(awardMap)}</div>} */}
         </Credential>
     )
 }
