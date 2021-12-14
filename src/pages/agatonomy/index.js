@@ -31,7 +31,8 @@ function index({ data }) {
     borderRadius:'200px',
     aspectRatio:'1/2.7',
     maxHeight:'42rem',
-    minHeight:'35rem'
+    minHeight:'35rem',
+    objectFit:"contain"
   }
  
   const childHopscotch = getImage(imageSharp.childImageSharp)
