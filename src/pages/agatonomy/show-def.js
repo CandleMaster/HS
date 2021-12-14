@@ -22,6 +22,11 @@ const DefineGroup=styled.div`
         margin: .25rem 0;
         text-align: left;
         width: auto;
+        @media(max-width:${theme.breakPoint.sm}){
+            /* white-space: normal !important; */
+        padding: .15rem .75rem;
+
+        }
         `
     const termClicked = {
         backgroundColor:theme.colors.midnight, 

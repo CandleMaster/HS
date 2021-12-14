@@ -47,11 +47,14 @@ const Hopskotch = styled(GatsbyImage)`
         /* mix-height:30rem !important; */
     }
     @media(max-width:${theme.breakPoint.sm}){
-        aspect-ratio:2.4/4.1;
+        aspect-ratio:2.4/4;
+        min-height: 65vh;
+        /* height: 85vh; */
 
     }
     @media(max-width:${theme.breakPoint.xs}){
         aspect-ratio:2.4/5;
+        min-height: 85vh;
         
     }
     `

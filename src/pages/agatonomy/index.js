@@ -30,7 +30,8 @@ function index({ data }) {
   const utahStyles={
     borderRadius:'200px',
     aspectRatio:'1/2.7',
-    maxHeight:'42rem'
+    maxHeight:'42rem',
+    minHeight:'35rem'
   }
  
   const childHopscotch = getImage(imageSharp.childImageSharp)
