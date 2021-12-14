@@ -29,10 +29,14 @@ export default function ProductCard({ ProductImages, brandName, LinkTo, display,
 const ProductCardWrap=styled(Link)`
     background-color: ${theme.colors.beige};
     border-radius:0 50px 50px 50px;
-    aspect-ratio:1 ;
+    aspect-ratio:1.1 ;
     /* padding:1rem; */
     display:${display};
     position: relative;
+    @media(max-width:${theme.breakPoint.sm}){
+    height: 76vw;
+    }
+
 `
     return (
         <>

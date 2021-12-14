@@ -24,7 +24,7 @@ function Navbar() {
         }
         a{
             height:auto;
-            padding: 1rem;
+            padding: .5rem;
             display: grid;
             place-items: center;
             font-size: 1rem;

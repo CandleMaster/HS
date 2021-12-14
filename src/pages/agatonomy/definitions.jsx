@@ -37,7 +37,6 @@ function DefCategory ({category, catName }){
     )}
 
 export default function Definitions({ define1, define2, define3, define4,categoryName1, categoryName2, categoryName3, categoryName4}) {
-        console.log(categoryName1)
             return (
                 <DefCatWrapper>
                     <What>

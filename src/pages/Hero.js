@@ -49,7 +49,7 @@ const fadeIn =keyframes`
 `
 const Taking = styled.h1`
     word-wrap: wrap;
-    font-size:4.5rem;
+    font-size:4rem;
     color:white;
     word-wrap: wrap;
     position: relative;

@@ -11,14 +11,14 @@ export default function SimpleSlider({ imageList,duration,button }) {
     const CenteredCarousel=styled(Carousel)`
         padding: 2.5rem;
         aspect-ratio:1;
-        height: auto;
         transform: translateY(-1rem);
         object-fit:contain !important;
         button {display: none;}
         span{opacity:25% !important;}
         a{z-index: 999;}
         @media(max-width:${theme.breakPoint.sm}){
-        /* padding: 1.75rem; */
+        height: 78vw;
+        padding: 1rem;
       }
     `
     const CarouselImg = styled(GatsbyImage)`
@@ -26,9 +26,6 @@ export default function SimpleSlider({ imageList,duration,button }) {
       object-fit:contain;
       aspect-ratio:1;
       padding:1.25rem;
-      height: auto;
-      width: auto;
-
 
     `
   return(

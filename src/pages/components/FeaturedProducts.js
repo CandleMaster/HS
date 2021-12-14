@@ -8,9 +8,9 @@ const FeaturedProduct = styled(Link)`
     display: flex;
     border:transparent 1px solid;
     flex-direction: column;
-    align-content: center;
+    align-content: space-between;
     padding: 2.5rem 2.5rem 1rem 2.5rem;
-    height: auto;
+    height: 35rem;
     min-width: 20rem;
     transition: background-color .3s ease-in-out;
     background-color: ${theme.colors.beige};
@@ -33,14 +33,13 @@ const FeaturedProduct = styled(Link)`
     }
     `
 const FeaturedDescription =styled.p`
-    /* display: grid;
-    place-items: center; */
-    height: 20%;
-    min-height: 7rem;
-    padding: 2rem 1.5rem .8rem 1.5rem;
+    height: 7.5rem;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
     color: ${theme.colors.ams};
     font-size: 1.15rem;
     font-weight: 400;
+    display: grid;
+    place-items: center;
     text-align: center;
     `
 // const LogoImage= styled(GatsbyImage)`
@@ -56,13 +55,9 @@ const ProductImage= styled(GatsbyImage)`
 const BrandName = styled.h3`
     display: grid;
     place-items: center;
-    height: 20%;
-    min-height: 6rem;
-    max-height: 6rem;
-    /* font-size:2rem; */
+    height: 6rem;
     font-size:4rem;
     font-weight: 600;
-    /* color: ${theme.colors.ams}; */
     color: ${theme.colors.smoke};
     letter-spacing:3px;
 `
@@ -77,19 +72,3 @@ export default function FeaturedProducts ({ featuredImage, brandName, descriptio
     </FeaturedProduct>
   )
 }
-// const ImgWrap=styled.div.attrs({className:"ImgWrap"})`
-//     /* backface-visibility: hidden; */
-//     position:relative;
-//     transition: transform 2s ease;
-//     transform-style: preserve-3d;
-//     :after{
-//         content:'1';
-//         backface-visibility: hidden;
-//         transition: transform 2s ease;
-//         transform:rotateY(.5turn);
-//         position: absolute;
-//         inset:0;
-//        border-radius:50% ;
-//         background-color:pink;
-//     }
-// `

@@ -16,13 +16,20 @@ export default function ImpactHeading() {
     h1, div h1{
         width: auto;
         color: white;
+        padding: 0;
+        margin: 0;
         font-size: 3rem;
-        line-height:2.8rem;
+        line-height:3.5rem;
+    }
+    @media(max-width:${theme.breakPoint.sm}){
+        text-align: center;
     }
     `   
 const ImpactUnderlined = styled.div`
     width: auto;    
     position: relative;
+    @media(max-width:502px){
+        width:11rem;}
 `
 const Subheading= styled.h2`
     font-family: 'HeadingWest';

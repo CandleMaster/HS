@@ -113,7 +113,6 @@ const Affiliate = styled.div`
   padding: 2rem .5rem;
 `
 const [width, height] = useWindowSize();
-console.log(nowMe,futureMe,nowUs,futureUs)
     return (
             <>
               <Seo

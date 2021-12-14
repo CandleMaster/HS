@@ -110,7 +110,6 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
     //     elementDat.map((element)=>{return<ListItems dangerouslySetInnerHTML={{__html:element}}/>})
     // }
     const [check, setChecked]=useState(false)
-    console.log(elementData)
     return (
         <NowMeElement>
             <CoverLabel for={coverID}>
