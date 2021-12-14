@@ -65,7 +65,7 @@ export default function Product({ data }) {
         'file prodImage'
         'credentials timeline';
         @media(max-width:${theme.breakPoint.md}){
-        width: 75%;
+         width: 75%;
             gap:0;
             grid-template-columns: 1fr;
             grid-template-areas:
@@ -77,8 +77,8 @@ export default function Product({ data }) {
               'credentials';
           }
 
-          @media(max-width:${theme.breakPoint.sm}){}
-          width: 87%;
+          @media(max-width:${theme.breakPoint.sm}){          width: 87%;}
+
 
     `
 const Responsive=styled.div`
