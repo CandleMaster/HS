@@ -11,6 +11,8 @@ export default function SimpleSlider({ imageList,duration,button }) {
     const CenteredCarousel=styled(Carousel)`
         padding: 2.5rem;
         aspect-ratio:1;
+        display:grid;
+        place-items:center;
         height:auto;
         transform: translateY(-1rem);
         object-fit:contain !important;
@@ -28,7 +30,10 @@ export default function SimpleSlider({ imageList,duration,button }) {
       height:auto;
       width:auto;
       padding:1.25rem;
-
+@media(max-width:${theme.breakPoint.sm}){
+        /* height: 68vw; */
+        max-height:70vw;
+      }
     `
   return(
     <CenteredCarousel variant='dark' interval={duration}>
