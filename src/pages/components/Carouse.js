@@ -32,7 +32,7 @@ export default function SimpleSlider({ imageList,duration,button }) {
       padding:1.25rem;
 @media(max-width:${theme.breakPoint.sm}){
         /* height: 68vw; */
-        max-height:70vw;
+        /* max-height:70vw; */
       }
     `
   return(
