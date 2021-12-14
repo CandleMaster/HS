@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import  { graphql } from 'gatsby'
-// import Seo from '../pages/components/Seo'
+import Seo from '../pages/components/seo'
 import useWindowSize from '../pages/components/useWindowSize'
 import Triple from '../pages/components/Triple'
 import Container from '../pages/components/Container'
@@ -116,10 +116,10 @@ const [width, height] = useWindowSize();
 console.log(nowMe,futureMe,nowUs,futureUs)
     return (
             <>
-              {/* <Seo
+              <Seo
                 title={name}
                 description={highlight+Keyword}
-            /> */}
+            />
             <BrandMain>
                 <Navbar />
                 <span style={{opacity:"0"}}>Window size: {width} x {height}</span>;

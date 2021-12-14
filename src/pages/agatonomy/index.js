@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { theme } from "../../styles/theme"
 import Definitions from "./definitions"
-// import Seo from "../components/Seo"
+import Seo from "../components/seo"
 import CommonHead from "../components/CommonHead"
 import Layout from "../components/Layout"
 import { StaticImage, getImage } from "gatsby-plugin-image"
@@ -42,7 +42,7 @@ function index({ data }) {
   return (
 
       <Layout >
-          {/* <Seo/> */}
+          <Seo/>
           <CommonHead 
               imageSrc={childHopscotch}
               titleUp="Our vision: " 

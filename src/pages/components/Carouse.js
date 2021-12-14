@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function SimpleSlider({ imageList,duration,button }) {
     const CenteredCarousel=styled(Carousel)`
-        padding: 2rem;
+        padding: 2.5rem;
         aspect-ratio:1;
         height: auto;
         transform: translateY(-1rem);
@@ -18,7 +18,7 @@ export default function SimpleSlider({ imageList,duration,button }) {
         span{opacity:25% !important;}
         a{z-index: 999;}
         @media(max-width:${theme.breakPoint.sm}){
-        padding: 0.5rem;
+        /* padding: 1.75rem; */
       }
     `
     const CarouselImg = styled(GatsbyImage)`

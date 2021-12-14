@@ -1,6 +1,6 @@
   import React from 'react';
 import styled from 'styled-components';
-// import Seo from '../components/Seo'
+import Seo from '../components/seo'
 import Triple from '../components/Triple'
 import Quotes from '../components/Quotes'
 import Layout from '../components/Layout'
@@ -13,7 +13,7 @@ import ImpactBrandDescription  from './ImpactBrandDescription'
 import lodash from 'lodash'
 
 const Container = styled.div`
-        width: 100%;
+        /* width: 100%; */
         background-color: ${theme.colors.midnight};
         bottom:0;
         padding-bottom:10rem;
@@ -30,7 +30,8 @@ const BlogGrid = styled.section`
     grid-template-rows: repeat(auto,20rem);
     background-color:${theme.colors.midnight};
     @media(max-width:${theme.breakPoint.sm}){
-      width: 83%;
+    margin: 5rem auto;
+      width: 80%;
       gap: 1rem;
     }
 `
@@ -223,7 +224,7 @@ const BrandHeading = ({data:
 }
         return (
                 <Layout>
-                {/* <Seo/> */}
+                <Seo/>
                     <Container> 
                         <ImpactHeading/>
                           <FilterTags />

@@ -30,6 +30,7 @@ const ProductCardWrap=styled(Link)`
     background-color: ${theme.colors.beige};
     border-radius:0 50px 50px 50px;
     aspect-ratio:1 ;
+    /* padding:1rem; */
     display:${display};
     position: relative;
 `

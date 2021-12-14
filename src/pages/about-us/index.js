@@ -1,5 +1,5 @@
 import React from 'react'
-// import Seo from '../components/Seo'
+import Seo from '../components/seo'
 import HeroButtons from '../components/HeroButtons'
 import CommonHead from '../components/CommonHead'
 import Layout from '../components/Layout'
@@ -62,7 +62,7 @@ export default function About({ data }) {
     return (
         <>
         <Layout>
-            {/* <Seo/> */}
+            <Seo/>
             <Overlap>
                 <CommonHead 
                     imageSrc={childHopscotch}
