@@ -45,11 +45,12 @@ function Navbar() {
     `
     const Hamburger = styled.div`
         height: 2.3rem;
-        width:2.2rem;
+        width:2rem;
         padding:.3rem 0;
         /* border:white solid;
         border-width:4px 0 4px 0; */
         position: relative;
+        margin:0 .25rem;
     `
     const Line = styled.div`
         width: auto;
@@ -60,29 +61,31 @@ function Navbar() {
         background: white;
 
     `
-
+    const NavLogos= styled(Link)`
+        flex: 0 0 7rem;
+    `
     return (
         <Nav>
-            <Link to="/">
+            <NavLogos to="/">
                 <StaticImage
                     src="../../images/logo/HS_logo_white.png"
                     objectFit="contain"
                     quality={95}
                     formats={["auto", "webp", "avif"]}
                     alt="A Gatsby astronaut"
-                    style={{ width:'1.5rem'}}
+                    style={{ width:'1.75rem'}}
                 />
-            </Link>
+            </NavLogos>
             <NavLink to='/impact-brands'>impact brands</NavLink>
             <NavLink to='/ideas-hub' style={{display:'none'}}>ideas hub</NavLink>
             <NavLink to='/about-us'>about us</NavLink>
             <NavLink to='/agatonomy'>agatonomy</NavLink>
-            <Link to='/'>
+            <NavLogos to='/'>
                 <Hamburger>
                     <Line top="0.4rem"/>
                     <Line top="1rem" />
                 </Hamburger>
-            </Link>
+            </NavLogos>
 
         </Nav>
     )
