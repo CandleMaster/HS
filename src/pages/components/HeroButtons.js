@@ -10,7 +10,7 @@ export default function HeroButtons({ buttonPosition, wrapPadding,wrapMargin,bac
         padding:0.5rem .75rem;
         text-align: center;
         text-decoration: none;
-        font-size:1.25rem;
+        font-size:1.2rem;
         font-weight: 500;
         color: ${theme.colors.ams};
         color: ${fontColor};
@@ -30,10 +30,10 @@ export default function HeroButtons({ buttonPosition, wrapPadding,wrapMargin,bac
                 background: rgba(225,225,225,0.9);
             }
             @media(max-width:540px){
-                display: grid;
+                /* display: grid;
                 place-items: center;
                 width:9rem;
-                padding: 0.5rem 1.25rem;
+                padding: 0.5rem 1.25rem; */
             }
     `
     const ButtonWrapper = styled.div`

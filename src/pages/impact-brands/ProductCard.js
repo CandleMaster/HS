@@ -25,13 +25,14 @@ border-radius:0 50px 0px 0px;
     background: ${theme.colors.beige};
 
 `
-export default function ProductCard({ ProductImages, brandName, LinkTo, display,...prop}) {
+export default function ProductCard({ ProductImages, brandName, LinkTo,...prop}) {
 const ProductCardWrap=styled(Link)`
     background-color: ${theme.colors.beige};
     border-radius:0 50px 50px 50px;
     aspect-ratio:1.1 ;
     /* padding:1rem; */
-    display:${display};
+    display:grid;
+    place-items:center;
     position: relative;
     @media(max-width:${theme.breakPoint.sm}){
     height: 76vw;
