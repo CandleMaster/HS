@@ -39,9 +39,10 @@ const Hopskotch = styled(GatsbyImage)`
     border-radius: 0 0 35px 35px;
     @media(max-width:${theme.breakPoint.md}){
         aspect-ratio:2.4/3.7;
+    border-radius: 0 0 35px 35px;
         top:0;
         right:0%;
-        width:90vw;
+        width:87vw;
         left:0%;
         margin: auto;
         /* mix-height:30rem !important; */

@@ -86,7 +86,9 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
         width: 100%;
         cursor: pointer !important;
         border-radius: 10rem;
+        border-color: transparent;
         z-index: 3;
+        padding: 1rem;
         :checked{
             visibility: hidden;
             z-index:-1;
@@ -95,10 +97,12 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
             content: "${contentHeading}";
             position: absolute;
             inset: 0;
+            /* margin:-.2rem; */
             display: grid;
             place-items: center;
             background: ${theme.colors.smoke};
             visibility: visible;
+            padding: 1rem;
             font-size: 1.25rem;
             transition: background .4s ease;
         } 

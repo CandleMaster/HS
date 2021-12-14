@@ -29,6 +29,8 @@ export default function SimpleSlider({ imageList,duration,button }) {
       aspect-ratio:1;
       height:auto;
       width:auto;
+      display:grid;
+        place-items:center;
       padding:1.25rem;
 @media(max-width:${theme.breakPoint.sm}){
         /* height: 68vw; */

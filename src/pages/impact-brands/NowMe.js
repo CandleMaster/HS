@@ -11,7 +11,7 @@ const NowMeBox= styled.div`
     border-radius: 50px;
     flex-wrap: wrap;
     margin: 2rem 0 8rem 0;
-    overflow: hidden;
+    overflow: hidden !important;
     `
 const DetailHeadingBenefits = styled.h2`
     width: auto;

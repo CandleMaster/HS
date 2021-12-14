@@ -61,8 +61,8 @@ const UnderlinedText =styled.b`
     return (
             <Testamony 
               data-sal="slide-up"
-              data-sal-duration="700" 
-              data-sal-delay="100" 
+              data-sal-duration="600" 
+              data-sal-delay="80" 
               
             >
                 <Philosophy>{quoteHeading}</Philosophy>
