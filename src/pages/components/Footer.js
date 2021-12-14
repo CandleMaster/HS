@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 import { theme } from '../../styles/theme'
-import { Container, FooterCard, Mailing } from './'
+import Mailing from './Mailing'
+import FooterCard from './FooterCard'
+import Container from './Container'
 import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Footer() {
@@ -52,7 +54,7 @@ export default function Footer() {
                         <FooterCard title='Connect:' titleStyle={{display:'grid',placeItems:'center'}}>
                             <Connect>
                                 <a 
-                                    target="_blank" href="https://www.twitter.com/hopskotchway " 
+                                    target="_blank" href="https://www.twitter.com/hopskotch_ " 
                                     rel="noreferrer"
                                     >
                                     <StaticImage 
@@ -76,7 +78,7 @@ export default function Footer() {
                                         alt="our youtube"
                                         /></a>
                                 <a 
-                                    target="_blank" href="https://www.instagram.com/hopskotchway" 
+                                    target="_blank" href="https://www.instagram.com/hopskotch/" 
                                     rel="noreferrer"
                                     >
                                     <StaticImage 

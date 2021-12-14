@@ -2,7 +2,7 @@ import React from 'react'
 import { theme } from '../../styles/theme'
 import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image'
-import { LineAnimate } from '.'
+import LineAnimate from './LineAnimate'
 
 
 const Testamony = styled.div`

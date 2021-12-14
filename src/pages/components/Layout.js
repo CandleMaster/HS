@@ -1,5 +1,6 @@
 import React from 'react'
-import {Footer,Navbar} from './'
+import Navbar from './Navbar'
+import Footer from './Footer'
 // import styled from 'styled-components';
 // const Children= styled.div`
 //   height: auto;

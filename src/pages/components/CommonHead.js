@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Container } from "../../styles/Global.styles"
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { theme } from '../../styles/theme'
-import { LineAnimate } from './'
+import LineAnimate from './LineAnimate'
 import { Vision } from '../../styles/Global.styles'
 
 const Heading = styled.div`

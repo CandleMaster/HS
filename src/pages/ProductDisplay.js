@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { FeaturedProducts } from './components'
+import FeaturedProducts from './components/FeaturedProducts'
 import { theme } from '../styles/theme'
 import { StaticImage,getImage } from 'gatsby-plugin-image'
 import lodash from 'lodash'

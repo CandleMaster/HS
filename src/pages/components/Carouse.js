@@ -38,7 +38,7 @@ export default function SimpleSlider({ imageList,duration,button }) {
           <Carousel.Item key={index}>
               <CarouselImg 
                   image={getImage(image.childrenImageSharp[0])} 
-                  alt='no image' 
+                  alt='featured image' 
                   objectFit="contain"
                    
               />

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { theme } from '../../styles/theme'
-import { SimpleSlider } from '../components'
+import SimpleSlider from '../components/Carouse'
 import { Link } from 'gatsby'
 
 // const BrandLogo=styled(GatsbyImage)`

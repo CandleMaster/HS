@@ -3,7 +3,7 @@ import {theme} from '../../styles/theme'
 import styled from 'styled-components';
 import usePaginate from '../components/usePaginate'
 import NowMeElements from './NowMeElements'
-import { DetailHeading } from './BrandDetails'
+
 const NowMeBox= styled.div`
     display: flex;
     position: relative;
@@ -13,16 +13,20 @@ const NowMeBox= styled.div`
     margin: 2rem 0 8rem 0;
     overflow: hidden;
     `
-const DetailHeadingBenefits = styled(DetailHeading)`
+const DetailHeadingBenefits = styled.h2`
+    width: auto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    padding-right:.5rem;
     text-align: center;
     margin-top:5rem;
 `
 export default function NowMe({nowMePoints, nowUsPoints,futureMePoints,futureUsPoints}) {
-    const { next, prev, currentData } = usePaginate(nowMePoints)
-    const { next:nowUsNext, prev:nowUsPrev, currentData:nowUsData } = usePaginate(nowUsPoints)
-    const { next:futureMeNext, prev:futureMePrev, currentData:futureMeData } = usePaginate(futureMePoints)
-    const { next:futureUsNext, prev:futureUsPrev, currentData:futureUsData } = usePaginate(futureUsPoints)
-    // const {}
+    const [ next, prev, currentData]  = usePaginate(nowMePoints)
+    const [ nowUsNext, nowUsPrev, nowUsData]  = usePaginate(nowUsPoints)
+    const [ futureMeNext, futureMePrev, futureMeData]  = usePaginate(futureMePoints)
+    const [ futureUsNext, futureUsPrev, futureUsData]  = usePaginate(futureUsPoints)
     return (
         <>
         <DetailHeadingBenefits>Short & Long Term Benefits</DetailHeadingBenefits>

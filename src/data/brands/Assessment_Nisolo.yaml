@@ -28,7 +28,7 @@ main:
     high quality, handmade leather shoes that last, look stunning and are so comfortable you won't want to take them off.
   mission: |
     to design great looking products that are comfortable, functional, and always made responsibly. to push the fashion industry in a more sustainable direction.
-  filePath: ../pdf/vetting-from-nisolo.pdf
+  filePath: ./Nisolo/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
   awards:

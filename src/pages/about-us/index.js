@@ -1,5 +1,9 @@
 import React from 'react'
-import {  Quotes, Layout, CommonHead,HeroButtons, Seo } from '../components'
+// import Seo from '../components/Seo'
+import HeroButtons from '../components/HeroButtons'
+import CommonHead from '../components/CommonHead'
+import Layout from '../components/Layout'
+import Quotes from '../components/Quotes'
 import { graphql } from "gatsby"
 import { getImage } from 'gatsby-plugin-image'
 import styled from 'styled-components';
@@ -58,7 +62,7 @@ export default function About({ data }) {
     return (
         <>
         <Layout>
-            <Seo/>
+            {/* <Seo/> */}
             <Overlap>
                 <CommonHead 
                     imageSrc={childHopscotch}

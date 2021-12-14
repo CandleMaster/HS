@@ -71,7 +71,7 @@ export default function FeaturedProducts ({ featuredImage, brandName, descriptio
       <FeaturedProduct to={linkTo}>
         {/* <LogoImage image={brand} objectFit="contain" alt="hullo"/> */}
         <BrandName>{brandName}</BrandName>
-        <ProductImage image={featuredImage} objectFit="contain" alt="hullo"/>
+        <ProductImage image={featuredImage} objectFit="contain" alt="featured images"/>
         <hr />
         <FeaturedDescription>{description}</FeaturedDescription>
     </FeaturedProduct>

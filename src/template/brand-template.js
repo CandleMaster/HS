@@ -1,12 +1,18 @@
 import React from 'react'
 import styled from 'styled-components';
 import  { graphql } from 'gatsby'
-import { SimpleSlider,Navbar, Footer, Container,Triple,useWindowSize,Seo } from '../pages/components'
+// import Seo from '../pages/components/Seo'
+import useWindowSize from '../pages/components/useWindowSize'
+import Triple from '../pages/components/Triple'
+import Container from '../pages/components/Container'
+import Footer from '../pages/components/Footer'
+import Navbar from '../pages/components/Navbar'
+import SimpleSlider from '../pages/components/Carouse'
 import   InfoBlocks from '../pages/impact-brands/InfoBlock'
 import   NowMe from '../pages/impact-brands/NowMe'
 import   BrandDetails from '../pages/impact-brands/BrandDetails'
 import   BrandHeading from '../pages/impact-brands/BrandHeading'
-
+// import { StaticImage } from 'gatsby-plugin-image'
 import { theme } from '../styles/theme'
 // import { TimelineEvent, TimelineDots , YearLi} from '../pages/impact-brands/Timeline'
 export default function Product({ data }) {
@@ -99,6 +105,7 @@ const ProductImg = styled.div`
 //     transform: translateX(-1rem);
 //     `
 
+
 const Affiliate = styled.div`
   color:${theme.colors.dusk};
   grid-area:timeline;
@@ -106,13 +113,13 @@ const Affiliate = styled.div`
   padding: 2rem .5rem;
 `
 const [width, height] = useWindowSize();
-
+console.log(nowMe,futureMe,nowUs,futureUs)
     return (
             <>
-              <Seo
+              {/* <Seo
                 title={name}
                 description={highlight+Keyword}
-            />
+            /> */}
             <BrandMain>
                 <Navbar />
                 <span style={{opacity:"0"}}>Window size: {width} x {height}</span>;
@@ -146,7 +153,7 @@ const [width, height] = useWindowSize();
                     about={about} 
                     benefit={benefit}
                 />
-{nowMe!==undefined && futureMe!==undefined && nowUs!==undefined && futureUs!==undefined && <NowMe 
+{nowMe && futureMe && nowUs && futureUs && <NowMe 
                     nowMePoints={nowMe}
                     futureMePoints={futureMe}
                     nowUsPoints={nowUs}
@@ -181,21 +188,13 @@ query BrandTemplate ($name:String) {
               filePath{
                 publicURL
               }
-              awards {
-                childrenImageSharp {
-                  gatsbyImageData
-                }
-              }
+
               productImages {
                   childrenImageSharp {
                     gatsbyImageData(transformOptions: {fit: CONTAIN})
                   }
                 }
-              labels {
-                  childrenImageSharp {
-                    gatsbyImageData
-                  }
-                }
+
             }
 
           

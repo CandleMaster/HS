@@ -27,7 +27,7 @@ function DefCategory ({category, catName }){
     return (
         <DefineCategory >
             <CategoryName>{ catName }</CategoryName>
-            {category.map(term =>(<Terms 
+            {category && category.map(term =>(<Terms 
                 key={term.Term}
                 name={term.Term} 
                 definition={term.Definition}

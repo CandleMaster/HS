@@ -39,6 +39,8 @@
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-preset-gatsby": "^2.3.0",
     "prettier": "2.3.2"
   },
   "keywords": [

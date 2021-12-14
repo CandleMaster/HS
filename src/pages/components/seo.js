@@ -11,20 +11,25 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function Seo({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
-
+  // const { site } = useStaticQuery(
+  //   graphql`
+  //     query {
+  //       site {
+  //         siteMetadata {
+  //           title
+  //           description
+  //           author
+  //         }
+  //       }
+  //     }
+  //   `
+  // )
+  const site=  {siteMetadata: {
+    title: `Hopskotch`,
+    description: `At Hopskotch, we believe that business can be a force for good. We connect you to verified impact brands and powerful ideas that drive them.`,
+    author: `@dannijiang`,
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+  },}
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 

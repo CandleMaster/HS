@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import React from 'react'
 
-import { Layout } from '../components'
+import Layout  from '../components/Layout'
 import { theme } from '../../styles/theme'
 import MapSection from './MapSection'
 import BlogSection from './BlogSection'

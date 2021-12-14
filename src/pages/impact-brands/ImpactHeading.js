@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { LineAnimate} from '../components'
+import LineAnimate from '../components/LineAnimate'
 import { theme } from '../../styles/theme'
 
 export default function ImpactHeading() {

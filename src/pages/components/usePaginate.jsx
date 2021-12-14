@@ -1,9 +1,11 @@
 import { useState } from "react";
 
-export default function usePagination(points:Array<string>) {
+export default function usePagination(points) {
     const [currentPage, setCurrentPage] = useState(1)
-    const itemsPerPage = 4
-    const maxPage:number = Math.ceil(points.length / itemsPerPage)
+    const itemsPerPage = 5
+    
+    const maxPage= 1
+    // const maxPage= Math.ceil(points.length / itemsPerPage)
 
   function currentData() {
     const begin = (currentPage - 1) * itemsPerPage
@@ -20,6 +22,6 @@ export default function usePagination(points:Array<string>) {
   }
 
 
-  return { next, prev, currentData, currentPage, maxPage }
+  return [ next, prev, currentData ]
  }
 

@@ -25,7 +25,7 @@ import { theme } from '../../styles/theme'
         border-radius:0 0 0 2rem;
         background: orange;
     `
-export default function BlogCard({ padding }) {
+export default function BlogCardAlt({ padding }) {
         const BlogCard=styled.div`
         height: auto;
         /* max-height: 15rem; */

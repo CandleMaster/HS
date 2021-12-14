@@ -2,7 +2,7 @@ import React from 'react'
 import styled, {keyframes} from 'styled-components';
 import { GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import { theme } from '../styles/theme'
-import { HeroButtons } from './components';
+import HeroButtons from './components/HeroButtons';
 
 
 
@@ -85,7 +85,7 @@ export default function Hero({image}) {
           <HeroImage 
             image={image} 
             objectPosition="22.5% 90%" 
-            alt="hero" 
+            alt="hero image" 
           />
             <HeroText>
                 <Taking>Taking care of </Taking>

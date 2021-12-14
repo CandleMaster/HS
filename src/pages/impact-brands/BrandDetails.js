@@ -7,7 +7,7 @@ const BrandDetail =styled.div`
     display: flex;
     flex-direction: column;
     `
-export const DetailHeading=styled.h2`
+const DetailHeading=styled.h2`
     width: auto;
     font-weight: 400;
     font-size: 1.5rem;

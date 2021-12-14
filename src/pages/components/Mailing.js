@@ -25,7 +25,7 @@ async function handleSubmit(e) {
   const result = await addToMailchimp(contact.email,{
     NAME: contact.name
   })
-  setResult("Thank you for supporting me!:)")
+  setResult("Thank you for supporting us!:)")
   console.log(result)
 }
 

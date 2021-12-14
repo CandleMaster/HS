@@ -2,7 +2,7 @@ import React from 'react'
 import * as mapStyles from './map.module.scss'
 
 
-function Map(props) {
+function Map() {
 
     return (
         <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" target="_blank" href="./map.module.scss" width="602" height="678" viewBox="0 0 602.711 678.219">
@@ -24,7 +24,7 @@ function Map(props) {
     </g>
     <g id="Ellipse_1199" transform="translate(-4737.125 19307.107)" fill="#fff" stroke="#707070" stroke-width="1">
       <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>
-      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805" {...props}/>
+      <ellipse cx="10.305" cy="10.305" rx="9.805" ry="9.805"/>
     </g>
     <g id="Ellipse_1330" transform="translate(-4768.125 19366.211)" fill="#fff" stroke="#707070" stroke-width="1">
       <ellipse cx="10.305" cy="10.305" rx="10.305" ry="10.305" stroke="none"/>

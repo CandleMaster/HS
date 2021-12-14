@@ -117,10 +117,6 @@ export default function NowMeElements({ coverID,elementData,dataPoints,dataPrev,
             <NowMeName>{contentHeading}</NowMeName>
             <ul>
             {elementData && elementData.map((element)=>{return<ListItems dangerouslySetInnerHTML={{__html:element}}/>})}
-                {/* {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[0]}}/>}
-                {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[1]}}/>}
-                {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[2]}}/>}
-                {elementData[]&& <ListItems dangerouslySetInnerHTML={{__html:elementData[3]}}/>} */}
 
             </ul>
             <ArrowBox>

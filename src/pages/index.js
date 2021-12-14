@@ -3,7 +3,10 @@ import Hero from './Hero'
 import ProductDisplay from './ProductDisplay'
 import  { graphql } from 'gatsby'
 import {  getImage} from 'gatsby-plugin-image'
-import {  Layout, Quotes,useWindowSize, Seo, Navbar, } from './components'
+import Seo from './components/Seo'
+import useWindowSize from './components/useWindowSize'
+import Quotes from './components/Quotes'
+import Layout from './components/Layout'
 import { theme } from '../styles/theme'
 import './../styles/Global.styles.css'
 
@@ -16,7 +19,7 @@ export default function Index({data}) {
 
     return (
       <>
-            {/* <Seo/> */}
+            <Seo/>
         <Layout>
             <Hero image={coverImage}/>
             <Quotes

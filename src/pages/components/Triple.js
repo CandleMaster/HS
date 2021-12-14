@@ -32,7 +32,6 @@ const TripleWrap = styled.div`
             <StaticImage 
                 style={tripleStyles} 
                 src='../../images/diagrams/triple_impact_large.png' 
-
                 alt="triple impact"
             />
         </TripleWrap>

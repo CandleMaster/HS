@@ -1,6 +1,9 @@
   import React from 'react';
 import styled from 'styled-components';
-import { Layout,Quotes,Triple,Seo } from '../components'
+// import Seo from '../components/Seo'
+import Triple from '../components/Triple'
+import Quotes from '../components/Quotes'
+import Layout from '../components/Layout'
 import {theme} from '../../styles/theme'
 import ImpactHeading from './ImpactHeading'
 import ProductCard from './ProductCard'
@@ -203,7 +206,6 @@ const BrandHeading = ({data:
                            id
                            }=node;
                     const intersection = this.state.checkedList.filter(element => impactType.includes(element));
-                    {/* const intersection2 = this.state.checkedCat.filter(element => productType.includes(element)); */}
                       return(intersection.length!==0&&this.state.checkedCat.includes(productType)&&<ProductCard 
                           key={id}
                           ProductImages={productImages}
@@ -221,7 +223,7 @@ const BrandHeading = ({data:
 }
         return (
                 <Layout>
-                <Seo/>
+                {/* <Seo/> */}
                     <Container> 
                         <ImpactHeading/>
                           <FilterTags />
