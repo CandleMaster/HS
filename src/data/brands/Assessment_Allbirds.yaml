@@ -25,8 +25,8 @@ tags:
   productType: lifestyle_and_apparel
 
 main:
-  highlight: comfortable shoes made out of natural materials such as wool, designed to provide comfort and breathability without costing the Eearth!
-  mission: to do better things in a better way and influence other businesses to follow in their footsteps
+  highlight: comfortable shoes made out of natural materials such as wool, designed to provide comfort and breathability without costing the Earth!
+  mission: to do better things in a better way and influence other businesses to follow their footsteps
   filePath: ./Allbirds/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
@@ -45,14 +45,14 @@ main:
 
 details:
   about: |
-    <p><a target="_blank" href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is a sustainability-focused brand that designs and makes shoes and clothing. Their focus is on using naturally derived materials for their products, for example wool. The global footwear industry makes over 20 billion pairs of petroleum-based shoes a year which in turn negatively affects global warming.</p>
-    <p>Tim Brown and Joey Zwillinger teamed up to create a new type of shoe using nature’s sustainable resources, such as New Zealand merino wool, and thus created Allbirds’ first shoe, <a target="_blank" href="https://allbirds.pxf.io/5b1D3n">the wool runner</a. The same philosophy spans throughout all their products be it shoes or comfy, casual apparel made out of innovative, natural ingredients that don’t cost the Earth! </p>
+    <p><a target="_blank" href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is a sustainability-focused brand that designs and produces shoes and clothing. Their focus is on using naturally derived materials for their products, for example wool. The global footwear industry makes over 20 billion pairs of petroleum-based shoes a year which in turn negatively affects global warming.</p>
+    <p>Tim Brown and Joey Zwillinger teamed up to create a new type of shoe using nature’s sustainable resources, such as New Zealand merino wool, and thus created Allbirds’ first shoe, <a target="_blank" href="https://allbirds.pxf.io/5b1D3n">the Wool Runner</a>. The same philosophy spans throughout all their products be it shoes or comfy, casual apparel made out of innovative, natural ingredients that don’t cost the Earth! </p>
 
   benefit: |
     <p><a target="_blank" href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is a public benefit corporation which means that their board of directors and management are empowered and encouraged to consider environmental conservation when making decisions. </p>
-    <p>Their goal and ambition is to “reverse climate change through better business”. To support this ambition, target="_blank" href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> has identified three main levers for reducing their carbon emission in half by 2025 while maintaining a carbon neutral business: Regenerative Agriculture, Renewable Materials, and Responsible Energy.</p>
-    <p>Regenerative agriculture plays a key role in reducing carbon in air and materials like wool have the potential to be low-carbon or carbon-negative. They look for materials that are natural and leave minimal carbon footprint, thus they use natural and renewable fabrics such as Merino Wool, Tencel Lyocell (eucalyptus fiber) and sugarcane fiber in their products.</p>
-    <p>The responsible use of energy is of paramount importance to Allbirds. For that reason, they prioritize ocean transportation rather than air, hanging clothes to dry instead of machine-drying and partnering with factories and suppliers that utilize sustainable practices. </p>
+    <p>Their goal and ambition is to “reverse climate change through better business”. To support this ambition, <a target="_blank" href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> has identified three main levers for reducing their carbon emission in half by 2025 while maintaining a carbon neutral business: Regenerative Agriculture, Renewable Materials, and Responsible Energy.</p>
+    <p>Regenerative agriculture plays a key role in reducing carbon in air and materials like wool have the potential to be low-carbon or carbon-negative. The company sources materials that are natural and leave minimal carbon footprint. For example, natural and renewable fabrics such as Merino Wool, Tencel Lyocell (eucalyptus fiber) and sugarcane fiber.</p>
+    <p>The responsible use of energy is of paramount importance to Allbirds. For that reason, the company prioritizes ocean transportation rather than shipping by air, hanging clothes to dry instead of machine-drying and partnering with factories and suppliers that utilize sustainable practices. </p>
     <p><a target="_blank" href="https://allbirds.pxf.io/Keyv3a">Allbirds</a> is committed to a more sustainable and regenerative business model and is constantly seeking solutions to drive a change in the footwear and apparel industry. Their purpose and mission is to also inspire other businesses to examine their own practices and take planetary impact into account. </p>
 
   nowMe:
