@@ -24,8 +24,8 @@ tags:
   productType: home
 
 main:
-  highlight: unique and handmade reusable swaps for your kitchen and food on-the-go, like coconot bowls, bamboo straws and bamboo cutlery
-  mission: to remedy the damage a single straw can do to our environment. to conserve and preserve the planet Earth.
+  highlight: unique and handmade reusable swaps for your kitchen and food on-the-go made from coconot or bamboo 
+  mission: to remedy the damage a single straw can do to our environment and to conserve and preserve the planet Earth.
   filePath: ./JungleCulture/vetting-form.pdf
   brandLogo: ../../images/logo/HS_logo_white.png
   brandNameLogo: ../../images/logo/HS_logo_blue.png
@@ -62,7 +62,7 @@ details:
 
   nowUs:
     - reduction of waste in landfill and oceans when replacing disposables
-    - reduction of externalities from <a target="_blank" href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/03/UNEP-D001-Tableware-Report_Lowres.pdf>producing disposables</a>
+    - reduction of externalities from <a target="_blank" href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/03/UNEP-D001-Tableware-Report_Lowres.pdf">producing disposables</a>
 
   futureUs:
     - less pressure on global warming from swapping to reusables and low emission production
