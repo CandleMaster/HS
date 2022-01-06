@@ -118,32 +118,6 @@ export default function FilterTags({ productNodes }) {
         setFilteredImpact(prev => {return(addRemoveItems(e, prev))})
 
     }
-
-    // useEffect(()=>{
-    //   window.addEventListener("load",()=>{
-    //     setFilteredIndustry(industryList)
-    //   setFilteredImpact(impactList)}
-    //   )
-      
-    //   return () => {
-    //     window.removeEventListener("load",()=>{
-    //       setFilteredIndustry(industryList)
-    //     setFilteredImpact(impactList)}
-        
-    //     )
-    //   }
-    // },[])
-    // useEffect(()=>{
-    //   //on clicking first checkbox, everything set to  empty array
-    //   const MouseAction = (event) =>{
-    //     if (event.target.type === "checkbox"){}
-    //     setFilteredIndustry([])
-    //     setFilteredImpact([])
-    //   }
-    //   window.addEventListener("mousedown", MouseAction)
-    //   return () => {window.removeEventListener("mousedown", MouseAction)}
-    // },[])
-
     
     return (
         <>
@@ -186,7 +160,7 @@ export default function FilterTags({ productNodes }) {
                   </FilterByType>
                   </FilterContainer>
                     <ProductGrid>
-                    {productNodes.map((node) => {
+                    {productNodes? productNodes.map((node) => {
                         const {main:{productImages},
                                 tags:{
                                   impactType, 
@@ -204,7 +178,7 @@ export default function FilterTags({ productNodes }) {
                               LinkTo={`/impact-brands/${lodash.kebabCase(name)}`}
                           />
                           )}
-                        )}
+                        ):""}
                     </ProductGrid>
         </>
     )
