@@ -66,10 +66,6 @@ max-height:25rem;
 const TypeHeading=styled.h2`
     color:white;
 `
-const ImpactMidBox= styled.div`
-  display:flex;
-  flex-wrap: wrap;
-`
 export default function FilterTags({ productNodes }) {
     const industryList=["beauty_and_health","lifestyle_and_apparel","home","mom_and_baby"]
     const impactList=["improve_mental_heatlh","tackle_oppression","improve_physical_health","reduce_CO2","reduce_waste_or_pollution","tackle_inequality_and_discrimination","improve_ocean_river_health","improve_financial_independence","improve_safety_sanitation"]

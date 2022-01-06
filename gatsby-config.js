@@ -12,7 +12,15 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-yaml`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `blurred`,
+        }
+      }
+    },
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
