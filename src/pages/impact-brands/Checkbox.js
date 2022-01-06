@@ -1,11 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import {theme} from '../../styles/theme'
-export default function CheckBox({borderRadius,onChange,tag,checked,boxType,tagDisplayed, ...prop}){
+export default function CheckBox({onChange,tag,checked,tagDisplayed, ...prop}){
     const CheckBoxItem=styled.div`
-        /* width: 70%;
-        margin: 0 auto ; */
-
         *{
             display: inline;
             height: auto; 
@@ -25,7 +22,7 @@ export default function CheckBox({borderRadius,onChange,tag,checked,boxType,tagD
             margin: -.1rem;
             background: ${theme.colors.midnight} ;
             border: none;
-            border-radius: ${borderRadius};
+            border-radius: 2px;
             z-index: 4;
             border:4px ${theme.colors.dusk} solid;
         }
@@ -42,7 +39,7 @@ export default function CheckBox({borderRadius,onChange,tag,checked,boxType,tagD
     `
     return(
         <CheckBoxItem>
-            <input type={boxType} id={tag} name={tag} onChange={onChange} checked={checked}/>
+            <input type="checkbox" id={tag} name={tag} onChange={onChange} checked={checked}/>
             <label for={tag}>{tagDisplayed}</label>
         </CheckBoxItem>
     )
