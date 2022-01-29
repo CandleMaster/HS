@@ -1,4 +1,4 @@
-This is the official website repository of Hopskotch, which provides virgorous vetting on sustainability practices of brands. 
+This is the official website repository of Hopskotch, which provides vigorous vetting on sustainability practices of brands. 
 
 See live website https://hop-skotch.com/. 
 
